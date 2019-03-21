@@ -1,0 +1,5818 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Axe-Electrum\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-11-19 11:58+0200\n"
+"PO-Revision-Date: 2018-11-16 13:45\n"
+"Last-Translator: rdymac <crowdin-electrum@monerovenezuela.com>\n"
+"Language-Team: Chinese Traditional\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: electrum\n"
+"X-Crowdin-Language: zh-TW\n"
+"X-Crowdin-File: /electrum-client/messages.pot\n"
+
+#: electrum_axe/exchange_rate.py:344
+msgid "  (No FX rate available)"
+msgstr "  (匯率資訊不可用)"
+
+#: electrum_axe/gui/qt/address_list.py:69
+msgid " Balance"
+msgstr " 我的餘額"
+
+#: electrum_axe/plugins/revealer/qt.py:64
+msgid " secret backup utility"
+msgstr ""
+
+#: electrum_axe/gui/qt/masternode_budget_widgets.py:309
+msgid " {} {} ready to be submitted."
+msgstr ""
+
+#: electrum_axe/plugins/trezor/qt.py:440
+#: electrum_axe/plugins/safe_t/qt.py:319
+#: electrum_axe/plugins/keepkey/qt.py:433
+#, python-format
+msgid "%2d minutes"
+msgstr "%2d 分鐘"
+
+#: electrum_axe/plugins/trezor/qt.py:208
+#: electrum_axe/plugins/safe_t/qt.py:113
+#, python-format
+msgid "%d words"
+msgstr "%d 個詞語"
+
+#: electrum_axe/gui/qt/main_window.py:576
+msgid "&About"
+msgstr "關於(&A)"
+
+#: electrum_axe/gui/qt/main_window.py:164
+#: electrum_axe/gui/qt/main_window.py:519
+msgid "&Addresses"
+msgstr "位址(&A)"
+
+#: electrum_axe/gui/qt/main_window.py:580
+msgid "&Automated Crash Reports"
+msgstr ""
+
+#: electrum_axe/gui/qt/main_window.py:579
+msgid "&Documentation"
+msgstr "文件(&D)"
+
+#: electrum_axe/gui/qt/main_window.py:586
+msgid "&Donate to server"
+msgstr "贊助伺服器(&D)"
+
+#: electrum_axe/gui/qt/main_window.py:562
+msgid "&Encrypt/decrypt message"
+msgstr "加密/解密訊息(&E)"
+
+#: electrum_axe/gui/qt/main_window.py:515
+#: electrum_axe/gui/qt/main_window.py:523
+#: electrum_axe/gui/qt/main_window.py:528
+msgid "&Export"
+msgstr "匯出(&E)"
+
+#: electrum_axe/gui/qt/main_window.py:498
+msgid "&File"
+msgstr "檔案(&F)"
+
+#: electrum_axe/gui/qt/main_window.py:520
+#: electrum_axe/gui/qt/main_window.py:525
+msgid "&Filter"
+msgstr "過濾器(&F)"
+
+#: electrum_axe/gui/qt/main_window.py:571
+msgid "&From QR code"
+msgstr "讀取 QR 碼(&F)"
+
+#: electrum_axe/gui/qt/main_window.py:568
+msgid "&From file"
+msgstr "讀取檔案(&F)"
+
+#: electrum_axe/gui/qt/main_window.py:569
+msgid "&From text"
+msgstr "讀取文字(&F)"
+
+#: electrum_axe/gui/qt/main_window.py:570
+msgid "&From the blockchain"
+msgstr "讀取區塊鏈(&F)"
+
+#: electrum_axe/gui/qt/main_window.py:575
+msgid "&Help"
+msgstr "求助(&H)"
+
+#: electrum_axe/gui/qt/main_window.py:524
+msgid "&History"
+msgstr "歷史(&H)"
+
+#: electrum_axe/gui/qt/main_window.py:514
+#: electrum_axe/gui/qt/main_window.py:522
+msgid "&Import"
+msgstr "匯入(&I)"
+
+#: electrum_axe/gui/qt/main_window.py:508
+msgid "&Information"
+msgstr "資訊（&I）"
+
+#: electrum_axe/gui/qt/main_window.py:521
+msgid "&Labels"
+msgstr "標籤(&L)"
+
+#: electrum_axe/gui/qt/main_window.py:567
+msgid "&Load transaction"
+msgstr "載入交易事項(&)"
+
+#: electrum_axe/gui/qt/main_window.py:558
+msgid "&Network"
+msgstr "網路(&N)"
+
+#: electrum_axe/gui/qt/main_window.py:530
+msgid "&New"
+msgstr "新增(&N)"
+
+#: electrum_axe/gui/qt/main_window.py:501
+msgid "&New/Restore"
+msgstr "新增/還原(&N)"
+
+#: electrum_axe/gui/qt/main_window.py:577
+msgid "&Official website"
+msgstr "官方網站(&O)"
+
+#: electrum_axe/gui/qt/main_window.py:500
+msgid "&Open"
+msgstr "開啟(&O)"
+
+#: electrum_axe/gui/qt/main_window.py:510
+msgid "&Password"
+msgstr "密碼(&P)"
+
+#: electrum_axe/gui/qt/main_window.py:565
+msgid "&Pay to many"
+msgstr "支付給多方(&)"
+
+#: electrum_axe/gui/qt/main_window.py:527
+msgid "&Plot"
+msgstr "繪圖 (&P)"
+
+#: electrum_axe/gui/qt/main_window.py:559
+msgid "&Plugins"
+msgstr "插件(&P)"
+
+#: electrum_axe/gui/qt/main_window.py:512
+msgid "&Private keys"
+msgstr "私鑰(&P)"
+
+#: electrum_axe/gui/qt/main_window.py:505
+msgid "&Quit"
+msgstr "退出(&Q)"
+
+#: electrum_axe/gui/qt/main_window.py:499
+msgid "&Recently open"
+msgstr "最近開啟(&R)"
+
+#: electrum_axe/gui/qt/main_window.py:584
+msgid "&Report Bug"
+msgstr "回報臭蟲(&R)"
+
+#: electrum_axe/gui/qt/main_window.py:502
+msgid "&Save Copy"
+msgstr "儲存副本(&S)"
+
+#: electrum_axe/gui/qt/main_window.py:511
+msgid "&Seed"
+msgstr "種苗(&S)"
+
+#: electrum_axe/gui/qt/main_window.py:561
+msgid "&Sign/verify message"
+msgstr "簽章/驗證訊息(&S)"
+
+#: electrum_axe/gui/qt/main_window.py:526
+msgid "&Summary"
+msgstr "概要(&S)"
+
+#: electrum_axe/gui/qt/main_window.py:513
+msgid "&Sweep"
+msgstr "清掃(&S)"
+
+#: electrum_axe/gui/qt/main_window.py:554
+msgid "&Tools"
+msgstr "工具(&T)"
+
+#: electrum_axe/gui/qt/main_window.py:545
+msgid "&View"
+msgstr "檢視(&V)"
+
+#: electrum_axe/gui/qt/main_window.py:507
+msgid "&Wallet"
+msgstr "錢包(&W)"
+
+#: electrum_axe/plugins/digitalbitbox/digitalbitbox.py:600
+msgid "(Touch {} of {})"
+msgstr ""
+
+#: electrum_axe/plugins/virtualkeyboard/qt.py:14
+msgid "+"
+msgstr "+"
+
+#: electrum_axe/gui/qt/util.py:45
+msgid "1 day"
+msgstr "1 天"
+
+#: electrum_axe/gui/qt/util.py:44
+msgid "1 hour"
+msgstr "1 小時"
+
+#: electrum_axe/gui/qt/util.py:46
+msgid "1 week"
+msgstr "1 週"
+
+#: electrum_axe/plugins/revealer/qt.py:451
+msgid "1. Place this paper on a flat and well iluminated surface."
+msgstr ""
+
+#: electrum_axe/plugins/revealer/qt.py:452
+msgid ""
+"2. Align your Revealer borderlines to the axeed lines on the top and left."
+msgstr ""
+
+#: electrum_axe/plugins/revealer/qt.py:453
+msgid ""
+"3. Press slightly the Revealer against the paper and read the numbers that "
+"best match on the opposite sides. "
+msgstr ""
+
+#: electrum_axe/plugins/revealer/qt.py:455
+msgid "4. Type the numbers in the software"
+msgstr ""
+
+#: electrum_axe/gui/qt/masternode_budget_widgets.py:388
+#, python-format
+msgid ": failed! \"%s\""
+msgstr ""
+
+#: electrum_axe/gui/qt/masternode_budget_widgets.py:386
+#, fuzzy
+msgid ": submitted successfully."
+msgstr "請求已成功儲存"
+
+#: electrum_axe/plugins/digitalbitbox/digitalbitbox.py:168
+msgid "A backup is saved automatically when generating a new wallet."
+msgstr "生成一個新錢包的時候備份會自動保存。"
+
+#: electrum_axe/gui/qt/main_window.py:453
+msgid "A copy of your wallet file was created in"
+msgstr "您的錢包檔案副本已建立於"
+
+#: electrum_axe/gui/qt/installwizard.py:30
+msgid "A few examples"
+msgstr ""
+
+#: electrum_axe/plugin.py:401
+msgid "A library is probably missing."
+msgstr "一個函式庫可能遺失。"
+
+#: electrum_axe/masternode_budget.py:95
+msgid "A proposal URL is required."
+msgstr ""
+
+#: electrum_axe/masternode_budget.py:88
+msgid "A proposal name is required."
+msgstr ""
+
+#: electrum_axe/gui/qt/main_window.py:1143
+msgid ""
+"A suggested fee is automatically added to this field. You may override it. "
+"The suggested fee increases with the size of the transaction."
+msgstr ""
+"建議的手續費會自動加入到此欄位中。您可以手動蓋過這個數值。建議的手續費會隨著"
+"交易的大小而增加。"
+
+#: electrum_axe/gui/kivy/main.kv:447
+msgid "About"
+msgstr "關於"
+
+#: electrum_axe/gui/kivy/uix/ui_screens/about.kv:4
+msgid "About Axe Electrum"
+msgstr "關於 Axe Electrum"
+
+#: electrum_axe/plugins/keepkey/qt.py:71
+msgid "Accept Word"
+msgstr "接受單詞"
+
+#: electrum_axe/gui/qt/history_list.py:81
+msgid "Acquisition price"
+msgstr "採集費用"
+
+#: electrum_axe/gui/qt/masternode_dialog.py:286
+#: electrum_axe/gui/qt/masternode_widgets.py:384
+msgid "Activate Masternode"
+msgstr ""
+
+#: electrum_axe/gui/kivy/uix/dialogs/installwizard.py:1017
+#: electrum_axe/gui/qt/installwizard.py:391
+msgid "Add Cosigner"
+msgstr "加入共同簽署者"
+
+#: electrum_axe/base_wizard.py:155
+msgid "Add a cosigner to your multi-sig wallet"
+msgstr "增加新的共同簽署者到你的多重簽章錢包"
+
+#: electrum_axe/plugins/virtualkeyboard/__init__.py:4
+msgid "Add an optional virtual keyboard to the password dialog."
+msgstr ""
+
+#: electrum_axe/base_wizard.py:144
+msgid "Add cosigner"
+msgstr "加入共同簽署者"
+
+#: electrum_axe/gui/kivy/uix/screens.py:286
+#: electrum_axe/gui/qt/main_window.py:1595
+msgid "Additional fees"
+msgstr "額外手續費"
+
+#: electrum_axe/gui/qt/main_window.py:1080
+msgid "Additional {} haks are going to be added."
+msgstr ""
+
+#: electrum_axe/gui/kivy/uix/ui_screens/invoice.kv:40
+#: electrum_axe/gui/qt/masternode_budget_widgets.py:48
+#: electrum_axe/gui/qt/masternode_budget_widgets.py:405
+#: electrum_axe/gui/qt/address_dialog.py:40
+#: electrum_axe/gui/qt/main_window.py:2087
+#: electrum_axe/gui/qt/main_window.py:2188
+#: electrum_axe/gui/qt/main_window.py:2268
+#: electrum_axe/gui/qt/contact_list.py:42
+#: electrum_axe/gui/qt/address_list.py:66 electrum_axe/gui/qt/util.py:351
+#: electrum_axe/gui/qt/request_list.py:41 electrum_axe/gui/qt/utxo_list.py:33
+msgid "Address"
+msgstr "位址"
+
+#: electrum_axe/gui/kivy/main.kv:101
+msgid "Address copied to clipboard"
+msgstr ""
+
+#: electrum_axe/gui/qt/main_window.py:2220 electrum_axe/wallet.py:879
+#: electrum_axe/plugins/hw_wallet/plugin.py:77
+msgid "Address not in wallet."
+msgstr "地址不在錢包裡。"
+
+#: electrum_axe/gui/qt/masternode_budget_widgets.py:250
+msgid "Address that will receive payments"
+msgstr ""
+
+#: electrum_axe/gui/qt/address_dialog.py:52
+#: electrum_axe/gui/qt/masternode_widgets.py:107
+#: electrum_axe/gui/qt/masternode_widgets.py:198
+msgid "Address:"
+msgstr "位址："
+
+#: electrum_axe/gui/text.py:64
+msgid "Addresses"
+msgstr "地址"
+
+#: electrum_axe/wallet.py:641
+msgid "Addresses generated:"
+msgstr "地址已生成："
+
+#: electrum_axe/plugins/trezor/qt.py:607
+#: electrum_axe/plugins/safe_t/qt.py:486
+#: electrum_axe/plugins/keepkey/qt.py:580
+msgid "Advanced"
+msgstr "進階設置"
+
+#: electrum_axe/plugins/trezor/qt.py:374
+#: electrum_axe/plugins/safe_t/qt.py:253
+#: electrum_axe/plugins/keepkey/qt.py:377
+msgid ""
+"After disabling passphrases, you can only pair this Axe Electrum wallet if "
+"it had an empty passphrase.  If its passphrase was not empty, you will need "
+"to create a new wallet with the install wizard.  You can use this wallet "
+"again at any time by re-enabling passphrases and entering its passphrase."
+msgstr ""
+
+#: electrum_axe/gui/qt/masternode_widgets.py:194
+#: electrum_axe/gui/qt/masternode_widgets.py:397
+#, fuzzy
+msgid "Alias:"
+msgstr "OpenAlias"
+
+#: electrum_axe/gui/qt/history_list.py:96
+#: electrum_axe/gui/qt/history_list.py:122
+#: electrum_axe/gui/qt/address_list.py:47
+#: electrum_axe/gui/qt/address_list.py:51
+msgid "All"
+msgstr "所有"
+
+#: electrum_axe/gui/qt/main_window.py:1206
+msgid "Also, dust is not kept as change, but added to the fee."
+msgstr ""
+
+#: electrum_axe/gui/stdio.py:104 electrum_axe/gui/text.py:104
+#: electrum_axe/gui/text.py:175
+#: electrum_axe/gui/kivy/uix/ui_screens/receive.kv:89
+#: electrum_axe/gui/kivy/uix/ui_screens/receive.kv:90
+#: electrum_axe/gui/kivy/uix/ui_screens/send.kv:53
+#: electrum_axe/gui/kivy/uix/ui_screens/send.kv:54
+#: electrum_axe/gui/qt/masternode_budget_widgets.py:47
+#: electrum_axe/gui/qt/masternode_budget_widgets.py:405
+#: electrum_axe/gui/qt/invoice_list.py:36
+#: electrum_axe/gui/qt/main_window.py:1123
+#: electrum_axe/gui/qt/main_window.py:1918
+#: electrum_axe/gui/qt/history_list.py:75
+#: electrum_axe/gui/qt/request_list.py:41 electrum_axe/gui/qt/utxo_list.py:33
+msgid "Amount"
+msgstr "金額"
+
+#: electrum_axe/plugins/hw_wallet/plugin.py:136
+msgid "Amount for OP_RETURN output must be zero."
+msgstr ""
+
+#: electrum_axe/gui/kivy/uix/ui_screens/invoice.kv:34
+msgid "Amount received"
+msgstr "收到的金額:"
+
+#: electrum_axe/gui/qt/transaction_dialog.py:258
+msgid "Amount received:"
+msgstr "接收的金額："
+
+#: electrum_axe/gui/qt/transaction_dialog.py:260
+msgid "Amount sent:"
+msgstr "發送的金額："
+
+#: electrum_axe/gui/kivy/uix/screens.py:280
+#: electrum_axe/gui/qt/main_window.py:1588
+msgid "Amount to be sent"
+msgstr "要發送的金額"
+
+#: electrum_axe/gui/qt/main_window.py:1119
+msgid "Amount to be sent."
+msgstr "要發送的金額。"
+
+#: electrum_axe/gui/qt/exception_window.py:45
+msgid "An Error Occurred"
+msgstr ""
+
+#: electrum_axe/plugins/cosigner_pool/qt.py:206
+#: electrum_axe/plugins/cosigner_pool/qt.py:211
+#: electrum_axe/plugins/cosigner_pool/qt.py:217
+msgid "An encrypted transaction was retrieved from cosigning pool."
+msgstr ""
+
+#: electrum_axe/plugins/digitalbitbox/digitalbitbox.py:164
+msgid "An uninitialized Digital Bitbox is detected."
+msgstr ""
+
+#: electrum_axe/base_wizard.py:256
+msgid "An unnamed {}"
+msgstr "未命名的{}"
+
+#: electrum_axe/gui/qt/main_window.py:3029
+msgid "Appearance"
+msgstr "外觀"
+
+#: electrum_axe/plugins/trezor/qt.py:488
+#: electrum_axe/plugins/safe_t/qt.py:367
+#: electrum_axe/plugins/keepkey/qt.py:484
+msgid "Apply"
+msgstr "應用"
+
+#: electrum_axe/i18n.py:46
+msgid "Arabic"
+msgstr "阿拉伯語"
+
+#: electrum_axe/plugins/trezor/qt.py:431
+#: electrum_axe/plugins/safe_t/qt.py:310
+#: electrum_axe/plugins/keepkey/qt.py:424
+#, fuzzy
+msgid ""
+"Are you SURE you want to wipe the device?\n"
+"Your wallet still has Axe coins in it!"
+msgstr ""
+"您是否確定要刪除設備資料? \n"
+"您的錢包中仍然有比特幣！"
+
+#: electrum_axe/plugins/digitalbitbox/digitalbitbox.py:300
+msgid "Are you sure you want to erase the Digital Bitbox?"
+msgstr ""
+
+#: electrum_axe/plugins/trezor/qt.py:385
+#: electrum_axe/plugins/safe_t/qt.py:264
+#: electrum_axe/plugins/keepkey/qt.py:388
+msgid "Are you sure you want to proceed?"
+msgstr ""
+
+#: electrum_axe/gui/qt/history_list.py:364
+msgid ""
+"Are you sure you want to remove this transaction and {} child transactions?"
+msgstr ""
+
+#: electrum_axe/gui/qt/history_list.py:361
+msgid "Are you sure you want to remove this transaction?"
+msgstr ""
+
+#: electrum_axe/i18n.py:58
+msgid "Armenian"
+msgstr ""
+
+#: electrum_axe/gui/qt/main_window.py:1204
+msgid "At most 100 haks might be lost due to this rounding."
+msgstr ""
+
+#: electrum_axe/plugins/audio_modem/__init__.py:3
+msgid "Audio MODEM"
+msgstr ""
+
+#: electrum_axe/plugins/audio_modem/qt.py:49
+msgid "Audio Modem Settings"
+msgstr ""
+
+#: electrum_axe/gui/qt/installwizard.py:583
+msgid "Auto connect"
+msgstr "自動連接"
+
+#: electrum_axe/gui/kivy/uix/ui_screens/network.kv:42
+msgid "Auto-connect"
+msgstr "自動連接"
+
+#: electrum_axe/gui/qt/seed_dialog.py:78
+msgid "BIP39 seed"
+msgstr "BIP39 種苗"
+
+#: electrum_axe/gui/qt/seed_dialog.py:70
+msgid ""
+"BIP39 seeds can be imported in Axe Electrum, so that users can access funds "
+"locked in other wallets."
+msgstr ""
+"可以在Axe Electrum中導入BIP39種子，以便用戶可以使用鎖定在其他錢包的資金。"
+
+#: electrum_axe/gui/qt/seed_dialog.py:72
+msgid ""
+"BIP39 seeds do not include a version number, which compromises compatibility "
+"with future software."
+msgstr ""
+
+#: electrum_axe/gui/qt/installwizard.py:82
+#: electrum_axe/gui/qt/installwizard.py:116
+#: electrum_axe/gui/qt/installwizard.py:117
+msgid "Back"
+msgstr "返回"
+
+#: electrum_axe/gui/stdio.py:104 electrum_axe/gui/stdio.py:116
+#: electrum_axe/gui/text.py:104 electrum_axe/gui/text.py:137
+#: electrum_axe/gui/kivy/uix/ui_screens/status.kv:33
+#: electrum_axe/gui/kivy/uix/ui_screens/invoice.kv:52
+#: electrum_axe/gui/kivy/main.kv:394 electrum_axe/gui/qt/main_window.py:766
+#: electrum_axe/gui/qt/history_list.py:75
+#: electrum_axe/gui/qt/address_list.py:66
+msgid "Balance"
+msgstr "存額"
+
+#: electrum_axe/gui/text.py:64
+msgid "Banner"
+msgstr "橫幅"
+
+#: electrum_axe/gui/qt/main_window.py:2795
+msgid "Base unit"
+msgstr "基本單位"
+
+#: electrum_axe/gui/qt/main_window.py:2792
+msgid "Base unit of your wallet."
+msgstr "您錢包的基礎單位。"
+
+#: electrum_axe/gui/qt/main_window.py:616
+msgid ""
+"Before reporting a bug, upgrade to the most recent version of Axe Electrum "
+"(latest release or git HEAD), and include the version number in your report."
+msgstr ""
+"在回報臭蟲之前，請先升級至最新版的 Axe Electrum（最近發行版或 git HEAD），再"
+"將軟體版本號納入您的回報中。"
+
+#: electrum_axe/plugins/audio_modem/qt.py:52
+msgid "Bit rate [kbps]: "
+msgstr ""
+
+#: electrum_axe/gui/kivy/uix/ui_screens/network.kv:49
+#: electrum_axe/gui/qt/network_dialog.py:307
+msgid "Blockchain"
+msgstr "區塊鏈"
+
+#: electrum_axe/gui/qt/masternode_budget_widgets.py:210
+#, fuzzy
+msgid "Blocks:"
+msgstr "區塊"
+
+#: electrum_axe/plugins/trezor/qt.py:465
+#: electrum_axe/plugins/safe_t/qt.py:344
+#: electrum_axe/plugins/keepkey/qt.py:460
+msgid "Bootloader Hash"
+msgstr "引導程式的雜湊值"
+
+#: electrum_axe/plugins/revealer/qt.py:735
+msgid "Bottom"
+msgstr ""
+
+#: electrum_axe/i18n.py:67
+msgid "Brasilian"
+msgstr "巴西語"
+
+#: electrum_axe/gui/qt/transaction_dialog.py:125
+msgid "Broadcast"
+msgstr "廣播"
+
+#: electrum_axe/gui/qt/masternode_dialog.py:567
+#, fuzzy
+msgid "Broadcasting masternode..."
+msgstr "正在廣播交易動作..."
+
+#: electrum_axe/gui/qt/main_window.py:1679
+msgid "Broadcasting transaction..."
+msgstr "正在廣播交易動作..."
+
+#: electrum_axe/gui/qt/masternode_budget_widgets.py:347
+msgid "Budget Proposal Tx: "
+msgstr ""
+
+#: electrum_axe/i18n.py:47
+msgid "Bulgarian"
+msgstr ""
+
+#: electrum_axe/gui/qt/util.py:364
+msgid "CSV"
+msgstr "CSV"
+
+#: electrum_axe/plugins/revealer/qt.py:445
+msgid "Calibration sheet"
+msgstr ""
+
+#: electrum_axe/plugins/revealer/qt.py:727
+msgid "Calibration values:"
+msgstr ""
+
+#: electrum_axe/gui/qt/history_list.py:206
+msgid "Can't plot history."
+msgstr "無法繪出歷史紀錄。"
+
+#: electrum_axe/gui/qt/installwizard.py:82
+#: electrum_axe/gui/qt/installwizard.py:117
+#: electrum_axe/gui/qt/installwizard.py:586 electrum_axe/gui/qt/util.py:180
+#: electrum_axe/plugins/trezor/qt.py:64 electrum_axe/plugins/keepkey/qt.py:79
+msgid "Cancel"
+msgstr "取消"
+
+#: electrum_axe/plugins/ledger/ledger.py:277
+#: electrum_axe/plugins/ledger/ledger.py:290
+#: electrum_axe/plugins/ledger/ledger.py:457
+msgid "Cancelled by user"
+msgstr "已被使用者取消"
+
+#: electrum_axe/gui/qt/masternode_dialog.py:583
+#: electrum_axe/gui/qt/masternode_dialog.py:588
+#, fuzzy
+msgid "Cannot Vote"
+msgstr "無法載入錢包"
+
+#: electrum_axe/base_wizard.py:423
+msgid "Cannot add this cosigner:"
+msgstr "無法新增此共同簽署者。"
+
+#: electrum_axe/gui/kivy/main_window.py:926
+msgid "Cannot broadcast transaction"
+msgstr "無法廣播交易"
+
+#: electrum_axe/gui/qt/__init__.py:250
+msgid "Cannot create window for wallet"
+msgstr "無法創建錢包視窗"
+
+#: electrum_axe/gui/qt/__init__.py:210 electrum_axe/gui/qt/__init__.py:229
+msgid "Cannot load wallet"
+msgstr "無法載入錢包"
+
+#: electrum_axe/gui/qt/installwizard.py:222
+msgid "Cannot read file"
+msgstr "無法讀取檔案"
+
+#: electrum_axe/gui/qt/main_window.py:2224
+msgid "Cannot sign messages with this type of address:"
+msgstr "無法為這種類型的位址簽署資訊："
+
+#: electrum_axe/gui/qt/history_list.py:82
+msgid "Capital Gains"
+msgstr "資本收益"
+
+#: electrum_axe/gui/qt/history_list.py:194
+msgid "Capital gains"
+msgstr "資本收益"
+
+#: electrum_axe/gui/qt/network_dialog.py:369
+#, python-brace-format
+msgid "Chain split detected at block {0}"
+msgstr "在區塊 {0} 偵測到鏈分裂"
+
+#: electrum_axe/gui/qt/address_list.py:47
+msgid "Change"
+msgstr "找零"
+
+#: electrum_axe/plugins/trezor/qt.py:343
+#: electrum_axe/plugins/safe_t/qt.py:222
+#: electrum_axe/plugins/keepkey/qt.py:344
+msgid "Change PIN"
+msgstr "更換PIN碼"
+
+#: electrum_axe/gui/qt/password_dialog.py:58
+msgid "Change Password"
+msgstr "更換密碼"
+
+#: electrum_axe/plugins/trezor/qt.py:512
+#: electrum_axe/plugins/safe_t/qt.py:391
+msgid "Change..."
+msgstr "改變..."
+
+#: electrum_axe/gui/kivy/main_window.py:1047
+msgid "Changing PIN code."
+msgstr "更換 PIN 碼。"
+
+#: electrum_axe/plugins/trezor/clientbase.py:24
+#: electrum_axe/plugins/safe_t/clientbase.py:24
+#: electrum_axe/plugins/keepkey/clientbase.py:22
+msgid "Check your {} device to continue"
+msgstr "查看你的 {} 設備然後繼續"
+
+#: electrum_axe/i18n.py:79
+msgid "Chinese Simplified"
+msgstr ""
+
+#: electrum_axe/i18n.py:80
+msgid "Chinese Traditional"
+msgstr ""
+
+#: electrum_axe/gui/qt/masternode_dialog.py:285
+#, fuzzy
+msgid "Choose Collateral"
+msgstr "選擇伺服器"
+
+#: electrum_axe/plugins/trezor/qt.py:391
+#: electrum_axe/plugins/safe_t/qt.py:270
+#: electrum_axe/plugins/keepkey/qt.py:395
+msgid "Choose Homescreen"
+msgstr ""
+
+#: electrum_axe/gui/kivy/uix/dialogs/installwizard.py:1038
+msgid "Choose PIN code"
+msgstr ""
+
+#: electrum_axe/base_wizard.py:503
+msgid "Choose Seed type"
+msgstr ""
+
+#: electrum_axe/plugins/digitalbitbox/digitalbitbox.py:317
+msgid "Choose a backup file:"
+msgstr ""
+
+#: electrum_axe/gui/qt/installwizard.py:23
+msgid "Choose a password to encrypt your wallet keys."
+msgstr "請想定一道加密您錢包金鑰的密碼。"
+
+#: electrum_axe/gui/kivy/main_window.py:115
+msgid "Choose a server"
+msgstr "選擇伺服器"
+
+#: electrum_axe/gui/qt/main_window.py:2894
+msgid ""
+"Choose coin (UTXO) selection method.  The following are available:\n"
+"\n"
+msgstr "選擇錢幣 (UTXO) 選取方法。下列方法可用：\n"
+
+#: electrum_axe/gui/kivy/uix/ui_screens/server.kv:43
+msgid "Choose from peers"
+msgstr ""
+
+#: electrum_axe/plugins/digitalbitbox/digitalbitbox.py:229
+msgid "Choose how to initialize your Digital Bitbox:"
+msgstr ""
+
+#: electrum_axe/plugins/trezor/trezor.py:161
+#: electrum_axe/plugins/safe_t/safe_t.py:160
+#: electrum_axe/plugins/keepkey/keepkey.py:163
+msgid ""
+"Choose how you want to initialize your {}.\n"
+"\n"
+"The first two methods are secure as no secret information is entered into "
+"your computer.\n"
+"\n"
+"For the last two methods you input secrets on your keyboard and upload them "
+"to your {}, and so you should only do those on a computer you know to be "
+"trustworthy and free of malware."
+msgstr ""
+
+#: electrum_axe/plugins/trezor/clientbase.py:23
+#: electrum_axe/plugins/safe_t/clientbase.py:23
+msgid "Choose on your {} device where to enter your passphrase"
+msgstr ""
+
+#: electrum_axe/gui/qt/installwizard.py:628
+msgid "Choose the number of signatures needed to unlock funds in your wallet:"
+msgstr "選擇解開錢包中資金所需要的簽章數："
+
+#: electrum_axe/base_wizard.py:304
+msgid "Choose the type of addresses in your wallet."
+msgstr ""
+
+#: electrum_axe/gui/qt/main_window.py:2818
+msgid ""
+"Choose which online block explorer to use for functions that open a web "
+"browser"
+msgstr "選擇開啟網頁瀏覽器時所要使用的線上區塊探索器"
+
+#: electrum_axe/gui/kivy/main_window.py:127
+msgid "Choose your chain"
+msgstr "選擇您的鏈"
+
+#: electrum_axe/gui/qt/installwizard.py:163
+msgid "Choose..."
+msgstr "選擇..."
+
+#: electrum_axe/gui/kivy/uix/ui_screens/send.kv:116
+#: electrum_axe/gui/qt/main_window.py:1243
+msgid "Clear"
+msgstr "清除"
+
+#: electrum_axe/plugins/trezor/qt.py:543
+#: electrum_axe/plugins/safe_t/qt.py:422
+#: electrum_axe/plugins/keepkey/qt.py:516
+msgid ""
+"Clear the session after the specified period of inactivity.  Once a session "
+"has timed out, your PIN and passphrase (if enabled) must be re-entered to "
+"use the device."
+msgstr ""
+
+#: electrum_axe/plugins/ledger/auth2fa.py:34
+msgid "Click Pair button to begin pairing a mobile phone."
+msgstr ""
+
+#: electrum_axe/gui/qt/console.py:70
+msgid "Click here to hide this message."
+msgstr ""
+
+#: electrum_axe/gui/kivy/uix/screens.py:237
+msgid "Clipboard is empty"
+msgstr ""
+
+#: electrum_axe/gui/kivy/main_window.py:523
+#: electrum_axe/gui/kivy/uix/ui_screens/invoice.kv:82
+#: electrum_axe/gui/kivy/uix/ui_screens/about.kv:54
+#: electrum_axe/gui/qt/main_window.py:2286
+#: electrum_axe/gui/qt/main_window.py:2353
+#: electrum_axe/gui/qt/__init__.py:148
+#: electrum_axe/gui/qt/transaction_dialog.py:140
+#: electrum_axe/gui/qt/qrcodewidget.py:127 electrum_axe/gui/qt/util.py:156
+msgid "Close"
+msgstr "關閉"
+
+#: electrum_axe/gui/qt/main_window.py:165
+msgid "Co&ins"
+msgstr "錢幣(&I)"
+
+#: electrum_axe/gui/kivy/uix/dialogs/settings.py:143
+#: electrum_axe/gui/qt/main_window.py:2896
+msgid "Coin selection"
+msgstr "錢幣選取"
+
+#: electrum_axe/gui/qt/masternode_widgets.py:196
+#: electrum_axe/gui/qt/masternode_widgets.py:398
+msgid "Collateral AXE Output:"
+msgstr ""
+
+#: electrum_axe/gui/qt/masternode_widgets.py:23
+msgid "Collateral payment has been spent."
+msgstr ""
+
+#: electrum_axe/gui/qt/main_window.py:2850
+msgid "Color theme"
+msgstr ""
+
+#: electrum_axe/gui/qt/main_window.py:167
+msgid "Con&sole"
+msgstr "主控臺(&S)"
+
+#: electrum_axe/gui/qt/main_window.py:166
+msgid "Con&tacts"
+msgstr "聯絡人(&T)"
+
+#: electrum_axe/plugins/trezor/qt.py:430
+#: electrum_axe/plugins/safe_t/qt.py:309
+#: electrum_axe/plugins/keepkey/qt.py:423
+msgid "Confirm Device Wipe"
+msgstr ""
+
+#: electrum_axe/gui/qt/password_dialog.py:84
+msgid "Confirm Passphrase:"
+msgstr "確認密語："
+
+#: electrum_axe/gui/qt/password_dialog.py:99
+msgid "Confirm Password:"
+msgstr "確認密碼："
+
+#: electrum_axe/gui/kivy/uix/dialogs/installwizard.py:990
+#: electrum_axe/gui/qt/installwizard.py:412
+msgid "Confirm Seed"
+msgstr "確認種苗"
+
+#: electrum_axe/base_wizard.py:536
+msgid "Confirm Seed Extension"
+msgstr ""
+
+#: electrum_axe/plugins/trezor/qt.py:371
+#: electrum_axe/plugins/safe_t/qt.py:250
+#: electrum_axe/plugins/keepkey/qt.py:374
+msgid "Confirm Toggle Passphrase Protection"
+msgstr ""
+
+#: electrum_axe/plugins/ledger/ledger.py:406
+msgid "Confirm Transaction on your Ledger device..."
+msgstr ""
+
+#: electrum_axe/plugins/trezor/clientbase.py:16
+#: electrum_axe/plugins/safe_t/clientbase.py:16
+#: electrum_axe/plugins/keepkey/clientbase.py:15
+msgid "Confirm internal entropy on your {} device to begin"
+msgstr ""
+
+#: electrum_axe/gui/kivy/uix/dialogs/password_dialog.py:134
+msgid "Confirm new PIN"
+msgstr "確認新 PIN"
+
+#: electrum_axe/plugins/trezor/clientbase.py:19
+#: electrum_axe/plugins/safe_t/clientbase.py:19
+#: electrum_axe/plugins/keepkey/clientbase.py:18
+msgid "Confirm on your {} device the message to sign"
+msgstr ""
+
+#: electrum_axe/plugins/trezor/clientbase.py:190
+#: electrum_axe/plugins/safe_t/clientbase.py:181
+#: electrum_axe/plugins/keepkey/clientbase.py:179
+msgid "Confirm on your {} device to change your PIN"
+msgstr ""
+
+#: electrum_axe/plugins/trezor/clientbase.py:183
+#: electrum_axe/plugins/safe_t/clientbase.py:174
+#: electrum_axe/plugins/keepkey/clientbase.py:172
+msgid "Confirm on your {} device to change your home screen"
+msgstr ""
+
+#: electrum_axe/plugins/trezor/clientbase.py:188
+#: electrum_axe/plugins/safe_t/clientbase.py:179
+#: electrum_axe/plugins/keepkey/clientbase.py:177
+msgid "Confirm on your {} device to disable PIN protection"
+msgstr ""
+
+#: electrum_axe/plugins/trezor/clientbase.py:172
+#: electrum_axe/plugins/safe_t/clientbase.py:163
+#: electrum_axe/plugins/keepkey/clientbase.py:161
+msgid "Confirm on your {} device to disable passphrases"
+msgstr ""
+
+#: electrum_axe/plugins/trezor/clientbase.py:174
+#: electrum_axe/plugins/safe_t/clientbase.py:165
+#: electrum_axe/plugins/keepkey/clientbase.py:163
+msgid "Confirm on your {} device to enable passphrases"
+msgstr ""
+
+#: electrum_axe/plugins/trezor/clientbase.py:192
+#: electrum_axe/plugins/safe_t/clientbase.py:183
+#: electrum_axe/plugins/keepkey/clientbase.py:181
+msgid "Confirm on your {} device to set a PIN"
+msgstr ""
+
+#: electrum_axe/plugins/trezor/clientbase.py:18
+#: electrum_axe/plugins/safe_t/clientbase.py:18
+#: electrum_axe/plugins/keepkey/clientbase.py:17
+msgid "Confirm on your {} that you want to wipe it clean"
+msgstr ""
+
+#: electrum_axe/plugins/trezor/clientbase.py:179
+#: electrum_axe/plugins/safe_t/clientbase.py:170
+#: electrum_axe/plugins/keepkey/clientbase.py:168
+msgid "Confirm the new label on your {} device"
+msgstr ""
+
+#: electrum_axe/plugins/trezor/clientbase.py:20
+#: electrum_axe/plugins/safe_t/clientbase.py:20
+#: electrum_axe/plugins/keepkey/clientbase.py:19
+msgid ""
+"Confirm the total amount spent and the transaction fee on your {} device"
+msgstr ""
+
+#: electrum_axe/plugins/trezor/clientbase.py:15
+#: electrum_axe/plugins/safe_t/clientbase.py:15
+#: electrum_axe/plugins/keepkey/clientbase.py:14
+msgid "Confirm the transaction output on your {} device"
+msgstr ""
+
+#: electrum_axe/plugins/trezor/clientbase.py:22
+#: electrum_axe/plugins/safe_t/clientbase.py:22
+#: electrum_axe/plugins/keepkey/clientbase.py:21
+msgid "Confirm wallet address on your {} device"
+msgstr "確認錢包位址在你的 {} 設備"
+
+#: electrum_axe/gui/kivy/uix/ui_screens/status.kv:36
+msgid "Confirmed"
+msgstr "已確認"
+
+#: electrum_axe/plugins/ledger/ledger.py:447
+msgid "Confirmed. Signing Transaction..."
+msgstr "已確認. 正在簽署交易..."
+
+#: electrum_axe/gui/qt/network_dialog.py:70
+msgid "Connected node"
+msgstr "已連接節點"
+
+#: electrum_axe/gui/kivy/uix/ui_screens/network.kv:57
+msgid "Connected nodes are on the same chain"
+msgstr ""
+
+#: electrum_axe/gui/qt/network_dialog.py:362
+#, python-brace-format
+msgid "Connected to {0} nodes."
+msgstr ""
+
+#: electrum_axe/wallet.py:648
+msgid "Connecting..."
+msgstr "連接中..."
+
+#: electrum_axe/gui/kivy/uix/ui_screens/network.kv:16
+msgid "Connections with Axe Electrum servers"
+msgstr ""
+
+#: electrum_axe/gui/text.py:64 electrum_axe/gui/qt/main_window.py:529
+msgid "Contacts"
+msgstr "聯絡人"
+
+#: electrum_axe/gui/kivy/uix/ui_screens/receive.kv:124
+#: electrum_axe/gui/qt/qrcodewidget.py:119 electrum_axe/gui/qt/util.py:162
+msgid "Copy"
+msgstr "複製"
+
+#: electrum_axe/gui/qt/request_list.py:125
+msgid "Copy URI"
+msgstr "複製 URI"
+
+#: electrum_axe/gui/qt/util.py:167
+msgid "Copy and Close"
+msgstr "複製並關閉"
+
+#: electrum_axe/gui/kivy/uix/ui_screens/send.kv:36
+msgid ""
+"Copy and paste the recipient address using the Paste button, or use the "
+"camera to scan a QR code."
+msgstr ""
+
+#: electrum_axe/gui/qt/util.py:615
+msgid "Copy to clipboard"
+msgstr "複製到剪貼簿"
+
+#: electrum_axe/gui/qt/invoice_list.py:78
+#: electrum_axe/gui/qt/contact_list.py:74
+#: electrum_axe/gui/qt/history_list.py:347
+#: electrum_axe/gui/qt/address_list.py:165
+#: electrum_axe/gui/qt/request_list.py:124
+msgid "Copy {}"
+msgstr "複製{}"
+
+#: electrum_axe/base_wizard.py:161
+msgid "Cosign with hardware device"
+msgstr "硬體設備共同簽署"
+
+#: electrum_axe/plugins/cosigner_pool/__init__.py:2
+msgid "Cosigner Pool"
+msgstr "共同簽署池"
+
+#: electrum_axe/gui/qt/main_window.py:2392
+msgid "Could not decode QR code"
+msgstr "不能解碼QR"
+
+#: electrum_axe/gui/qt/masternode_dialog.py:408
+msgid ""
+"Could not import any masternode configurations. Please ensure that they are "
+"not already imported."
+msgstr ""
+
+#: electrum_axe/plugins/digitalbitbox/digitalbitbox.py:484
+#: electrum_axe/plugins/digitalbitbox/digitalbitbox.py:497
+msgid "Could not sign message"
+msgstr "不能簽署消息"
+
+#: electrum_axe/plugins/digitalbitbox/digitalbitbox.py:461
+#: electrum_axe/plugins/digitalbitbox/digitalbitbox.py:474
+msgid "Could not sign message."
+msgstr "不能簽署消息。"
+
+#: electrum_axe/gui/qt/exception_window.py:100
+msgid "Crash report"
+msgstr ""
+
+#: electrum_axe/base_wizard.py:95
+msgid "Create"
+msgstr "創建"
+
+#: electrum_axe/gui/qt/masternode_budget_widgets.py:254
+msgid "Create Proposal"
+msgstr ""
+
+#: electrum_axe/plugins/revealer/qt.py:104
+msgid "Create a digital Revealer"
+msgstr ""
+
+#: electrum_axe/base_wizard.py:148
+msgid "Create a new seed"
+msgstr "創建新種子"
+
+#: electrum_axe/plugins/digitalbitbox/digitalbitbox.py:208
+msgid "Create a wallet using the current seed"
+msgstr "使用當前種子創建錢包"
+
+#: electrum_axe/base_wizard.py:193
+msgid "Create keystore from a master key"
+msgstr "從主鍵創建密鑰庫"
+
+#: electrum_axe/gui/qt/masternode_budget_widgets.py:364
+#, fuzzy
+msgid "Creating Transaction..."
+msgstr "正在廣播交易動作..."
+
+#: electrum_axe/gui/qt/util.py:216
+msgid "Critical Error"
+msgstr "重大錯誤"
+
+#: electrum_axe/gui/qt/password_dialog.py:101
+msgid "Current Password:"
+msgstr "目前密碼："
+
+#: electrum_axe/gui/qt/fee_slider.py:36
+msgid "Current rate"
+msgstr "目前利率"
+
+#: electrum_axe/gui/qt/history_list.py:93
+#: electrum_axe/gui/qt/history_list.py:122
+msgid "Custom"
+msgstr "自訂"
+
+#: electrum_axe/plugins/revealer/qt.py:382
+msgid "Custom secret"
+msgstr ""
+
+#: electrum_axe/i18n.py:48
+msgid "Czech"
+msgstr "捷克語"
+
+#: electrum_axe/i18n.py:49
+msgid "Danish"
+msgstr "丹麥語"
+
+#: electrum_axe/gui/qt/main_window.py:2847
+msgid "Dark"
+msgstr ""
+
+#: electrum_axe/gui/qt/__init__.py:149
+msgid "Dark/Light"
+msgstr "暗/亮"
+
+#: electrum_axe/gui/kivy/uix/ui_screens/receive.kv:71
+#, fuzzy
+msgid "Axe Address"
+msgstr "比特幣地址"
+
+#: electrum_axe/gui/qt/main_window.py:1532
+#, fuzzy
+msgid "Axe Address is None"
+msgstr "比特幣位址空白"
+
+#: electrum_axe/gui/kivy/main_window.py:259
+msgid "Axe Electrum App"
+msgstr "Axe Electrum App"
+
+#: electrum_axe/gui/qt/main_window.py:3089
+msgid "Axe Electrum Plugins"
+msgstr "Axe Electrum 插件"
+
+#: electrum_axe/plugin.py:450
+msgid ""
+"Axe Electrum cannot pair with your {}.\n"
+"\n"
+"Before you request Axe coins to be sent to addresses in this wallet, ensure "
+"you can pair with your device, or that you have its seed (and passphrase, if "
+"any).  Otherwise all coins you receive will be unspendable."
+msgstr ""
+
+#: electrum_axe/gui/qt/installwizard.py:577
+msgid ""
+"Axe Electrum communicates with remote servers to get information about your "
+"transactions and addresses. The servers all fulfill the same purpose only "
+"differing in hardware. In most cases you simply want to let Axe Electrum "
+"pick one at random.  However if you prefer feel free to select a server "
+"manually."
+msgstr ""
+
+#: electrum_axe/gui/qt/network_dialog.py:291
+msgid ""
+"Axe Electrum connects to several nodes in order to download block headers "
+"and find out the longest blockchain."
+msgstr "Axe Electrum 連接到許多節點以下載區塊標頭並找出最長的區塊鏈。"
+
+#: electrum_axe/base_wizard.py:550
+msgid "Axe Electrum is generating your addresses, please wait..."
+msgstr "Axe Electrum 正在生成您的位址，請稍候…"
+
+#: electrum_axe/gui/qt/main_window.py:557
+msgid "Axe Electrum preferences"
+msgstr "Axe Electrum 偏好設定"
+
+#: electrum_axe/gui/kivy/uix/ui_screens/server.kv:9
+msgid ""
+"Axe Electrum requests your transaction history from a single server. The "
+"returned history is checked against blockchain headers sent by other nodes, "
+"using Simple Payment Verification (SPV)."
+msgstr ""
+
+#: electrum_axe/gui/qt/network_dialog.py:300
+msgid ""
+"Axe Electrum sends your wallet addresses to a single server, in order to "
+"receive your transaction history."
+msgstr "Axe Electrum 會將您的錢包位址發送給單一伺服器以接收您的交易歷史。"
+
+#: electrum_axe/gui/qt/installwizard.py:178
+msgid "Axe Electrum wallet"
+msgstr "Axe Electrum 錢包"
+
+#: electrum_axe/gui/qt/main_window.py:455
+msgid ""
+"Axe Electrum was unable to copy your wallet file to the specified location."
+msgstr "Axe Electrum 無法複製您的錢包檔案到指定位置。"
+
+#: electrum_axe/gui/qt/transaction_dialog.py:60
+msgid "Axe Electrum was unable to deserialize the transaction:"
+msgstr ""
+
+#: electrum_axe/gui/qt/main_window.py:2407
+msgid "Axe Electrum was unable to open your transaction file"
+msgstr "Axe Electrum 無法開啟您的交易檔案"
+
+#: electrum_axe/gui/qt/main_window.py:2372
+msgid "Axe Electrum was unable to parse your transaction"
+msgstr "Axe Electrum 無法解析您的交易資訊"
+
+#: electrum_axe/gui/qt/main_window.py:2518
+msgid "Axe Electrum was unable to produce a private key-export."
+msgstr "Axe Electrum 無法產生私鑰匯出。"
+
+#: electrum_axe/gui/qt/history_list.py:404
+msgid "Axe Electrum was unable to produce a transaction export."
+msgstr "Axe Electrum 無法產生交易資訊匯出。"
+
+#: electrum_axe/gui/qt/main_window.py:836
+#, fuzzy
+msgid ""
+"Axe address where the payment should be received. Note that each payment "
+"request uses a different Axe address."
+msgstr "應該收到款項的比特幣位址。請注意，每個支付請求都會用不同的比特幣位址。"
+
+#: electrum_axe/gui/qt/main_window.py:1141
+#, fuzzy
+msgid ""
+"Axe transactions are in general not free. A transaction fee is paid by the "
+"sender of the funds."
+msgstr "比特幣的交易動作一般來說並非免費。交易手續費是由資金的送出者支付。"
+
+#: electrum_axe/gui/stdio.py:104 electrum_axe/gui/text.py:104
+#: electrum_axe/gui/kivy/uix/dialogs/tx_dialog.py:112
+#: electrum_axe/gui/qt/history_list.py:75
+#: electrum_axe/gui/qt/request_list.py:41
+msgid "Date"
+msgstr "日期"
+
+#: electrum_axe/gui/qt/transaction_dialog.py:247
+msgid "Date: {}"
+msgstr "日期: {}"
+
+#: electrum_axe/base_wizard.py:246
+msgid "Debug message"
+msgstr ""
+
+#: electrum_axe/gui/qt/main_window.py:2349
+msgid "Decrypt"
+msgstr "解密"
+
+#: electrum_axe/i18n.py:45
+msgid "Default"
+msgstr "默認"
+
+#: electrum_axe/gui/qt/network_dialog.py:227
+msgid "Default Servers"
+msgstr "預設伺服器"
+
+#: electrum_axe/gui/qt/masternode_dialog.py:438
+#, fuzzy
+msgid "Delegate private key is empty."
+msgstr "輸入私鑰"
+
+#: electrum_axe/gui/kivy/uix/ui_screens/status.kv:81
+#: electrum_axe/gui/kivy/uix/dialogs/requests.py:126
+#: electrum_axe/gui/qt/invoice_list.py:82
+#: electrum_axe/gui/qt/main_window.py:503
+#: electrum_axe/gui/qt/main_window.py:1944
+#: electrum_axe/gui/qt/contact_list.py:79
+#: electrum_axe/gui/qt/masternode_dialog.py:426
+#: electrum_axe/gui/qt/request_list.py:127
+msgid "Delete"
+msgstr "刪除"
+
+#: electrum_axe/gui/qt/masternode_dialog.py:335
+#, fuzzy
+msgid "Delete Masternode"
+msgstr "刪除收據？"
+
+#: electrum_axe/gui/kivy/uix/dialogs/invoices.py:158
+#: electrum_axe/gui/qt/main_window.py:1939
+msgid "Delete invoice?"
+msgstr "刪除收據？"
+
+#: electrum_axe/gui/kivy/uix/dialogs/requests.py:146
+msgid "Delete request"
+msgstr "刪除請求"
+
+#: electrum_axe/gui/qt/main_window.py:2138
+msgid "Delete wallet file?"
+msgstr "刪除錢包檔？"
+
+#: electrum_axe/gui/kivy/main_window.py:995
+msgid "Delete wallet?"
+msgstr "刪除錢包？"
+
+#: electrum_axe/gui/kivy/uix/dialogs/settings.py:129
+msgid "Denomination"
+msgstr "面額"
+
+#: electrum_axe/gui/stdio.py:104 electrum_axe/gui/text.py:104
+#: electrum_axe/gui/text.py:174
+#: electrum_axe/gui/kivy/uix/ui_screens/receive.kv:108
+#: electrum_axe/gui/kivy/uix/ui_screens/invoice.kv:49
+#: electrum_axe/gui/kivy/uix/ui_screens/send.kv:72
+#: electrum_axe/gui/qt/invoice_list.py:36
+#: electrum_axe/gui/qt/main_window.py:844
+#: electrum_axe/gui/qt/main_window.py:1106
+#: electrum_axe/gui/qt/transaction_dialog.py:241
+#: electrum_axe/gui/qt/history_list.py:75
+#: electrum_axe/gui/qt/request_list.py:41
+msgid "Description"
+msgstr "描述說明"
+
+#: electrum_axe/gui/qt/main_window.py:1104
+msgid "Description of the transaction (not mandatory)."
+msgstr "交易事項的描述說明（非強制）。"
+
+#: electrum_axe/gui/kivy/uix/dialogs/addresses.py:124
+#: electrum_axe/gui/qt/invoice_list.py:79
+#: electrum_axe/gui/qt/history_list.py:351
+#: electrum_axe/gui/qt/address_list.py:166
+#: electrum_axe/gui/qt/utxo_list.py:72
+msgid "Details"
+msgstr "細節"
+
+#: electrum_axe/gui/kivy/uix/ui_screens/about.kv:35
+msgid "Developers"
+msgstr ""
+
+#: electrum_axe/plugins/trezor/qt.py:464
+#: electrum_axe/plugins/safe_t/qt.py:343
+#: electrum_axe/plugins/keepkey/qt.py:459
+msgid "Device ID"
+msgstr "設備ID"
+
+#: electrum_axe/plugins/trezor/qt.py:460
+#: electrum_axe/plugins/trezor/qt.py:484
+#: electrum_axe/plugins/safe_t/qt.py:339
+#: electrum_axe/plugins/safe_t/qt.py:363
+#: electrum_axe/plugins/keepkey/qt.py:455
+#: electrum_axe/plugins/keepkey/qt.py:480
+msgid "Device Label"
+msgstr "設備標籤"
+
+#: electrum_axe/plugins/digitalbitbox/digitalbitbox.py:116
+msgid ""
+"Device communication error. Please unplug and replug your Digital Bitbox."
+msgstr "請拔出並重新插入你的硬體錢包。"
+
+#: electrum_axe/plugins/ledger/ledger.py:194
+#, fuzzy
+msgid "Device not in Axe mode"
+msgstr "設備沒在比特幣模式"
+
+#: electrum_axe/plugins/digitalbitbox/__init__.py:5
+msgid "Digital Bitbox wallet"
+msgstr "硬體錢包"
+
+#: electrum_axe/plugins/revealer/qt.py:181
+msgid "Digital Revealer ({}_{}) saved as PNG and PDF at:"
+msgstr ""
+
+#: electrum_axe/plugins/trezor/qt.py:565
+#: electrum_axe/plugins/safe_t/qt.py:444
+#: electrum_axe/plugins/keepkey/qt.py:538
+msgid "Disable PIN"
+msgstr "禁用PIN碼"
+
+#: electrum_axe/plugins/trezor/qt.py:341
+#: electrum_axe/plugins/safe_t/qt.py:220
+#: electrum_axe/plugins/keepkey/qt.py:342
+msgid "Disable Passphrases"
+msgstr "取消密碼"
+
+#: electrum_axe/gui/qt/masternode_widgets.py:22
+#: electrum_axe/gui/qt/masternode_widgets.py:23
+#: electrum_axe/gui/qt/masternode_widgets.py:24
+#: electrum_axe/plugins/trezor/qt.py:342
+#: electrum_axe/plugins/safe_t/qt.py:221
+#: electrum_axe/plugins/keepkey/qt.py:343
+msgid "Disabled"
+msgstr "已禁用"
+
+#: electrum_axe/gui/kivy/main_window.py:736
+msgid "Disconnected"
+msgstr "已中斷連結"
+
+#: electrum_axe/gui/qt/main_window.py:1241
+msgid "Display the details of your transaction before signing it."
+msgstr "請在提交之前確認交易細節。"
+
+#: electrum_axe/gui/kivy/uix/ui_screens/about.kv:41
+msgid "Distributed by Electrum Technologies GmbH"
+msgstr ""
+
+#: electrum_axe/plugins/digitalbitbox/digitalbitbox.py:272
+msgid "Do not pair"
+msgstr "無法配對"
+
+#: electrum_axe/gui/qt/console.py:68
+msgid ""
+"Do not paste code here that you don't understand. Executing the wrong code "
+"could lead to your coins being irreversibly lost."
+msgstr ""
+
+#: electrum_axe/gui/qt/seed_dialog.py:48
+msgid "Do not store it electronically."
+msgstr "請不要以電子方式儲存。"
+
+#: electrum_axe/plugins/revealer/__init__.py:5
+msgid "Do you have something to hide ?"
+msgstr ""
+
+#: electrum_axe/base_wizard.py:146
+msgid ""
+"Do you want to create a new seed, or to restore a wallet using an existing "
+"seed?"
+msgstr "想要創建一個新種子，或者用已存在的種子去恢復一個錢包？"
+
+#: electrum_axe/gui/qt/installwizard.py:302
+msgid "Do you want to delete '{}'?"
+msgstr "確認刪除'{}'?"
+
+#: electrum_axe/gui/qt/installwizard.py:290
+msgid "Do you want to delete the old file"
+msgstr "您是否要刪除舊檔案"
+
+#: electrum_axe/gui/kivy/main_window.py:577
+msgid "Do you want to launch the wizard again?"
+msgstr ""
+
+#: electrum_axe/plugins/cosigner_pool/qt.py:218
+msgid "Do you want to open it now?"
+msgstr ""
+
+#: electrum_axe/gui/qt/masternode_dialog.py:426
+#, fuzzy
+msgid "Do you want to remove the masternode configuration for"
+msgstr "您是否要刪除舊檔案"
+
+#: electrum_axe/gui/qt/main_window.py:1844
+msgid "Do you want to remove {} from your wallet?"
+msgstr ""
+
+#: electrum_axe/base_crash_reporter.py:58
+msgid "Do you want to send this report?"
+msgstr "您想要發送這個報告嗎？"
+
+#: electrum_axe/gui/qt/main_window.py:1522
+msgid "Do you wish to continue?"
+msgstr "您是否打算繼續？"
+
+#: electrum_axe/gui/qt/installwizard.py:37
+msgid ""
+"Due to a bug, old versions of Electrum will NOT be creating the same wallet "
+"as newer versions or other software."
+msgstr ""
+
+#: electrum_axe/gui/kivy/uix/ui_screens/network.kv:37
+#: electrum_axe/gui/qt/network_dialog.py:285
+msgid "During wallet startup try to detect and use Tor Proxy."
+msgstr ""
+
+#: electrum_axe/i18n.py:65
+msgid "Dutch"
+msgstr "荷蘭語"
+
+#: electrum_axe/util.py:85
+msgid "Dynamic fee estimates not available"
+msgstr ""
+
+#: electrum_axe/gui/qt/main_window.py:2723
+msgid "ETA"
+msgstr ""
+
+#: electrum_axe/gui/qt/main_window.py:2732
+msgid "Edit fees manually"
+msgstr "手動編輯手續費"
+
+#: electrum_axe/gui/qt/contact_list.py:77
+#: electrum_axe/gui/qt/history_list.py:349
+#: electrum_axe/gui/qt/address_list.py:168
+msgid "Edit {}"
+msgstr ""
+
+#: electrum_axe/gui/qt/main_window.py:605
+msgid ""
+"Electrum's focus is speed, with low resource usage and simplifying Axe."
+msgstr ""
+
+#: electrum_axe/plugins/email_requests/__init__.py:3
+msgid "Email"
+msgstr ""
+
+#: electrum_axe/plugins/email_requests/qt.py:209
+msgid "Email settings"
+msgstr ""
+
+#: electrum_axe/plugins/trezor/qt.py:213
+#: electrum_axe/plugins/safe_t/qt.py:118
+#: electrum_axe/plugins/keepkey/qt.py:243
+msgid "Enable PIN protection"
+msgstr ""
+
+#: electrum_axe/plugins/trezor/qt.py:341
+#: electrum_axe/plugins/safe_t/qt.py:220
+#: electrum_axe/plugins/keepkey/qt.py:342
+msgid "Enable Passphrases"
+msgstr ""
+
+#: electrum_axe/gui/qt/main_window.py:2919
+msgid "Enable output value rounding"
+msgstr ""
+
+#: electrum_axe/plugins/trezor/qt.py:247
+#: electrum_axe/plugins/safe_t/qt.py:152
+#: electrum_axe/plugins/keepkey/qt.py:277
+msgid "Enable passphrases"
+msgstr ""
+
+#: electrum_axe/gui/qt/masternode_widgets.py:21
+#: electrum_axe/plugins/trezor/qt.py:342
+#: electrum_axe/plugins/safe_t/qt.py:221
+#: electrum_axe/plugins/keepkey/qt.py:343
+msgid "Enabled"
+msgstr ""
+
+#: electrum_axe/gui/qt/masternode_widgets.py:20
+msgid "Enabling"
+msgstr ""
+
+#: electrum_axe/gui/qt/main_window.py:2345
+msgid "Encrypt"
+msgstr "加密"
+
+#: electrum_axe/gui/qt/password_dialog.py:121
+#: electrum_axe/gui/qt/password_dialog.py:205
+msgid "Encrypt wallet file"
+msgstr "加密錢包檔案"
+
+#: electrum_axe/gui/qt/main_window.py:2322
+msgid "Encrypt/decrypt Message"
+msgstr "加密/解密訊息"
+
+#: electrum_axe/gui/qt/address_list.py:174
+msgid "Encrypt/decrypt message"
+msgstr ""
+
+#: electrum_axe/gui/qt/main_window.py:2340
+msgid "Encrypted"
+msgstr "已加密"
+
+#: electrum_axe/plugins/ledger/ledger.py:260
+#: electrum_axe/plugins/digitalbitbox/digitalbitbox.py:442
+msgid "Encryption and decryption are currently not supported for {}"
+msgstr ""
+
+#: electrum_axe/plugins/trezor/trezor.py:35
+#: electrum_axe/plugins/safe_t/safe_t.py:34
+#: electrum_axe/plugins/keepkey/keepkey.py:35
+msgid "Encryption and decryption are not implemented by {}"
+msgstr ""
+
+#: electrum_axe/gui/qt/history_list.py:182
+msgid "End"
+msgstr ""
+
+#: electrum_axe/gui/qt/masternode_budget_widgets.py:46
+#: electrum_axe/gui/qt/masternode_budget_widgets.py:405
+msgid "End Block"
+msgstr ""
+
+#: electrum_axe/masternode_budget.py:102
+msgid "End block must be after start block."
+msgstr ""
+
+#: electrum_axe/i18n.py:53
+msgid "English"
+msgstr ""
+
+#: electrum_axe/gui/kivy/main_window.py:799
+#: electrum_axe/plugins/trezor/qt.py:142 electrum_axe/plugins/safe_t/qt.py:53
+#: electrum_axe/plugins/keepkey/qt.py:170
+msgid "Enter PIN"
+msgstr ""
+
+#: electrum_axe/gui/kivy/main_window.py:553
+msgid "Enter PIN code"
+msgstr ""
+
+#: electrum_axe/plugins/ledger/auth2fa.py:110
+#: electrum_axe/plugins/ledger/auth2fa.py:143
+msgid "Enter PIN:"
+msgstr ""
+
+#: electrum_axe/gui/qt/password_dialog.py:58
+#: electrum_axe/plugins/hw_wallet/qt.py:121
+msgid "Enter Passphrase"
+msgstr "輸入密語"
+
+#: electrum_axe/gui/qt/password_dialog.py:58
+#: electrum_axe/gui/qt/password_dialog.py:288
+msgid "Enter Password"
+msgstr "輸入密碼"
+
+#: electrum_axe/gui/kivy/uix/dialogs/installwizard.py:767
+#: electrum_axe/gui/qt/installwizard.py:405
+msgid "Enter Seed"
+msgstr "輸入種苗"
+
+#: electrum_axe/gui/kivy/uix/screens.py:132
+msgid "Enter Transaction Label"
+msgstr ""
+
+#: electrum_axe/gui/qt/main_window.py:446
+msgid "Enter a filename for the copy of your wallet"
+msgstr "輸入您的錢包副本檔名"
+
+#: electrum_axe/plugins/trezor/qt.py:187 electrum_axe/plugins/safe_t/qt.py:92
+#: electrum_axe/plugins/keepkey/qt.py:215
+msgid "Enter a label to name your device:"
+msgstr ""
+
+#: electrum_axe/base_wizard.py:168
+msgid ""
+"Enter a list of Axe addresses (this will create a watching-only wallet), or "
+"a list of private keys."
+msgstr ""
+
+#: electrum_axe/gui/qt/main_window.py:1864
+msgid "Enter a list of outputs in the 'Pay to' field."
+msgstr "請在「支付給」欄位中輸入輸出清單。"
+
+#: electrum_axe/gui/qt/masternode_widgets.py:178
+msgid "Enter a name for this masternode"
+msgstr ""
+
+#: electrum_axe/plugins/trezor/clientbase.py:48
+#: electrum_axe/plugins/safe_t/clientbase.py:48
+#: electrum_axe/plugins/keepkey/clientbase.py:46
+msgid "Enter a new PIN for your {}:"
+msgstr ""
+
+#: electrum_axe/plugins/digitalbitbox/digitalbitbox.py:165
+msgid "Enter a new password below."
+msgstr ""
+
+#: electrum_axe/plugins/trezor/clientbase.py:67
+#: electrum_axe/plugins/safe_t/clientbase.py:67
+#: electrum_axe/plugins/keepkey/clientbase.py:62
+msgid ""
+"Enter a passphrase to generate this wallet.  Each time you use this wallet "
+"your {} will prompt you for the passphrase.  If you forget the passphrase "
+"you cannot access the Axe coins in the wallet."
+msgstr ""
+
+#: electrum_axe/gui/qt/main_window.py:2642
+msgid "Enter addresses"
+msgstr "輸入位址"
+
+#: electrum_axe/base_wizard.py:157
+msgid "Enter cosigner key"
+msgstr ""
+
+#: electrum_axe/base_wizard.py:158
+msgid "Enter cosigner seed"
+msgstr ""
+
+#: electrum_axe/gui/kivy/main_window.py:933
+msgid "Enter description"
+msgstr "輸入描述說明"
+
+#: electrum_axe/gui/kivy/uix/dialogs/password_dialog.py:129
+msgid "Enter new PIN"
+msgstr "輸入新 PIN"
+
+#: electrum_axe/plugins/digitalbitbox/digitalbitbox.py:135
+#: electrum_axe/plugins/digitalbitbox/digitalbitbox.py:138
+#: electrum_axe/plugins/digitalbitbox/digitalbitbox.py:150
+#: electrum_axe/plugins/digitalbitbox/digitalbitbox.py:153
+msgid "Enter password:"
+msgstr ""
+
+#: electrum_axe/gui/qt/main_window.py:2651
+msgid "Enter private keys"
+msgstr "輸入私鑰"
+
+#: electrum_axe/gui/qt/main_window.py:2566
+msgid "Enter private keys:"
+msgstr "輸入私鑰："
+
+#: electrum_axe/plugins/trezor/qt.py:221
+#: electrum_axe/plugins/safe_t/qt.py:126
+#: electrum_axe/plugins/keepkey/qt.py:251
+msgid "Enter the master private key beginning with xprv:"
+msgstr ""
+
+#: electrum_axe/plugins/trezor/clientbase.py:72
+#: electrum_axe/plugins/safe_t/clientbase.py:72
+#: electrum_axe/plugins/keepkey/clientbase.py:67
+msgid "Enter the passphrase to unlock this wallet:"
+msgstr ""
+
+#: electrum_axe/plugins/digitalbitbox/digitalbitbox.py:128
+msgid "Enter the password used when the backup was created:"
+msgstr ""
+
+#: electrum_axe/gui/qt/masternode_dialog.py:358
+msgid "Enter the path to your masternode.conf"
+msgstr ""
+
+#: electrum_axe/plugins/trezor/qt.py:35
+msgid ""
+"Enter the recovery words by pressing the buttons according to what the "
+"device shows on its display.  You can also use your NUMPAD.\n"
+"Press BACKSPACE to go back a choice or word.\n"
+msgstr ""
+
+#: electrum_axe/gui/qt/installwizard.py:394
+msgid ""
+"Enter their master private key (xprv) if you want to be able to sign for "
+"them."
+msgstr "若您希望可以為之簽署，請輸入它們的主要私鑰 (xprv)。"
+
+#: electrum_axe/gui/kivy/uix/dialogs/wallets.py:60
+msgid "Enter wallet name"
+msgstr "輸入錢包名稱"
+
+#: electrum_axe/plugins/trezor/qt.py:219
+#: electrum_axe/plugins/safe_t/qt.py:124
+#: electrum_axe/plugins/keepkey/qt.py:249
+msgid "Enter your BIP39 mnemonic:"
+msgstr ""
+
+#: electrum_axe/plugins/digitalbitbox/digitalbitbox.py:175
+#: electrum_axe/plugins/digitalbitbox/digitalbitbox.py:185
+#: electrum_axe/plugins/digitalbitbox/digitalbitbox.py:190
+msgid "Enter your Digital Bitbox password:"
+msgstr ""
+
+#: electrum_axe/plugins/trezor/qt.py:234
+#: electrum_axe/plugins/safe_t/qt.py:139
+#: electrum_axe/plugins/keepkey/qt.py:264
+msgid "Enter your PIN (digits 1-9):"
+msgstr ""
+
+#: electrum_axe/gui/kivy/main_window.py:1070
+msgid "Enter your PIN code in order to decrypt your private key"
+msgstr ""
+
+#: electrum_axe/gui/kivy/main_window.py:1020
+msgid "Enter your PIN code in order to decrypt your seed"
+msgstr "輸入您的 PIN 碼以解密您的種苗"
+
+#: electrum_axe/gui/kivy/uix/dialogs/tx_dialog.py:134
+msgid "Enter your PIN code in order to sign this transaction"
+msgstr ""
+
+#: electrum_axe/gui/kivy/main_window.py:1001
+msgid "Enter your PIN code to confirm deletion of {}"
+msgstr ""
+
+#: electrum_axe/gui/kivy/uix/screens.py:290
+msgid "Enter your PIN code to proceed"
+msgstr ""
+
+#: electrum_axe/gui/kivy/main_window.py:1047
+msgid "Enter your current PIN:"
+msgstr "輸入您的目前 PIN 碼："
+
+#: electrum_axe/plugins/trezor/clientbase.py:53
+#: electrum_axe/plugins/safe_t/clientbase.py:53
+#: electrum_axe/plugins/keepkey/clientbase.py:51
+msgid "Enter your current {} PIN:"
+msgstr ""
+
+#: electrum_axe/gui/kivy/uix/dialogs/installwizard.py:657
+msgid "Enter your email address:"
+msgstr ""
+
+#: electrum_axe/gui/qt/installwizard.py:208
+msgid "Enter your password or choose another file."
+msgstr "輸入您的密碼或選擇其他檔案。"
+
+#: electrum_axe/gui/qt/main_window.py:1603
+msgid "Enter your password to proceed"
+msgstr "輸入您的密碼以繼續"
+
+#: electrum_axe/plugins/revealer/qt.py:91
+msgid "Enter your physical revealer code:"
+msgstr ""
+
+#: electrum_axe/plugins/digitalbitbox/digitalbitbox.py:210
+msgid "Erase the Digital Bitbox"
+msgstr ""
+
+#: electrum_axe/gui/stdio.py:210 electrum_axe/gui/text.py:361
+#: electrum_axe/gui/qt/masternode_budget_widgets.py:334
+#: electrum_axe/gui/qt/__init__.py:209 electrum_axe/gui/qt/__init__.py:228
+#: electrum_axe/gui/qt/__init__.py:249
+#: electrum_axe/gui/qt/installwizard.py:255
+#: electrum_axe/gui/qt/installwizard.py:259
+#: electrum_axe/gui/qt/installwizard.py:266
+#: electrum_axe/gui/qt/installwizard.py:273
+#: electrum_axe/gui/qt/masternode_dialog.py:394
+#: electrum_axe/gui/qt/masternode_dialog.py:403
+#: electrum_axe/gui/qt/util.py:212
+msgid "Error"
+msgstr "錯誤"
+
+#: electrum_axe/gui/qt/masternode_dialog.py:550
+#, fuzzy
+msgid "Error Sending"
+msgstr "發送中"
+
+#: electrum_axe/gui/qt/masternode_dialog.py:601
+msgid "Error Voting"
+msgstr ""
+
+#: electrum_axe/gui/kivy/uix/screens.py:387
+#: electrum_axe/gui/qt/main_window.py:977
+msgid "Error adding payment request"
+msgstr ""
+
+#: electrum_axe/plugins/cosigner_pool/qt.py:230
+msgid "Error decrypting message"
+msgstr ""
+
+#: electrum_axe/gui/qt/qrtextedit.py:53
+msgid "Error opening file"
+msgstr ""
+
+#: electrum_axe/base_wizard.py:225
+msgid "Error scanning devices"
+msgstr ""
+
+#: electrum_axe/plugins/ledger/ledger.py:493
+msgid "Error showing address"
+msgstr ""
+
+#: electrum_axe/plugins/labels/qt.py:66
+msgid "Error synchronising labels"
+msgstr ""
+
+#: electrum_axe/base_wizard.py:417
+msgid "Error: duplicate master public key"
+msgstr ""
+
+#: electrum_axe/i18n.py:52
+msgid "Esperanto"
+msgstr ""
+
+#: electrum_axe/gui/qt/fee_slider.py:38
+msgid "Estimate"
+msgstr ""
+
+#: electrum_axe/gui/qt/__init__.py:151
+msgid "Exit Axe Electrum"
+msgstr "離開 Axe Electrum"
+
+#: electrum_axe/gui/qt/history_list.py:191
+msgid "Expenditures"
+msgstr ""
+
+#: electrum_axe/gui/kivy/uix/ui_screens/invoice.kv:46
+msgid "Expiration"
+msgstr ""
+
+#: electrum_axe/gui/qt/main_window.py:864
+msgid "Expiration date of your request."
+msgstr "您請求的過期日。"
+
+#: electrum_axe/gui/kivy/uix/dialogs/invoices.py:88
+#: electrum_axe/gui/kivy/uix/dialogs/requests.py:92
+#: electrum_axe/gui/qt/util.py:40
+msgid "Expired"
+msgstr "已過期"
+
+#: electrum_axe/gui/qt/main_window.py:866
+#, fuzzy
+msgid ""
+"Expired requests have to be deleted manually from your list, in order to "
+"free the corresponding Axe addresses."
+msgstr "過期的請求必須手動從您的清單中刪除，才能釋放對應的比特幣位址。"
+
+#: electrum_axe/gui/qt/invoice_list.py:36
+#: electrum_axe/gui/qt/main_window.py:1927
+msgid "Expires"
+msgstr "過期"
+
+#: electrum_axe/gui/qt/main_window.py:532
+#: electrum_axe/gui/qt/main_window.py:535
+#: electrum_axe/gui/qt/main_window.py:2465
+#: electrum_axe/gui/qt/transaction_dialog.py:137
+#: electrum_axe/gui/qt/history_list.py:392
+msgid "Export"
+msgstr "匯出"
+
+#: electrum_axe/gui/qt/history_list.py:384
+msgid "Export History"
+msgstr "匯出歷史紀錄"
+
+#: electrum_axe/gui/qt/contact_list.py:67
+msgid "Export file"
+msgstr ""
+
+#: electrum_axe/gui/kivy/uix/ui_screens/invoice.kv:87
+msgid "Export private key"
+msgstr ""
+
+#: electrum_axe/gui/qt/main_window.py:2452
+msgid "Exposing a single private key can compromise your entire wallet!"
+msgstr "匯出一私鑰可能會危害到您整個錢包！"
+
+#: electrum_axe/gui/qt/seed_dialog.py:59
+msgid "Extend this seed with custom words"
+msgstr "以自訂字詞擴展此種苗"
+
+#: electrum_axe/gui/qt/masternode_dialog.py:408
+#, fuzzy
+msgid "Failed to Import"
+msgstr "無法更新密碼"
+
+#: electrum_axe/plugins/ledger/ledger.py:554
+#: electrum_axe/plugins/trezor/trezor.py:267
+#: electrum_axe/plugins/safe_t/safe_t.py:256
+#: electrum_axe/plugins/digitalbitbox/digitalbitbox.py:700
+#: electrum_axe/plugins/keepkey/keepkey.py:236
+msgid "Failed to create a client for this device."
+msgstr ""
+
+#: electrum_axe/gui/qt/installwizard.py:267
+msgid "Failed to decrypt using this hardware device."
+msgstr ""
+
+#: electrum_axe/gui/kivy/main_window.py:402
+#: electrum_axe/gui/qt/transaction_dialog.py:190
+#: electrum_axe/gui/qt/transaction_dialog.py:193
+msgid "Failed to display QR code."
+msgstr ""
+
+#: electrum_axe/util.py:106
+msgid "Failed to export to file."
+msgstr ""
+
+#: electrum_axe/util.py:98
+msgid "Failed to import from file."
+msgstr ""
+
+#: electrum_axe/plugins/cosigner_pool/qt.py:181
+msgid "Failed to send transaction to cosigning pool"
+msgstr ""
+
+#: electrum_axe/gui/qt/main_window.py:2056
+msgid "Failed to update password"
+msgstr "無法更新密碼"
+
+#: electrum_axe/gui/text.py:176
+#: electrum_axe/gui/kivy/uix/ui_screens/send.kv:90
+#: electrum_axe/gui/qt/main_window.py:1144
+#: electrum_axe/gui/qt/transaction_dialog.py:262
+msgid "Fee"
+msgstr "手續費"
+
+#: electrum_axe/gui/qt/masternode_budget_widgets.py:49
+#: electrum_axe/gui/qt/masternode_budget_widgets.py:405
+msgid "Fee Tx"
+msgstr ""
+
+#: electrum_axe/gui/qt/masternode_budget_widgets.py:213
+msgid "Fee TxID:"
+msgstr ""
+
+#: electrum_axe/gui/qt/main_window.py:2721
+msgid "Fee estimation"
+msgstr ""
+
+#: electrum_axe/gui/qt/main_window.py:3027
+msgid "Fees"
+msgstr "手續費"
+
+#: electrum_axe/gui/qt/main_window.py:3030
+msgid "Fiat"
+msgstr "法幣"
+
+#: electrum_axe/gui/qt/main_window.py:3020
+msgid "Fiat currency"
+msgstr "法定貨幣"
+
+#: electrum_axe/gui/qt/util.py:385
+msgid "File"
+msgstr "檔案"
+
+#: electrum_axe/gui/qt/masternode_dialog.py:394
+#, fuzzy
+msgid "File does not exist"
+msgstr "此檔案不存在。"
+
+#: electrum_axe/gui/qt/address_list.py:55
+msgid "Filter:"
+msgstr ""
+
+#: electrum_axe/gui/qt/history_list.py:185
+msgid "Final balance"
+msgstr ""
+
+#: electrum_axe/gui/qt/main_window.py:538
+msgid "Find"
+msgstr "尋找"
+
+#: electrum_axe/plugins/trezor/qt.py:463
+#: electrum_axe/plugins/safe_t/qt.py:342
+#: electrum_axe/plugins/keepkey/qt.py:458
+msgid "Firmware Version"
+msgstr ""
+
+#: electrum_axe/plugins/ledger/ledger.py:40
+msgid "Firmware version too old. Please update at"
+msgstr ""
+
+#: electrum_axe/gui/qt/fee_slider.py:38
+msgid "Fixed rate"
+msgstr ""
+
+#: electrum_axe/gui/qt/network_dialog.py:85
+msgid "Follow this branch"
+msgstr "依循此分支"
+
+#: electrum_axe/plugins/revealer/__init__.py:11
+msgid "For more information, visit"
+msgstr ""
+
+#: electrum_axe/gui/kivy/uix/ui_screens/network.kv:55
+msgid "Fork detected at block {}"
+msgstr ""
+
+#: electrum_axe/gui/qt/util.py:361
+msgid "Format"
+msgstr "格式"
+
+#: electrum_axe/gui/qt/main_window.py:1866
+msgid "Format: address, amount"
+msgstr "格式：位址, 金額"
+
+#: electrum_axe/gui/qt/address_list.py:182
+msgid "Freeze"
+msgstr ""
+
+#: electrum_axe/i18n.py:56
+msgid "French"
+msgstr ""
+
+#: electrum_axe/gui/qt/main_window.py:1111
+#: electrum_axe/gui/qt/history_list.py:110
+msgid "From"
+msgstr "從"
+
+#: electrum_axe/gui/qt/installwizard.py:619
+#, python-brace-format
+msgid "From {0} cosigners"
+msgstr ""
+
+#: electrum_axe/plugins/digitalbitbox/digitalbitbox.py:223
+msgid "Full 2FA enabled. This is not supported yet."
+msgstr ""
+
+#: electrum_axe/gui/kivy/uix/dialogs/addresses.py:120
+#: electrum_axe/gui/qt/address_list.py:51
+msgid "Funded"
+msgstr ""
+
+#: electrum_axe/plugins/digitalbitbox/digitalbitbox.py:231
+msgid "Generate a new random wallet"
+msgstr ""
+
+#: electrum_axe/plugins/revealer/qt.py:238
+msgid "Generate custom secret encrypted backup"
+msgstr ""
+
+#: electrum_axe/plugins/revealer/qt.py:218
+msgid "Generate encrypted seed backup"
+msgstr ""
+
+#: electrum_axe/i18n.py:50
+msgid "German"
+msgstr ""
+
+#: electrum_axe/i18n.py:51
+msgid "Greek"
+msgstr ""
+
+#: electrum_axe/plugin.py:401
+msgid "Handler not found for"
+msgstr ""
+
+#: electrum_axe/base_wizard.py:208
+msgid "Hardware Keystore"
+msgstr ""
+
+#: electrum_axe/gui/qt/network_dialog.py:70
+#: electrum_axe/gui/qt/utxo_list.py:33
+msgid "Height"
+msgstr "高度"
+
+#: electrum_axe/gui/kivy/main_window.py:837
+msgid "Hello World"
+msgstr "世界好"
+
+#: electrum_axe/gui/qt/installwizard.py:567
+msgid "Here is your master public key."
+msgstr "這是您的主要公鑰。"
+
+#: electrum_axe/gui/qt/main_window.py:256
+#: electrum_axe/gui/qt/main_window.py:542
+msgid "Hide"
+msgstr "隱藏"
+
+#: electrum_axe/gui/kivy/uix/ui_screens/invoice.kv:87
+msgid "Hide private key"
+msgstr ""
+
+#: electrum_axe/gui/kivy/uix/ui_screens/status.kv:74
+msgid "Hide seed"
+msgstr ""
+
+#: electrum_axe/gui/text.py:64 electrum_axe/gui/qt/address_dialog.py:81
+#: electrum_axe/gui/qt/main_window.py:152
+msgid "History"
+msgstr "歷史"
+
+#: electrum_axe/gui/kivy/uix/ui_screens/about.kv:25
+msgid "Homepage"
+msgstr ""
+
+#: electrum_axe/plugins/trezor/qt.py:511
+#: electrum_axe/plugins/safe_t/qt.py:390
+msgid "Homescreen"
+msgstr ""
+
+#: electrum_axe/gui/kivy/uix/ui_screens/proxy.kv:19
+#: electrum_axe/gui/kivy/uix/ui_screens/server.kv:19
+#: electrum_axe/gui/qt/network_dialog.py:135
+msgid "Host"
+msgstr "主機"
+
+#: electrum_axe/gui/qt/installwizard.py:584
+msgid "How do you want to connect to a server? "
+msgstr "您希望如何連接到伺服器？"
+
+#: electrum_axe/plugins/cosigner_pool/qt.py:207
+msgid ""
+"However, hardware wallets do not support message decryption, which makes "
+"them not compatible with the current design of cosigner pool."
+msgstr ""
+
+#: electrum_axe/gui/qt/seed_dialog.py:71
+msgid ""
+"However, we do not generate BIP39 seeds, because they do not meet our safety "
+"standard."
+msgstr ""
+
+#: electrum_axe/i18n.py:57
+msgid "Hungarian"
+msgstr ""
+
+#: electrum_axe/base_wizard.py:149
+msgid "I already have a seed"
+msgstr ""
+
+#: electrum_axe/gui/qt/masternode_widgets.py:42
+msgid "IP:"
+msgstr ""
+
+#: electrum_axe/gui/qt/main_window.py:3031
+msgid "Identity"
+msgstr "識別身份"
+
+#: electrum_axe/gui/qt/network_dialog.py:217
+msgid ""
+"If auto-connect is enabled, Axe Electrum will always use a server that is "
+"on the longest blockchain."
+msgstr "若有啟用自動連接，Axe Electrum 總是會使用最長區塊鏈上的伺服器。"
+
+#: electrum_axe/gui/qt/main_window.py:2923
+msgid ""
+"If enabled, at most 100 haks might be lost due to this, per transaction."
+msgstr ""
+
+#: electrum_axe/gui/qt/network_dialog.py:218
+msgid ""
+"If it is disabled, you have to choose a server you want to use. Axe "
+"Electrum will warn you if your server is lagging."
+msgstr ""
+"若停用，則您必須選擇您打算使用的伺服器。若您的伺服器有落後狀況，Axe "
+"Electrum 會警示您。"
+
+#: electrum_axe/base_wizard.py:307
+msgid "If you are not sure what this is, leave this field unchanged."
+msgstr ""
+
+#: electrum_axe/plugins/trezor/qt.py:568
+#: electrum_axe/plugins/safe_t/qt.py:447
+#: electrum_axe/plugins/keepkey/qt.py:541
+msgid ""
+"If you disable your PIN, anyone with physical access to your {} device can "
+"spend your Axe coins."
+msgstr ""
+
+#: electrum_axe/base_wizard.py:358
+msgid "If you do not know what this is, leave this field empty."
+msgstr ""
+
+#: electrum_axe/plugins/trezor/qt.py:31 electrum_axe/plugins/safe_t/qt.py:30
+#: electrum_axe/plugins/keepkey/qt.py:30
+msgid ""
+"If you forget a passphrase you will be unable to access any Axe coins in "
+"the wallet behind it.  A passphrase is not a PIN. Only change this if you "
+"are sure you understand it."
+msgstr ""
+
+#: electrum_axe/gui/kivy/uix/dialogs/installwizard.py:727
+msgid ""
+"If you forget your PIN or lose your device, your seed phrase will be the "
+"only way to recover your funds."
+msgstr ""
+"若您忘記您的 PIN 碼或遺失您的裝置，您的種苗詞彙將是還原資金的唯一方式。"
+
+#: electrum_axe/plugins/revealer/qt.py:718
+msgid "If you have an old printer, or want optimal precision"
+msgstr ""
+
+#: electrum_axe/gui/kivy/uix/dialogs/installwizard.py:620
+msgid ""
+"If you have lost your Google Authenticator account, you can request a new "
+"secret. You will need to retype your seed."
+msgstr ""
+
+#: electrum_axe/gui/qt/installwizard.py:415
+msgid "If you lose your seed, your money will be permanently lost."
+msgstr "若您失去您的種苗，您的金錢將永遠消失。"
+
+#: electrum_axe/gui/qt/installwizard.py:268
+msgid "If you use a passphrase, make sure it is correct."
+msgstr ""
+
+#: electrum_axe/gui/qt/main_window.py:1015
+msgid ""
+"If you want to create new addresses, use a deterministic wallet instead."
+msgstr "若您想要建立新位址，請改為使用決定型錢包。"
+
+#: electrum_axe/base_wizard.py:244
+msgid ""
+"If your device is not detected on Windows, go to \"Settings\", \"Devices\", "
+"\"Connected devices\", and do \"Remove device\". Then, plug your device "
+"again."
+msgstr ""
+
+#: electrum_axe/gui/qt/main_window.py:2140
+msgid "If your wallet contains funds, make sure you have saved its seed."
+msgstr ""
+
+#: electrum_axe/gui/qt/masternode_dialog.py:446
+msgid "Ignoring invalid delegate private key."
+msgstr ""
+
+#: electrum_axe/gui/qt/main_window.py:531
+#: electrum_axe/gui/qt/main_window.py:534
+#: electrum_axe/gui/qt/main_window.py:2620
+#: electrum_axe/gui/qt/masternode_dialog.py:363
+msgid "Import"
+msgstr "匯入"
+
+#: electrum_axe/base_wizard.py:167
+msgid "Import Axe Addresses"
+msgstr ""
+
+#: electrum_axe/base_wizard.py:102
+msgid "Import Axe addresses or private keys"
+msgstr ""
+
+#: electrum_axe/gui/qt/main_window.py:516
+#: electrum_axe/gui/qt/main_window.py:2642
+msgid "Import addresses"
+msgstr "匯入位址"
+
+#: electrum_axe/gui/qt/contact_list.py:66
+msgid "Import file"
+msgstr "匯入檔案"
+
+#: electrum_axe/plugins/digitalbitbox/digitalbitbox.py:273
+msgid "Import pairing from the Digital Bitbox desktop app"
+msgstr ""
+
+#: electrum_axe/gui/qt/main_window.py:2649
+msgid "Import private keys"
+msgstr "匯入私鑰"
+
+#: electrum_axe/gui/qt/main_window.py:2453
+msgid ""
+"In particular, DO NOT use 'redeem private key' services proposed by third "
+"parties."
+msgstr "強調一點，「請不要」使用第三方提供的「換回私鑰」服務。"
+
+#: electrum_axe/gui/qt/main_window.py:2879
+msgid ""
+"In some cases, use up to 3 change addresses in order to break up large coin "
+"amounts and obfuscate the recipient address."
+msgstr ""
+"在某些情況下，可藉由多達 3 個變換位址以拆分大筆金額，並模糊接收用位址。"
+
+#: electrum_axe/simple_config.py:380
+msgid "In the next block"
+msgstr ""
+
+#: electrum_axe/gui/qt/masternode_widgets.py:256
+#, fuzzy
+msgid "Include frozen addresses"
+msgstr "輸入位址"
+
+#: electrum_axe/gui/qt/history_list.py:188
+msgid "Income"
+msgstr ""
+
+#: electrum_axe/util.py:90
+msgid "Incorrect password"
+msgstr ""
+
+#: electrum_axe/plugins/digitalbitbox/digitalbitbox.py:183
+msgid "Incorrect password entered."
+msgstr ""
+
+#: electrum_axe/i18n.py:59
+msgid "Indonesian"
+msgstr ""
+
+#: electrum_axe/gui/qt/main_window.py:222
+#: electrum_axe/gui/qt/main_window.py:429 electrum_axe/gui/qt/util.py:220
+#: electrum_axe/plugins/trezor/qt.py:605
+#: electrum_axe/plugins/safe_t/qt.py:484
+#: electrum_axe/plugins/keepkey/qt.py:578
+msgid "Information"
+msgstr "資訊"
+
+#: electrum_axe/gui/qt/history_list.py:179
+msgid "Initial balance"
+msgstr ""
+
+#: electrum_axe/plugins/ledger/qt.py:78
+msgid "Initialization of Ledger HW devices is currently disabled."
+msgstr ""
+
+#: electrum_axe/plugins/trezor/trezor.py:191
+#: electrum_axe/plugins/safe_t/safe_t.py:187
+#: electrum_axe/plugins/keepkey/keepkey.py:190
+msgid "Initialize Device"
+msgstr ""
+
+#: electrum_axe/plugins/trezor/qt.py:467
+#: electrum_axe/plugins/safe_t/qt.py:346
+#: electrum_axe/plugins/keepkey/qt.py:463
+msgid "Initialized"
+msgstr ""
+
+#: electrum_axe/gui/qt/main_window.py:2412
+msgid "Input raw transaction"
+msgstr "輸入原生交易"
+
+#: electrum_axe/gui/qt/transaction_dialog.py:278
+msgid "Inputs"
+msgstr "輸入"
+
+#: electrum_axe/gui/qt/installwizard.py:107
+msgid "Install Wizard"
+msgstr "安裝精靈"
+
+#: electrum_axe/gui/qt/main_window.py:2838
+msgid "Install the zbar package to enable this."
+msgstr "請安裝 zbar 軟體包啟用此功能。"
+
+#: electrum_axe/plugins/revealer/qt.py:448
+msgid "Instructions:"
+msgstr ""
+
+#: electrum_axe/gui/qt/main_window.py:1561
+msgid "Insufficient funds"
+msgstr "餘額不足"
+
+#: electrum_axe/gui/qt/main_window.py:1884
+msgid "Invalid Address"
+msgstr "無效位址"
+
+#: electrum_axe/gui/stdio.py:172 electrum_axe/gui/text.py:329
+#: electrum_axe/gui/qt/main_window.py:1538
+msgid "Invalid Amount"
+msgstr "無效的金額"
+
+#: electrum_axe/gui/kivy/uix/screens.py:253
+#: electrum_axe/gui/qt/main_window.py:1535
+#: electrum_axe/plugins/hw_wallet/plugin.py:74
+#, fuzzy
+msgid "Invalid Axe Address"
+msgstr "無效的比特幣位址"
+
+#: electrum_axe/gui/qt/main_window.py:1749
+#, fuzzy
+msgid "Invalid Axe URI:"
+msgstr "無效的比特幣 URI："
+
+#: electrum_axe/gui/stdio.py:167 electrum_axe/gui/text.py:324
+msgid "Invalid Axe address"
+msgstr ""
+
+#: electrum_axe/gui/qt/main_window.py:2214
+#: electrum_axe/gui/qt/main_window.py:2242 electrum_axe/wallet.py:877
+msgid "Invalid Axe address."
+msgstr ""
+
+#: electrum_axe/gui/stdio.py:177 electrum_axe/gui/text.py:334
+msgid "Invalid Fee"
+msgstr ""
+
+#: electrum_axe/util.py:901
+msgid "Invalid JSON code."
+msgstr ""
+
+#: electrum_axe/gui/qt/main_window.py:1514
+msgid "Invalid Lines found:"
+msgstr "找到無效的列："
+
+#: electrum_axe/gui/kivy/main_window.py:899
+#: electrum_axe/gui/kivy/uix/dialogs/tx_dialog.py:144
+msgid "Invalid PIN"
+msgstr "無效 PIN"
+
+#: electrum_axe/gui/qt/main_window.py:2316
+msgid "Invalid Public key"
+msgstr ""
+
+#: electrum_axe/masternode_budget.py:105
+#, fuzzy
+msgid "Invalid address:"
+msgstr "無效位址"
+
+#: electrum_axe/gui/kivy/uix/screens.py:258
+msgid "Invalid amount"
+msgstr ""
+
+#: electrum_axe/gui/kivy/uix/ui_screens/invoice.kv:17
+#: electrum_axe/gui/qt/main_window.py:1913
+msgid "Invoice"
+msgstr "發票"
+
+#: electrum_axe/gui/kivy/uix/screens.py:226
+msgid "Invoice saved"
+msgstr ""
+
+#: electrum_axe/gui/qt/main_window.py:1936
+msgid "Invoice saved as "
+msgstr "發票儲存為 "
+
+#: electrum_axe/gui/kivy/uix/ui_screens/send.kv:101
+#: electrum_axe/gui/qt/main_window.py:533
+#: electrum_axe/gui/qt/main_window.py:1299
+msgid "Invoices"
+msgstr "發票"
+
+#: electrum_axe/gui/qt/installwizard.py:27
+msgid ""
+"It also contains your master public key that allows watching your addresses."
+msgstr ""
+
+#: electrum_axe/gui/qt/main_window.py:2445
+msgid "It cannot be \"backed up\" by simply exporting these private keys."
+msgstr ""
+
+#: electrum_axe/gui/qt/main_window.py:3158
+msgid "It conflicts with current history."
+msgstr ""
+
+#: electrum_axe/plugins/cosigner_pool/__init__.py:5
+msgid ""
+"It sends and receives partially signed transactions from/to your cosigner "
+"wallet."
+msgstr ""
+
+#: electrum_axe/i18n.py:60
+msgid "Italian"
+msgstr ""
+
+#: electrum_axe/i18n.py:61
+msgid "Japanese"
+msgstr ""
+
+#: electrum_axe/plugins/keepkey/qt.py:55
+msgid "KeepKey Seed Recovery"
+msgstr ""
+
+#: electrum_axe/plugins/keepkey/__init__.py:6
+msgid "KeepKey wallet"
+msgstr ""
+
+#: electrum_axe/gui/qt/main_window.py:1122
+msgid "Keyboard shortcut: type \"!\" to send all your coins."
+msgstr "鍵盤快捷鍵：輸入「!」發送您所有錢幣。"
+
+#: electrum_axe/base_wizard.py:144
+msgid "Keystore"
+msgstr ""
+
+#: electrum_axe/i18n.py:62
+msgid "Kyrgyz"
+msgstr ""
+
+#: electrum_axe/gui/qt/address_list.py:66 electrum_axe/gui/qt/utxo_list.py:33
+msgid "Label"
+msgstr ""
+
+#: electrum_axe/plugins/labels/qt.py:37
+msgid "Label Settings"
+msgstr "標籤設定"
+
+#: electrum_axe/plugins/labels/__init__.py:3
+msgid "LabelSync"
+msgstr ""
+
+#: electrum_axe/plugins/labels/__init__.py:6
+msgid ""
+"Labels, transactions IDs and addresses are encrypted before they are sent to "
+"the remote server."
+msgstr ""
+
+#: electrum_axe/gui/kivy/uix/dialogs/settings.py:121
+#: electrum_axe/gui/qt/main_window.py:2678
+#: electrum_axe/plugins/trezor/qt.py:466
+#: electrum_axe/plugins/safe_t/qt.py:345
+#: electrum_axe/plugins/keepkey/qt.py:462
+msgid "Language"
+msgstr "語言"
+
+#: electrum_axe/i18n.py:63
+msgid "Latvian"
+msgstr ""
+
+#: electrum_axe/gui/qt/installwizard.py:24
+msgid "Leave this field empty if you want to disable encryption."
+msgstr "若您想要停用加密功能，則請將此欄留空。"
+
+#: electrum_axe/plugins/ledger/qt.py:48
+msgid "Ledger Status"
+msgstr ""
+
+#: electrum_axe/plugins/ledger/auth2fa.py:49
+msgid "Ledger Wallet Authentication"
+msgstr ""
+
+#: electrum_axe/plugins/ledger/__init__.py:6
+msgid "Ledger wallet"
+msgstr ""
+
+#: electrum_axe/plugins/trezor/trezor.py:171
+#: electrum_axe/plugins/safe_t/safe_t.py:170
+#: electrum_axe/plugins/keepkey/keepkey.py:173
+msgid "Let the device generate a completely new seed randomly"
+msgstr ""
+
+#: electrum_axe/plugins/hw_wallet/plugin.py:100
+msgid "Library version for '{}' is too old."
+msgstr ""
+
+#: electrum_axe/gui/kivy/uix/ui_screens/about.kv:19
+msgid "Licence"
+msgstr ""
+
+#: electrum_axe/gui/qt/main_window.py:2846
+msgid "Light"
+msgstr ""
+
+#: electrum_axe/gui/qt/main_window.py:1514
+msgid "Line #"
+msgstr "列 #"
+
+#: electrum_axe/plugins/digitalbitbox/digitalbitbox.py:232
+msgid "Load a wallet from the micro SD card"
+msgstr ""
+
+#: electrum_axe/plugins/digitalbitbox/digitalbitbox.py:209
+msgid "Load a wallet from the micro SD card (the current seed is overwritten)"
+msgstr ""
+
+#: electrum_axe/gui/qt/main_window.py:2412
+msgid "Load transaction"
+msgstr "載入交易"
+
+#: electrum_axe/plugins/digitalbitbox/digitalbitbox.py:325
+msgid "Loading backup..."
+msgstr ""
+
+#: electrum_axe/wallet.py:67 electrum_axe/wallet.py:344
+msgid "Local"
+msgstr ""
+
+#: electrum_axe/gui/qt/main_window.py:2426
+msgid "Lookup transaction"
+msgstr "查找交易"
+
+#: electrum_axe/simple_config.py:378
+msgid "Low fee"
+msgstr ""
+
+#: electrum_axe/plugins/ledger/ledger.py:555
+#: electrum_axe/plugins/trezor/trezor.py:268
+#: electrum_axe/plugins/safe_t/safe_t.py:257
+#: electrum_axe/plugins/digitalbitbox/digitalbitbox.py:701
+#: electrum_axe/plugins/keepkey/keepkey.py:237
+msgid "Make sure it is in the correct state."
+msgstr ""
+
+#: electrum_axe/plugins/hw_wallet/plugin.py:112
+msgid "Make sure you install it with python3"
+msgstr ""
+
+#: electrum_axe/gui/qt/main_window.py:427
+#, fuzzy
+msgid ""
+"Make sure you own the seed phrase or the private keys, before you request "
+"Axe coins to be sent to this wallet."
+msgstr "在您請求比特幣發送到此錢包之前，請確認您擁有的種苗詞彙或私鑰。"
+
+#: electrum_axe/gui/kivy/main_window.py:638
+#: electrum_axe/gui/kivy/main_window.py:640
+#: electrum_axe/gui/kivy/uix/ui_screens/status.kv:58
+#: electrum_axe/gui/kivy/uix/ui_screens/status.kv:61
+#: electrum_axe/gui/kivy/uix/dialogs/installwizard.py:890
+#: electrum_axe/gui/kivy/uix/dialogs/installwizard.py:894
+#: electrum_axe/gui/qt/main_window.py:2128
+#: electrum_axe/gui/qt/installwizard.py:573
+msgid "Master Public Key"
+msgstr "主要公鑰"
+
+#: electrum_axe/gui/qt/main_window.py:2125
+msgid "Master Public Keys"
+msgstr "主要公鑰"
+
+#: electrum_axe/gui/qt/masternode_dialog.py:268
+msgid "Masternode Manager"
+msgstr ""
+
+#: electrum_axe/gui/qt/masternode_widgets.py:300
+msgid "Masternode Outputs:"
+msgstr ""
+
+#: electrum_axe/gui/qt/masternode_widgets.py:197
+#: electrum_axe/gui/qt/masternode_widgets.py:399
+#, fuzzy
+msgid "Masternode Private Key:"
+msgstr "輸入私鑰："
+
+#: electrum_axe/gui/qt/masternode_dialog.py:553
+#, fuzzy
+msgid "Masternode activated successfully."
+msgstr "密碼已成功供新"
+
+#: electrum_axe/gui/qt/masternode_widgets.py:350
+msgid "Masternode already has a collateral payment."
+msgstr ""
+
+#: electrum_axe/gui/qt/masternode_widgets.py:22
+#: electrum_axe/gui/qt/masternode_widgets.py:24
+msgid "Masternode failed to ping the network and was disabled."
+msgstr ""
+
+#: electrum_axe/gui/qt/masternode_widgets.py:344
+msgid "Masternode has no collateral payment assigned."
+msgstr ""
+
+#: electrum_axe/gui/qt/masternode_dialog.py:583
+msgid "Masternode has not been activated."
+msgstr ""
+
+#: electrum_axe/gui/qt/masternode_widgets.py:29
+msgid "Masternode has not been seen on the network."
+msgstr ""
+
+#: electrum_axe/gui/qt/masternode_widgets.py:21
+msgid "Masternode is enabled."
+msgstr ""
+
+#: electrum_axe/gui/qt/masternode_widgets.py:190
+msgid "Masternode status"
+msgstr ""
+
+#: electrum_axe/gui/qt/masternode_dialog.py:287
+msgid "Masternode.conf"
+msgstr ""
+
+#: electrum_axe/gui/qt/main_window.py:552
+msgid "Masternodes"
+msgstr ""
+
+#: electrum_axe/gui/qt/masternode_dialog.py:297
+msgid "Masternodes:"
+msgstr ""
+
+#: electrum_axe/plugins/trezor/qt.py:270
+msgid "Matrix"
+msgstr ""
+
+#: electrum_axe/gui/qt/main_window.py:1134
+msgid "Max"
+msgstr "最大"
+
+#: electrum_axe/gui/qt/main_window.py:1922
+msgid "Memo"
+msgstr "備忘錄"
+
+#: electrum_axe/gui/kivy/uix/dialogs/tx_dialog.py:115
+msgid "Mempool depth"
+msgstr ""
+
+#: electrum_axe/gui/qt/main_window.py:2262
+#: electrum_axe/gui/qt/main_window.py:2328
+msgid "Message"
+msgstr "訊息"
+
+#: electrum_axe/plugins/ledger/auth2fa.py:84
+msgid "Method:"
+msgstr ""
+
+#: electrum_axe/gui/kivy/uix/screens.py:281
+#: electrum_axe/gui/qt/main_window.py:1589
+msgid "Mining fee"
+msgstr "挖礦手續費"
+
+#: electrum_axe/plugins/hw_wallet/plugin.py:111
+msgid "Missing libraries for {}."
+msgstr ""
+
+#: electrum_axe/base_crash_reporter.py:66
+msgid "Missing report URL."
+msgstr ""
+
+#: electrum_axe/plugins/ledger/auth2fa.py:179
+msgid "Mobile - Not paired"
+msgstr ""
+
+#: electrum_axe/plugins/ledger/auth2fa.py:181
+msgid "Mobile - {}"
+msgstr ""
+
+#: electrum_axe/plugins/digitalbitbox/digitalbitbox.py:276
+msgid "Mobile pairing options"
+msgstr ""
+
+#: electrum_axe/gui/qt/masternode_budget_widgets.py:268
+msgid "Monthly AXE Payment:"
+msgstr ""
+
+#: electrum_axe/gui/qt/masternode_budget_widgets.py:211
+msgid "Monthly Payment:"
+msgstr ""
+
+#: electrum_axe/gui/qt/installwizard.py:630
+msgid "Multi-Signature Wallet"
+msgstr "多重簽章錢包"
+
+#: electrum_axe/base_wizard.py:101
+msgid "Multi-signature wallet"
+msgstr "多重簽章錢包"
+
+#: electrum_axe/plugins/revealer/qt.py:247
+msgid "Multiple secrets encrypted for the same Revealer can be attacked."
+msgstr ""
+
+#: electrum_axe/gui/qt/masternode_widgets.py:29
+msgid "N/A"
+msgstr ""
+
+#: electrum_axe/plugins/ledger/auth2fa.py:112
+#: electrum_axe/plugins/ledger/auth2fa.py:150
+msgid "NOT DEVICE PIN - see above"
+msgstr ""
+
+#: electrum_axe/gui/qt/masternode_budget_widgets.py:41
+#: electrum_axe/gui/qt/masternode_budget_widgets.py:404
+#: electrum_axe/gui/qt/main_window.py:2089
+#: electrum_axe/gui/qt/contact_list.py:42
+msgid "Name"
+msgstr "名稱"
+
+#: electrum_axe/gui/qt/masternode_budget_widgets.py:241
+msgid "Name of your proposal"
+msgstr ""
+
+#: electrum_axe/plugins/trezor/qt.py:480
+#: electrum_axe/plugins/safe_t/qt.py:359
+#: electrum_axe/plugins/keepkey/qt.py:476
+msgid ""
+"Name this {}.  If you have multiple devices their labels help distinguish "
+"them."
+msgstr ""
+
+#: electrum_axe/gui/qt/masternode_budget_widgets.py:208
+#, fuzzy
+msgid "Name:"
+msgstr "名稱"
+
+#: electrum_axe/gui/text.py:150
+#: electrum_axe/gui/kivy/uix/ui_screens/network.kv:3
+#: electrum_axe/gui/kivy/main.kv:453 electrum_axe/gui/qt/main_window.py:2009
+#: electrum_axe/gui/qt/network_dialog.py:46
+msgid "Network"
+msgstr "網路"
+
+#: electrum_axe/gui/kivy/uix/dialogs/invoices.py:128
+#: electrum_axe/gui/qt/invoice_list.py:49
+#: electrum_axe/gui/qt/exception_window.py:78 electrum_axe/gui/qt/util.py:47
+#: electrum_axe/gui/qt/request_list.py:58
+msgid "Never"
+msgstr "不要"
+
+#: electrum_axe/gui/qt/seed_dialog.py:46
+msgid "Never disclose your seed."
+msgstr "永不揭露您的種苗。"
+
+#: electrum_axe/gui/qt/seed_dialog.py:47
+msgid "Never type it on a website."
+msgstr "永不在網站上輸入這些內容。"
+
+#: electrum_axe/gui/kivy/uix/ui_screens/receive.kv:139
+#: electrum_axe/gui/qt/main_window.py:880
+msgid "New"
+msgstr "新增"
+
+#: electrum_axe/gui/qt/main_window.py:2079
+#: electrum_axe/gui/qt/main_window.py:2081
+msgid "New Contact"
+msgstr "新聯絡人"
+
+#: electrum_axe/gui/qt/password_dialog.py:98
+msgid "New Password:"
+msgstr "新密碼："
+
+#: electrum_axe/gui/qt/contact_list.py:65
+msgid "New contact"
+msgstr "新聯絡人"
+
+#: electrum_axe/gui/qt/main_window.py:643
+msgid "New transaction received: {}"
+msgstr ""
+
+#: electrum_axe/gui/qt/installwizard.py:118
+#: electrum_axe/plugins/revealer/qt.py:95
+msgid "Next"
+msgstr "下一個"
+
+#: electrum_axe/gui/qt/masternode_budget_widgets.py:201
+#: electrum_axe/plugins/trezor/qt.py:340
+#: electrum_axe/plugins/safe_t/qt.py:219
+#: electrum_axe/plugins/keepkey/qt.py:341
+msgid "No"
+msgstr ""
+
+#: electrum_axe/gui/qt/masternode_widgets.py:322
+msgid "No 1000 AXE outputs were found."
+msgstr ""
+
+#: electrum_axe/gui/kivy/uix/dialogs/invoices.py:125
+msgid "No Amount"
+msgstr ""
+
+#: electrum_axe/util.py:159
+msgid "No Data"
+msgstr ""
+
+#: electrum_axe/gui/kivy/uix/ui_screens/send.kv:72
+msgid "No Description"
+msgstr ""
+
+#: electrum_axe/gui/qt/masternode_budget_widgets.py:44
+#: electrum_axe/gui/qt/masternode_budget_widgets.py:404
+msgid "No Votes"
+msgstr ""
+
+#: electrum_axe/gui/kivy/main_window.py:722
+msgid "No Wallet"
+msgstr "無錢包"
+
+#: electrum_axe/exchange_rate.py:355
+msgid "No data"
+msgstr ""
+
+#: electrum_axe/gui/qt/main_window.py:600
+msgid "No donation address for this server"
+msgstr "此伺服器無捐款位址"
+
+#: electrum_axe/base_wizard.py:239
+msgid "No exceptions encountered."
+msgstr ""
+
+#: electrum_axe/gui/kivy/uix/ui_screens/network.kv:55
+msgid "No fork detected"
+msgstr ""
+
+#: electrum_axe/base_wizard.py:242
+msgid "No hardware device detected."
+msgstr ""
+
+#: electrum_axe/base_wizard.py:213
+msgid "No hardware wallet support found on your system."
+msgstr ""
+
+#: electrum_axe/wallet.py:127
+msgid "No inputs found. (Note that inputs need to be confirmed)"
+msgstr ""
+
+#: electrum_axe/gui/qt/main_window.py:968
+msgid "No message or amount"
+msgstr "無訊息或金額"
+
+#: electrum_axe/gui/qt/main_window.py:1013
+msgid "No more addresses in your wallet."
+msgstr "您的錢包中沒有其他位址。"
+
+#: electrum_axe/gui/qt/main_window.py:1527
+msgid "No outputs"
+msgstr "無輸出"
+
+#: electrum_axe/gui/kivy/main_window.py:951
+msgid "No saved invoices."
+msgstr ""
+
+#: electrum_axe/gui/kivy/main_window.py:963
+msgid "No saved requests."
+msgstr ""
+
+#: electrum_axe/gui/kivy/main_window.py:296
+msgid "No wallet loaded."
+msgstr ""
+
+#: electrum_axe/gui/kivy/uix/ui_screens/network.kv:30
+#: electrum_axe/gui/kivy/uix/dialogs/fx_dialog.py:97
+#: electrum_axe/gui/kivy/uix/dialogs/fx_dialog.py:98
+#: electrum_axe/gui/kivy/uix/dialogs/fx_dialog.py:103
+#: electrum_axe/gui/kivy/uix/dialogs/settings.py:148
+#: electrum_axe/gui/kivy/uix/dialogs/settings.py:202
+#: electrum_axe/gui/qt/main_window.py:2939
+#: electrum_axe/gui/qt/history_list.py:72
+#: electrum_axe/gui/qt/network_dialog.py:351
+msgid "None"
+msgstr "無"
+
+#: electrum_axe/i18n.py:64
+msgid "Norwegian Bokmal"
+msgstr ""
+
+#: electrum_axe/gui/qt/exception_window.py:82
+msgid "Not Now"
+msgstr ""
+
+#: electrum_axe/wallet.py:66
+msgid "Not Verified"
+msgstr ""
+
+#: electrum_axe/gui/kivy/uix/screens.py:179
+msgid "Not a Axe URI"
+msgstr ""
+
+#: electrum_axe/gui/stdio.py:122 electrum_axe/gui/text.py:143
+#: electrum_axe/gui/kivy/main_window.py:926
+#: electrum_axe/gui/kivy/uix/ui_screens/network.kv:14
+#: electrum_axe/gui/qt/main_window.py:782
+#: electrum_axe/gui/qt/main_window.py:784
+#: electrum_axe/gui/qt/network_dialog.py:362
+msgid "Not connected"
+msgstr "未連接"
+
+#: electrum_axe/gui/kivy/uix/screens.py:272
+#: electrum_axe/gui/qt/main_window.py:1272
+msgid "Not enough funds"
+msgstr "餘額不足"
+
+#: electrum_axe/wallet.py:140 electrum_axe/wallet.py:142
+msgid "Not enough funds on address."
+msgstr ""
+
+#: electrum_axe/wallet.py:334
+msgid "Not verified"
+msgstr ""
+
+#: electrum_axe/gui/qt/main_window.py:1121
+msgid ""
+"Note that if you have frozen some of your addresses, the available funds "
+"will be lower than your total balance."
+msgstr "請注意，若您已凍結某些位址，可用餘額會少於您的總存額。"
+
+#: electrum_axe/base_wizard.py:357
+msgid "Note that this is NOT your encryption password."
+msgstr ""
+
+#: electrum_axe/gui/qt/installwizard.py:28
+#: electrum_axe/gui/qt/password_dialog.py:274
+msgid ""
+"Note: If you enable this setting, you will need your hardware device to open "
+"your wallet."
+msgstr ""
+
+#: electrum_axe/gui/qt/main_window.py:3168
+msgid ""
+"Note: this is an offline transaction, if you want the network to see it, you "
+"need to broadcast it."
+msgstr ""
+
+#: electrum_axe/gui/kivy/uix/dialogs/__init__.py:95
+msgid "Nothing set !"
+msgstr "沒有設定任何項目！"
+
+#: electrum_axe/plot.py:15
+msgid "Nothing to plot."
+msgstr ""
+
+#: electrum_axe/gui/qt/history_list.py:167
+msgid "Nothing to summarize."
+msgstr ""
+
+#: electrum_axe/gui/qt/masternode_budget_widgets.py:265
+msgid "Number of Payments:"
+msgstr ""
+
+#: electrum_axe/gui/qt/main_window.py:2699
+msgid ""
+"Number of zeros displayed after the decimal point. For example, if this is "
+"set to 2, \"1.\" will be displayed as \"1.00\""
+msgstr "小數點後方的顯示位數。舉例而言，若設定為 2，「1.」會顯示為「1.00」。"
+
+#: electrum_axe/gui/kivy/uix/ui_screens/proxy.kv:64
+#: electrum_axe/gui/kivy/uix/ui_screens/server.kv:57
+#: electrum_axe/gui/qt/util.py:174 electrum_axe/plugins/audio_modem/qt.py:65
+msgid "OK"
+msgstr "確定"
+
+#: electrum_axe/plugins/revealer/qt.py:223
+msgid "OR type any secret below:"
+msgstr ""
+
+#: electrum_axe/gui/text.py:131 electrum_axe/gui/kivy/main_window.py:725
+#: electrum_axe/gui/qt/main_window.py:748 electrum_axe/gui/qt/__init__.py:183
+msgid "Offline"
+msgstr "離線"
+
+#: electrum_axe/plugins/ledger/ledger.py:349
+#: electrum_axe/plugins/trezor/trezor.py:55
+#: electrum_axe/plugins/safe_t/safe_t.py:54
+#: electrum_axe/plugins/keepkey/keepkey.py:55
+msgid "Offline signing with {} is not supported for legacy inputs."
+msgstr ""
+
+#: electrum_axe/base_wizard.py:245
+msgid "On Linux, you might have to add a new permission to your udev rules."
+msgstr ""
+
+#: electrum_axe/plugins/revealer/__init__.py:10
+msgid ""
+"Once activated you can access the plug-in through the icon at the seed "
+"dialog."
+msgstr ""
+
+#: electrum_axe/gui/qt/main_window.py:1865
+msgid "One output per line."
+msgstr "每列一則輸出。"
+
+#: electrum_axe/gui/qt/main_window.py:2819
+msgid "Online Block Explorer"
+msgstr "線上區塊探索器"
+
+#: electrum_axe/plugins/hw_wallet/plugin.py:134
+msgid "Only OP_RETURN scripts, with one constant push, are supported."
+msgstr ""
+
+#: electrum_axe/masternode_budget.py:108
+msgid "Only P2PKH addresses are currently supported."
+msgstr ""
+
+#: electrum_axe/plugins/trezor/qt.py:593
+#: electrum_axe/plugins/safe_t/qt.py:472
+#: electrum_axe/plugins/keepkey/qt.py:566
+msgid ""
+"Only wipe a device if you have the recovery seed written down and the device "
+"wallet(s) are empty, otherwise the Axe coins will be lost forever."
+msgstr ""
+
+#: electrum_axe/plugins/revealer/qt.py:723
+msgid "Open calibration pdf"
+msgstr ""
+
+#: electrum_axe/plugins/cosigner_pool/qt.py:176
+msgid "Open your cosigner wallet to retrieve it."
+msgstr ""
+
+#: electrum_axe/gui/qt/util.py:756
+msgid "Open {} file"
+msgstr ""
+
+#: electrum_axe/gui/qt/main_window.py:2745
+msgid "OpenAlias"
+msgstr "OpenAlias"
+
+#: electrum_axe/gui/qt/main_window.py:2741
+msgid "OpenAlias record, used to receive coins and to sign payment requests."
+msgstr "OpenAlias 記錄，用於接收錢幣並簽署支付請求。"
+
+#: electrum_axe/util.py:115
+msgid "Operation timed out."
+msgstr ""
+
+#: electrum_axe/gui/qt/seed_dialog.py:129
+msgid "Options"
+msgstr "選項"
+
+#: electrum_axe/plugins/trezor/trezor.py:134
+#: electrum_axe/plugins/safe_t/safe_t.py:133
+#: electrum_axe/plugins/keepkey/keepkey.py:136
+msgid ""
+"Outdated {} firmware for device labelled {}. Please download the updated "
+"firmware from {}"
+msgstr ""
+
+#: electrum_axe/gui/qt/masternode_widgets.py:106
+#, fuzzy
+msgid "Output Index:"
+msgstr "輸出金額"
+
+#: electrum_axe/gui/qt/utxo_list.py:33
+msgid "Output point"
+msgstr ""
+
+#: electrum_axe/gui/kivy/uix/ui_screens/invoice.kv:62
+#: electrum_axe/gui/qt/transaction_dialog.py:316
+msgid "Outputs"
+msgstr "輸出"
+
+#: electrum_axe/gui/qt/network_dialog.py:196
+msgid "Overview"
+msgstr "概覽"
+
+#: electrum_axe/plugins/trezor/qt.py:497
+#: electrum_axe/plugins/safe_t/qt.py:376
+#: electrum_axe/plugins/keepkey/qt.py:493
+msgid "PIN Protection"
+msgstr ""
+
+#: electrum_axe/gui/kivy/main_window.py:1051
+msgid "PIN codes do not match"
+msgstr ""
+
+#: electrum_axe/gui/kivy/uix/dialogs/installwizard.py:1034
+msgid "PIN mismatch"
+msgstr "PIN 碼不符"
+
+#: electrum_axe/plugins/trezor/qt.py:502
+#: electrum_axe/plugins/safe_t/qt.py:381
+#: electrum_axe/plugins/keepkey/qt.py:498
+msgid ""
+"PIN protection is strongly recommended.  A PIN is your only protection "
+"against someone stealing your Axe coins if they obtain physical access to "
+"your {}."
+msgstr ""
+
+#: electrum_axe/plugins/trezor/qt.py:461
+#: electrum_axe/plugins/safe_t/qt.py:340
+#: electrum_axe/plugins/keepkey/qt.py:456
+msgid "PIN set"
+msgstr ""
+
+#: electrum_axe/gui/kivy/uix/dialogs/invoices.py:87
+#: electrum_axe/gui/qt/util.py:39
+msgid "Paid"
+msgstr "已支付"
+
+#: electrum_axe/plugins/ledger/auth2fa.py:87
+#: electrum_axe/plugins/ledger/auth2fa.py:187
+msgid "Pair"
+msgstr ""
+
+#: electrum_axe/wallet.py:351
+msgid "Partially signed"
+msgstr ""
+
+#: electrum_axe/gui/kivy/main_window.py:1034
+msgid "Passphrase"
+msgstr "密語"
+
+#: electrum_axe/gui/qt/password_dialog.py:84
+msgid "Passphrase:"
+msgstr "密語："
+
+#: electrum_axe/plugins/trezor/qt.py:462
+#: electrum_axe/plugins/safe_t/qt.py:341
+#: electrum_axe/plugins/keepkey/qt.py:457
+msgid "Passphrases"
+msgstr ""
+
+#: electrum_axe/plugins/trezor/qt.py:20 electrum_axe/plugins/safe_t/qt.py:19
+#: electrum_axe/plugins/keepkey/qt.py:19
+msgid ""
+"Passphrases allow you to access new wallets, each hidden behind a particular "
+"case-sensitive passphrase."
+msgstr ""
+
+#: electrum_axe/gui/kivy/uix/ui_screens/proxy.kv:47
+#: electrum_axe/gui/qt/main_window.py:2003
+#: electrum_axe/gui/qt/installwizard.py:173
+#: electrum_axe/gui/qt/network_dialog.py:250
+#: electrum_axe/gui/qt/password_dialog.py:295
+msgid "Password"
+msgstr "密碼"
+
+#: electrum_axe/gui/qt/password_dialog.py:148
+msgid "Password Strength"
+msgstr "密碼強度"
+
+#: electrum_axe/gui/qt/main_window.py:2058
+msgid "Password is disabled, this wallet is not protected"
+msgstr "密碼已停用，此錢包尚未受到保護"
+
+#: electrum_axe/plugins/digitalbitbox/digitalbitbox.py:134
+#: electrum_axe/plugins/digitalbitbox/digitalbitbox.py:149
+msgid "Password must have at least 4 characters."
+msgstr ""
+
+#: electrum_axe/plugins/digitalbitbox/digitalbitbox.py:137
+#: electrum_axe/plugins/digitalbitbox/digitalbitbox.py:152
+msgid "Password must have less than 64 characters."
+msgstr ""
+
+#: electrum_axe/gui/qt/main_window.py:2058
+msgid "Password was updated successfully"
+msgstr "密碼已成功供新"
+
+#: electrum_axe/gui/qt/password_dialog.py:98
+msgid "Password:"
+msgstr "密碼："
+
+#: electrum_axe/gui/kivy/uix/ui_screens/send.kv:105
+msgid "Paste"
+msgstr ""
+
+#: electrum_axe/gui/kivy/uix/ui_screens/send.kv:121
+msgid "Pay"
+msgstr ""
+
+#: electrum_axe/gui/qt/invoice_list.py:81
+msgid "Pay Now"
+msgstr "立刻支付"
+
+#: electrum_axe/gui/text.py:173 electrum_axe/gui/qt/main_window.py:1095
+#: electrum_axe/gui/qt/contact_list.py:78
+msgid "Pay to"
+msgstr "支付給"
+
+#: electrum_axe/gui/qt/main_window.py:1869
+msgid "Pay to many"
+msgstr "支付給多方"
+
+#: electrum_axe/gui/qt/masternode_budget_widgets.py:212
+#: electrum_axe/gui/qt/masternode_budget_widgets.py:267
+#, fuzzy
+msgid "Payment Address:"
+msgstr "位址："
+
+#: electrum_axe/gui/qt/qrwindow.py:49
+msgid "Payment Request"
+msgstr "支付請求"
+
+#: electrum_axe/masternode_budget.py:125
+msgid "Payment is more than max"
+msgstr ""
+
+#: electrum_axe/gui/kivy/uix/screens.py:320
+#: electrum_axe/gui/kivy/uix/screens.py:348
+msgid "Payment received"
+msgstr ""
+
+#: electrum_axe/gui/kivy/main_window.py:308
+#: electrum_axe/gui/kivy/uix/screens.py:244
+#: electrum_axe/gui/qt/main_window.py:1505
+#: electrum_axe/gui/qt/main_window.py:1651
+msgid "Payment request has expired"
+msgstr "支付請求已過期"
+
+#: electrum_axe/gui/stdio.py:206 electrum_axe/gui/text.py:357
+#: electrum_axe/gui/kivy/main_window.py:911
+#: electrum_axe/gui/qt/main_window.py:1673
+msgid "Payment sent."
+msgstr "支付已送出。"
+
+#: electrum_axe/masternode_budget.py:111
+msgid "Payments must be at least 1 AXE."
+msgstr ""
+
+#: electrum_axe/gui/kivy/uix/dialogs/invoices.py:85
+#: electrum_axe/gui/kivy/uix/dialogs/requests.py:89
+#: electrum_axe/gui/qt/util.py:38
+msgid "Pending"
+msgstr "擱置中"
+
+#: electrum_axe/gui/qt/history_list.py:207
+msgid "Perhaps some dependencies are missing..."
+msgstr ""
+
+#: electrum_axe/i18n.py:55
+msgid "Persian"
+msgstr ""
+
+#: electrum_axe/base_crash_reporter.py:57
+msgid "Please briefly describe what led to the error (optional):"
+msgstr ""
+
+#: electrum_axe/plugins/email_requests/qt.py:252
+msgid "Please check your connection and credentials."
+msgstr ""
+
+#: electrum_axe/gui/kivy/uix/dialogs/crash_reporter.py:120
+msgid "Please check your network connection."
+msgstr ""
+
+#: electrum_axe/plugins/hw_wallet/qt.py:150
+msgid "Please check your {} device"
+msgstr ""
+
+#: electrum_axe/gui/qt/history_list.py:366
+msgid "Please confirm"
+msgstr ""
+
+#: electrum_axe/gui/qt/installwizard.py:393
+msgid "Please enter the master public key (xpub) of your cosigner."
+msgstr "請輸入您共同簽署者的主要公鑰 (xpub)。"
+
+#: electrum_axe/gui/qt/main_window.py:949
+#: electrum_axe/gui/qt/password_dialog.py:287
+msgid "Please enter your password"
+msgstr "請輸入您的密碼"
+
+#: electrum_axe/gui/qt/masternode_dialog.py:518
+#, fuzzy, python-format
+msgid "Please enter your password to activate masternode \"%s\"."
+msgstr "請輸入您的密碼"
+
+#: electrum_axe/gui/qt/masternode_budget_widgets.py:338
+#, fuzzy
+msgid "Please enter your password to create a budget proposal."
+msgstr "請輸入您的種苗詞彙以還原您的錢包。"
+
+#: electrum_axe/plugins/cosigner_pool/qt.py:212
+msgid "Please enter your password to decrypt it."
+msgstr ""
+
+#: electrum_axe/gui/qt/masternode_dialog.py:389
+#, fuzzy
+msgid "Please enter your password to import Masternode information."
+msgstr "請輸入您的種苗詞彙以還原您的錢包。"
+
+#: electrum_axe/gui/qt/installwizard.py:406
+msgid "Please enter your seed phrase in order to restore your wallet."
+msgstr "請輸入您的種苗詞彙以還原您的錢包。"
+
+#: electrum_axe/plugin.py:483
+msgid "Please insert your {}"
+msgstr ""
+
+#: electrum_axe/base_wizard.py:214
+msgid "Please install the relevant libraries (eg python-trezor for Trezor)."
+msgstr ""
+
+#: electrum_axe/gui/kivy/uix/dialogs/installwizard.py:1018
+msgid ""
+"Please paste your cosigners master public key, or scan it using the camera "
+"button."
+msgstr "請貼上您的共同簽署者主要公鑰，或例用相機按鈕掃描。"
+
+#: electrum_axe/gui/qt/main_window.py:614
+msgid "Please report any bugs as issues on github:<br/>"
+msgstr "請前往 github 將臭蟲以議題回報：<br/>"
+
+#: electrum_axe/gui/qt/exception_window.py:98
+msgid "Please report this issue manually."
+msgstr ""
+
+#: electrum_axe/gui/qt/main_window.py:3062
+msgid "Please restart Axe Electrum to activate the new GUI settings"
+msgstr "請重新啟動 Axe Electrum 以啟動新 GUI 設定"
+
+#: electrum_axe/gui/kivy/uix/dialogs/installwizard.py:991
+msgid "Please retype your seed phrase, to confirm that you properly saved it"
+msgstr "請重新輸入您的種苗詞彙，方便確認您有正確儲存"
+
+#: electrum_axe/gui/qt/seed_dialog.py:40
+#, python-brace-format
+msgid "Please save these {0} words on paper (order is important). "
+msgstr ""
+
+#: electrum_axe/gui/kivy/uix/screens.py:250
+msgid "Please scan a Axe address or a payment request"
+msgstr ""
+
+#: electrum_axe/plugin.py:500
+msgid "Please select which {} device to use:"
+msgstr ""
+
+#: electrum_axe/gui/qt/installwizard.py:568
+msgid "Please share it with your cosigners."
+msgstr "請和您的共同簽署者分享。"
+
+#: electrum_axe/gui/qt/transaction_dialog.py:49
+msgid "Please sign this transaction in order to save it"
+msgstr ""
+
+#: electrum_axe/base_wizard.py:270
+msgid "Please try again."
+msgstr ""
+
+#: electrum_axe/base_wizard.py:539
+msgid "Please type it here."
+msgstr ""
+
+#: electrum_axe/gui/kivy/uix/dialogs/installwizard.py:766
+msgid "Please type your seed phrase using the virtual keyboard."
+msgstr "請使用虛擬鍵盤輸入您的種苗詞彙。"
+
+#: electrum_axe/gui/kivy/uix/screens.py:399
+msgid "Please use the existing requests first."
+msgstr ""
+
+#: electrum_axe/gui/qt/util.py:253
+msgid "Please wait"
+msgstr "請稍候"
+
+#: electrum_axe/gui/stdio.py:202 electrum_axe/gui/text.py:353
+#: electrum_axe/gui/kivy/uix/dialogs/password_dialog.py:125
+#: electrum_axe/gui/qt/installwizard.py:121 electrum_axe/wallet.py:640
+msgid "Please wait..."
+msgstr "請稍候..."
+
+#: electrum_axe/i18n.py:66
+msgid "Polish"
+msgstr ""
+
+#: electrum_axe/gui/kivy/uix/ui_screens/proxy.kv:28
+#: electrum_axe/gui/kivy/uix/ui_screens/server.kv:31
+#: electrum_axe/gui/qt/network_dialog.py:135
+msgid "Port"
+msgstr "連接埠"
+
+#: electrum_axe/gui/qt/masternode_widgets.py:44
+#, fuzzy
+msgid "Port:"
+msgstr "連接埠"
+
+#: electrum_axe/i18n.py:68
+msgid "Portuguese"
+msgstr ""
+
+#: electrum_axe/gui/qt/transaction_dialog.py:251
+msgid "Position in mempool: {} from tip"
+msgstr ""
+
+#: electrum_axe/gui/qt/main_window.py:557
+#: electrum_axe/gui/qt/main_window.py:1205
+#: electrum_axe/gui/qt/main_window.py:2006
+#: electrum_axe/gui/qt/main_window.py:2667
+msgid "Preferences"
+msgstr "偏好設定"
+
+#: electrum_axe/gui/qt/installwizard.py:212
+msgid "Press 'Next' to choose device to decrypt."
+msgstr ""
+
+#: electrum_axe/gui/qt/installwizard.py:203
+msgid "Press 'Next' to create this wallet, or choose another file."
+msgstr "請按「下一步」建立此錢包，或是選擇其他檔案。"
+
+#: electrum_axe/gui/qt/installwizard.py:219
+msgid "Press 'Next' to create/focus window."
+msgstr ""
+
+#: electrum_axe/gui/qt/installwizard.py:215
+msgid "Press 'Next' to open this wallet."
+msgstr "請按「下一步」開啟此錢包。"
+
+#: electrum_axe/plugins/ledger/auth2fa.py:139
+msgid "Press Enter"
+msgstr ""
+
+#: electrum_axe/gui/kivy/main_window.py:613
+msgid "Press again to exit"
+msgstr "再按一次離開"
+
+#: electrum_axe/gui/qt/main_window.py:1240
+msgid "Preview"
+msgstr "預覽"
+
+#: electrum_axe/plugins/revealer/qt.py:70
+msgid "Printer Calibration"
+msgstr ""
+
+#: electrum_axe/plugins/revealer/qt.py:118
+msgid "Printing a revealer and encrypted seed"
+msgstr ""
+
+#: electrum_axe/gui/kivy/uix/ui_screens/invoice.kv:55
+msgid "Private Key"
+msgstr ""
+
+#: electrum_axe/gui/qt/main_window.py:2185
+#: electrum_axe/gui/qt/main_window.py:2190
+#: electrum_axe/gui/qt/address_list.py:171
+msgid "Private key"
+msgstr "私鑰"
+
+#: electrum_axe/gui/qt/main_window.py:2447
+msgid "Private keys"
+msgstr "私鑰"
+
+#: electrum_axe/gui/qt/main_window.py:2527
+msgid "Private keys exported."
+msgstr "私鑰已匯出。"
+
+#: electrum_axe/gui/qt/main_window.py:1608
+msgid "Proceed?"
+msgstr "繼續？"
+
+#: electrum_axe/gui/qt/masternode_budget_widgets.py:263
+msgid "Proposal Name:"
+msgstr ""
+
+#: electrum_axe/gui/qt/masternode_budget_widgets.py:264
+msgid "Proposal URL:"
+msgstr ""
+
+#: electrum_axe/masternode_budget.py:97
+msgid "Proposal URLs have a limit of 64 characters."
+msgstr ""
+
+#: electrum_axe/masternode_budget.py:90
+msgid "Proposal names have a limit of 20 characters."
+msgstr ""
+
+#: electrum_axe/gui/qt/masternode_budget_widgets.py:151
+msgid "Proposals:"
+msgstr ""
+
+#: electrum_axe/gui/qt/masternode_widgets.py:199
+msgid "Protocol Version:"
+msgstr ""
+
+#: electrum_axe/plugins/digitalbitbox/__init__.py:4
+msgid "Provides support for Digital Bitbox hardware wallet"
+msgstr ""
+
+#: electrum_axe/plugins/keepkey/__init__.py:4
+msgid "Provides support for KeepKey hardware wallet"
+msgstr ""
+
+#: electrum_axe/plugins/safe_t/__init__.py:4
+msgid "Provides support for Safe-T mini hardware wallet"
+msgstr ""
+
+#: electrum_axe/plugins/trezor/__init__.py:4
+msgid "Provides support for TREZOR hardware wallet"
+msgstr ""
+
+#: electrum_axe/plugins/audio_modem/__init__.py:4
+msgid "Provides support for air-gapped transaction signing."
+msgstr ""
+
+#: electrum_axe/gui/kivy/uix/ui_screens/network.kv:30
+#: electrum_axe/gui/kivy/uix/ui_screens/proxy.kv:3
+#: electrum_axe/gui/qt/network_dialog.py:198
+msgid "Proxy"
+msgstr "代理"
+
+#: electrum_axe/gui/kivy/uix/ui_screens/network.kv:31
+msgid "Proxy configuration"
+msgstr ""
+
+#: electrum_axe/gui/kivy/uix/ui_screens/proxy.kv:11
+msgid "Proxy mode"
+msgstr ""
+
+#: electrum_axe/gui/qt/network_dialog.py:278
+msgid ""
+"Proxy settings apply to all connections: with Axe Electrum servers, but "
+"also with third-party services."
+msgstr ""
+
+#: electrum_axe/gui/qt/network_dialog.py:248
+msgid "Proxy user"
+msgstr "代理使用者"
+
+#: electrum_axe/gui/kivy/uix/screens.py:138
+msgid "Pruned transaction outputs"
+msgstr ""
+
+#: electrum_axe/gui/qt/main_window.py:2336
+msgid "Public key"
+msgstr "公鑰"
+
+#: electrum_axe/gui/qt/address_dialog.py:65
+msgid "Public keys"
+msgstr "公鑰"
+
+#: electrum_axe/gui/qt/main_window.py:2168
+msgid "QR code"
+msgstr "QR 碼"
+
+#: electrum_axe/gui/qt/qrcodewidget.py:117
+msgid "QR code copied to clipboard"
+msgstr "QR 碼已複製到剪貼簿"
+
+#: electrum_axe/gui/qt/qrcodewidget.py:112
+msgid "QR code saved to file"
+msgstr "QR 碼已儲存至檔案中"
+
+#: electrum_axe/gui/kivy/uix/dialogs/question.py:51
+msgid "Question"
+msgstr ""
+
+#: electrum_axe/gui/text.py:150
+msgid "Quit"
+msgstr ""
+
+#: electrum_axe/plugins/digitalbitbox/digitalbitbox.py:166
+msgid "REMEMBER THE PASSWORD!"
+msgstr ""
+
+#: electrum_axe/gui/kivy/uix/dialogs/tx_dialog.py:155
+msgid "Raw Transaction"
+msgstr ""
+
+#: electrum_axe/plugins/ledger/auth2fa.py:187
+msgid "Re-Pair"
+msgstr ""
+
+#: electrum_axe/plugins/trezor/clientbase.py:50
+#: electrum_axe/plugins/safe_t/clientbase.py:50
+#: electrum_axe/plugins/keepkey/clientbase.py:48
+msgid ""
+"Re-enter the new PIN for your {}.\n"
+"\n"
+"NOTE: the positions of the numbers have changed!"
+msgstr ""
+
+#: electrum_axe/gui/qt/qrtextedit.py:42 electrum_axe/gui/qt/qrtextedit.py:75
+msgid "Read QR code"
+msgstr "讀取 QR 碼"
+
+#: electrum_axe/gui/qt/qrtextedit.py:40
+msgid "Read file"
+msgstr "讀取檔案"
+
+#: electrum_axe/plugins/audio_modem/qt.py:85
+msgid "Read from microphone"
+msgstr ""
+
+#: electrum_axe/gui/text.py:64 electrum_axe/gui/kivy/main.kv:398
+#: electrum_axe/gui/qt/main_window.py:154
+msgid "Receive"
+msgstr "接收"
+
+#: electrum_axe/gui/kivy/uix/ui_screens/history.kv:24
+#: electrum_axe/gui/kivy/uix/dialogs/requests.py:91
+msgid "Received"
+msgstr ""
+
+#: electrum_axe/gui/qt/address_list.py:47
+msgid "Receiving"
+msgstr ""
+
+#: electrum_axe/gui/qt/main_window.py:837
+msgid "Receiving address"
+msgstr "接收用位址"
+
+#: electrum_axe/gui/kivy/uix/ui_screens/send.kv:34
+msgid "Recipient"
+msgstr ""
+
+#: electrum_axe/gui/kivy/uix/screens.py:250
+msgid "Recipient not specified."
+msgstr ""
+
+#: electrum_axe/gui/qt/main_window.py:1093
+msgid "Recipient of the funds."
+msgstr "資金的收受人。"
+
+#: electrum_axe/plugins/trezor/trezor.py:172
+#: electrum_axe/plugins/safe_t/safe_t.py:171
+#: electrum_axe/plugins/keepkey/keepkey.py:174
+msgid "Recover from a seed you have previously written down"
+msgstr ""
+
+#: electrum_axe/gui/qt/address_dialog.py:76
+#: electrum_axe/gui/qt/main_window.py:2195
+msgid "Redeem Script"
+msgstr "換回指令稿"
+
+#: electrum_axe/gui/qt/main_window.py:1432
+#: electrum_axe/gui/qt/history_list.py:346
+msgid "Remove"
+msgstr "移除"
+
+#: electrum_axe/gui/qt/address_list.py:176
+msgid "Remove from wallet"
+msgstr ""
+
+#: electrum_axe/gui/qt/main_window.py:1894
+msgid "Remove {} from your list of contacts?"
+msgstr ""
+
+#: electrum_axe/gui/qt/exception_window.py:59
+msgid "Report contents"
+msgstr ""
+
+#: electrum_axe/gui/kivy/uix/dialogs/crash_reporter.py:122
+msgid "Report sent"
+msgstr ""
+
+#: electrum_axe/gui/qt/main_window.py:619
+msgid "Reporting Bugs"
+msgstr "回報臭蟲"
+
+#: electrum_axe/gui/kivy/uix/ui_screens/invoice.kv:17
+msgid "Request"
+msgstr ""
+
+#: electrum_axe/gui/kivy/uix/ui_screens/invoice.kv:37
+msgid "Request amount"
+msgstr ""
+
+#: electrum_axe/gui/kivy/uix/screens.py:373
+msgid "Request copied to clipboard"
+msgstr ""
+
+#: electrum_axe/gui/qt/main_window.py:869
+msgid "Request expires"
+msgstr "請求已過期"
+
+#: electrum_axe/gui/qt/address_list.py:169
+msgid "Request payment"
+msgstr ""
+
+#: electrum_axe/gui/qt/main_window.py:1005
+msgid "Request saved successfully"
+msgstr "請求已成功儲存"
+
+#: electrum_axe/plugins/email_requests/qt.py:200
+msgid "Request sent."
+msgstr ""
+
+#: electrum_axe/gui/kivy/uix/screens.py:403
+msgid "Request was saved."
+msgstr ""
+
+#: electrum_axe/gui/qt/main_window.py:849
+msgid "Requested amount"
+msgstr "請求的金額"
+
+#: electrum_axe/gui/kivy/uix/ui_screens/invoice.kv:40
+#: electrum_axe/gui/qt/invoice_list.py:36
+#: electrum_axe/gui/qt/main_window.py:1916
+msgid "Requestor"
+msgstr "請求者"
+
+#: electrum_axe/gui/kivy/uix/ui_screens/receive.kv:119
+#: electrum_axe/gui/qt/main_window.py:894
+msgid "Requests"
+msgstr "請求"
+
+#: electrum_axe/gui/qt/installwizard.py:616
+#, python-brace-format
+msgid "Require {0} signatures"
+msgstr ""
+
+#: electrum_axe/plugins/trezor/qt.py:520
+msgid ""
+"Required package 'PIL' is not available - Please install it or use the "
+"Trezor website instead."
+msgstr ""
+
+#: electrum_axe/plugins/safe_t/qt.py:399
+msgid "Required package 'PIL' is not available - Please install it."
+msgstr ""
+
+#: electrum_axe/gui/qt/main_window.py:3144
+msgid "Requires"
+msgstr "要求"
+
+#: electrum_axe/plugins/trezor/qt.py:513
+#: electrum_axe/plugins/safe_t/qt.py:392
+msgid "Reset"
+msgstr ""
+
+#: electrum_axe/gui/qt/masternode_budget_widgets.py:391
+msgid "Results"
+msgstr ""
+
+#: electrum_axe/plugins/revealer/__init__.py:3
+msgid "Revealer"
+msgstr ""
+
+#: electrum_axe/plugins/revealer/qt.py:713
+msgid "Revealer - Printer calibration settings"
+msgstr ""
+
+#: electrum_axe/plugins/revealer/qt.py:246
+msgid "Revealer is a one-time-pad and should be used only once."
+msgstr ""
+
+#: electrum_axe/plugins/revealer/__init__.py:6
+msgid ""
+"Revealer is a seed phrase back-up solution. It allows you to create a cold, "
+"analog, multi-factor backup of your wallet seeds, or of any arbitrary secret."
+msgstr ""
+
+#: electrum_axe/plugins/revealer/qt.py:161
+msgid "Revealers starting with 0 had a vulnerability and are not supported."
+msgstr ""
+
+#: electrum_axe/plugins/revealer/qt.py:730
+msgid "Right side"
+msgstr ""
+
+#: electrum_axe/i18n.py:69
+msgid "Romanian"
+msgstr ""
+
+#: electrum_axe/i18n.py:70
+msgid "Russian"
+msgstr ""
+
+#: electrum_axe/gui/qt/main_window.py:2783
+msgid "SSL certificate"
+msgstr "SSL 憑證"
+
+#: electrum_axe/gui/qt/main_window.py:2770
+msgid "SSL certificate used to sign payment requests."
+msgstr "用來簽署支付請求的 SSL 憑證。"
+
+#: electrum_axe/plugins/safe_t/__init__.py:6
+msgid "Safe-T mini wallet"
+msgstr ""
+
+#: electrum_axe/gui/qt/main_window.py:877
+#: electrum_axe/gui/qt/main_window.py:1937
+#: electrum_axe/gui/qt/transaction_dialog.py:128
+#: electrum_axe/gui/qt/qrcodewidget.py:123
+#: electrum_axe/gui/qt/masternode_widgets.py:279
+msgid "Save"
+msgstr "儲存"
+
+#: electrum_axe/gui/qt/masternode_dialog.py:332
+msgid "Save Masternode"
+msgstr ""
+
+#: electrum_axe/gui/qt/request_list.py:126
+msgid "Save as BIP70 file"
+msgstr "另存為 BIP70 檔案"
+
+#: electrum_axe/gui/qt/main_window.py:1931
+msgid "Save invoice to file"
+msgstr "將發票儲存為檔案"
+
+#: electrum_axe/gui/qt/transaction_dialog.py:48
+msgid "Save transaction offline"
+msgstr ""
+
+#: electrum_axe/plugins/labels/__init__.py:5
+msgid ""
+"Save your wallet labels on a remote server, and synchronize them across "
+"multiple devices where you use Axe Electrum."
+msgstr ""
+
+#: electrum_axe/gui/qt/masternode_widgets.py:258
+msgid "Scan For Masternode Outputs"
+msgstr ""
+
+#: electrum_axe/plugins/ledger/auth2fa.py:35
+msgid ""
+"Scan this QR code with your Ledger Wallet phone app to pair it with this "
+"Ledger device.<br>To complete pairing you will need your security card to "
+"answer a challenge."
+msgstr ""
+
+#: electrum_axe/plugins/trezor/qt.py:263
+msgid "Scrambled words"
+msgstr ""
+
+#: electrum_axe/gui/qt/main_window.py:2108
+#: electrum_axe/gui/qt/main_window.py:2189
+msgid "Script type"
+msgstr ""
+
+#: electrum_axe/base_wizard.py:323
+msgid "Script type and Derivation path"
+msgstr ""
+
+#: electrum_axe/plugins/ledger/auth2fa.py:177
+msgid "Security Card Challenge"
+msgstr ""
+
+#: electrum_axe/gui/kivy/main_window.py:1032
+#: electrum_axe/gui/qt/main_window.py:2007
+#: electrum_axe/gui/qt/seed_dialog.py:204
+msgid "Seed"
+msgstr "種苗"
+
+#: electrum_axe/plugins/keepkey/qt.py:78
+msgid "Seed Entered"
+msgstr ""
+
+#: electrum_axe/gui/qt/seed_dialog.py:164
+msgid "Seed Type"
+msgstr "種苗類型"
+
+#: electrum_axe/base_wizard.py:351
+msgid "Seed extension"
+msgstr ""
+
+#: electrum_axe/gui/qt/masternode_dialog.py:359
+msgid "Select File..."
+msgstr ""
+
+#: electrum_axe/base_wizard.py:259
+msgid "Select a device"
+msgstr ""
+
+#: electrum_axe/gui/qt/masternode_dialog.py:371
+msgid "Select a file to import"
+msgstr ""
+
+#: electrum_axe/gui/qt/history_list.py:145
+msgid "Select date"
+msgstr ""
+
+#: electrum_axe/gui/qt/main_window.py:2461
+msgid "Select file to export your private keys to"
+msgstr "請選取要匯出您的私鑰到何檔案"
+
+#: electrum_axe/gui/qt/history_list.py:388
+msgid "Select file to export your wallet transactions to"
+msgstr "選取您要將錢包交易事項匯出到何檔案"
+
+#: electrum_axe/gui/qt/util.py:770
+msgid "Select file to save your {}"
+msgstr ""
+
+#: electrum_axe/plugins/trezor/qt.py:259
+msgid "Select recovery type:"
+msgstr ""
+
+#: electrum_axe/gui/qt/network_dialog.py:208
+msgid "Select server automatically"
+msgstr "自動選取伺服器"
+
+#: electrum_axe/gui/qt/installwizard.py:583
+msgid "Select server manually"
+msgstr "手動選取伺服器"
+
+#: electrum_axe/gui/qt/main_window.py:1001
+msgid "Select where to save your payment request"
+msgstr "選取要在何處儲存您的支付請求"
+
+#: electrum_axe/gui/qt/transaction_dialog.py:220
+msgid "Select where to save your signed transaction"
+msgstr "選取要在何處儲存您簽署的交易事項"
+
+#: electrum_axe/gui/qt/main_window.py:2677
+msgid "Select which language is used in the GUI (after restart)."
+msgstr "選取圖形界面中要使用何種語言（重新啟動後生效）。"
+
+#: electrum_axe/plugins/trezor/qt.py:204
+#: electrum_axe/plugins/safe_t/qt.py:109
+#: electrum_axe/plugins/keepkey/qt.py:234
+msgid "Select your seed length:"
+msgstr ""
+
+#: electrum_axe/gui/kivy/uix/ui_screens/network.kv:43
+msgid "Select your server automatically"
+msgstr ""
+
+#: electrum_axe/gui/qt/main_window.py:2400
+msgid "Select your transaction file"
+msgstr "選取您的交易檔案"
+
+#: electrum_axe/gui/text.py:64 electrum_axe/gui/kivy/main.kv:390
+#: electrum_axe/gui/qt/main_window.py:153
+#: electrum_axe/gui/qt/main_window.py:1242
+msgid "Send"
+msgstr "發送"
+
+#: electrum_axe/gui/qt/exception_window.py:73
+msgid "Send Bug Report"
+msgstr ""
+
+#: electrum_axe/plugins/email_requests/__init__.py:4
+msgid "Send and receive payment request with an email account"
+msgstr ""
+
+#: electrum_axe/plugins/email_requests/qt.py:137
+msgid "Send and receive payment requests via email"
+msgstr ""
+
+#: electrum_axe/plugins/cosigner_pool/qt.py:146
+msgid "Send to cosigner"
+msgstr "發送給共同簽署者"
+
+#: electrum_axe/plugins/audio_modem/qt.py:92
+msgid "Send to speaker"
+msgstr ""
+
+#: electrum_axe/plugins/email_requests/qt.py:175
+msgid "Send via e-mail"
+msgstr ""
+
+#: electrum_axe/gui/kivy/main_window.py:923
+msgid "Sending"
+msgstr "發送中"
+
+#: electrum_axe/plugins/cosigner_pool/qt.py:192
+msgid "Sending transaction to cosigning pool..."
+msgstr ""
+
+#: electrum_axe/gui/kivy/uix/ui_screens/history.kv:24
+msgid "Sent"
+msgstr ""
+
+#: electrum_axe/gui/kivy/uix/ui_screens/network.kv:21
+#: electrum_axe/gui/kivy/uix/ui_screens/server.kv:3
+#: electrum_axe/gui/qt/network_dialog.py:197
+#: electrum_axe/gui/qt/network_dialog.py:223
+#: electrum_axe/gui/qt/network_dialog.py:301
+msgid "Server"
+msgstr "伺服器"
+
+#: electrum_axe/network.py:1255
+msgid "Server did not answer"
+msgstr ""
+
+#: electrum_axe/plugins/email_requests/qt.py:213
+msgid "Server hosting your email account"
+msgstr ""
+
+#: electrum_axe/gui/qt/main_window.py:762
+msgid "Server is lagging ({} blocks)"
+msgstr ""
+
+#: electrum_axe/gui/kivy/main_window.py:732
+msgid "Server lagging"
+msgstr ""
+
+#: electrum_axe/gui/qt/network_dialog.py:227
+msgid "Server peers"
+msgstr "伺服器同儕"
+
+#: electrum_axe/gui/kivy/uix/ui_screens/network.kv:22
+msgid "Server used to query your history."
+msgstr ""
+
+#: electrum_axe/plugins/trezor/qt.py:534
+#: electrum_axe/plugins/safe_t/qt.py:413
+#: electrum_axe/plugins/keepkey/qt.py:507
+msgid "Session Timeout"
+msgstr ""
+
+#: electrum_axe/plugins/trezor/qt.py:343
+#: electrum_axe/plugins/safe_t/qt.py:222
+#: electrum_axe/plugins/keepkey/qt.py:344
+msgid "Set a PIN"
+msgstr ""
+
+#: electrum_axe/gui/qt/main_window.py:2921
+msgid ""
+"Set the value of the change output so that it has similar precision to the "
+"other outputs."
+msgstr ""
+
+#: electrum_axe/gui/qt/installwizard.py:25
+msgid "Set wallet file encryption."
+msgstr ""
+
+#: electrum_axe/gui/text.py:150 electrum_axe/gui/kivy/main.kv:456
+#: electrum_axe/plugins/trezor/qt.py:606
+#: electrum_axe/plugins/audio_modem/qt.py:46
+#: electrum_axe/plugins/safe_t/qt.py:485 electrum_axe/plugins/labels/qt.py:32
+#: electrum_axe/plugins/keepkey/qt.py:579
+#: electrum_axe/plugins/email_requests/qt.py:206
+msgid "Settings"
+msgstr "設定值"
+
+#: electrum_axe/gui/kivy/uix/screens.py:368
+msgid "Share Axe Request"
+msgstr ""
+
+#: electrum_axe/gui/kivy/uix/dialogs/requests.py:126
+#: electrum_axe/gui/qt/main_window.py:256
+#: electrum_axe/gui/qt/main_window.py:542
+msgid "Show"
+msgstr "顯示"
+
+#: electrum_axe/gui/qt/main_window.py:3023
+msgid "Show Fiat balance for addresses"
+msgstr ""
+
+#: electrum_axe/gui/qt/address_dialog.py:56
+msgid "Show QR Code"
+msgstr "顯示 QR 碼"
+
+#: electrum_axe/gui/qt/qrtextedit.py:16 electrum_axe/gui/qt/qrtextedit.py:30
+#: electrum_axe/gui/qt/transaction_dialog.py:102
+msgid "Show as QR code"
+msgstr "顯示為 QR 碼"
+
+#: electrum_axe/gui/qt/main_window.py:3022
+msgid "Show capital gains in history"
+msgstr ""
+
+#: electrum_axe/gui/qt/main_window.py:2734
+msgid "Show fee edit box in send tab."
+msgstr "在發送分頁中顯示手續費編輯方塊。"
+
+#: electrum_axe/gui/qt/main_window.py:3021
+msgid "Show history rates"
+msgstr "顯示歷史費率"
+
+#: electrum_axe/plugins/ledger/qt.py:27
+msgid "Show on Ledger"
+msgstr ""
+
+#: electrum_axe/plugins/trezor/qt.py:177 electrum_axe/plugins/safe_t/qt.py:82
+#: electrum_axe/plugins/digitalbitbox/qt.py:37
+#: electrum_axe/plugins/hw_wallet/qt.py:231
+#: electrum_axe/plugins/keepkey/qt.py:205
+msgid "Show on {}"
+msgstr ""
+
+#: electrum_axe/gui/qt/exception_window.py:56
+msgid "Show report contents"
+msgstr ""
+
+#: electrum_axe/gui/kivy/uix/ui_screens/status.kv:74
+msgid "Show seed"
+msgstr ""
+
+#: electrum_axe/gui/qt/__init__.py:147
+msgid "Show/Hide"
+msgstr "顯示/隱藏"
+
+#: electrum_axe/plugins/ledger/ledger.py:483
+msgid "Showing address ..."
+msgstr ""
+
+#: electrum_axe/gui/qt/main_window.py:2278
+#: electrum_axe/gui/qt/transaction_dialog.py:122
+msgid "Sign"
+msgstr "簽署"
+
+#: electrum_axe/gui/qt/main_window.py:2256
+msgid "Sign/verify Message"
+msgstr "簽署/驗證訊息"
+
+#: electrum_axe/gui/qt/address_list.py:173
+msgid "Sign/verify message"
+msgstr ""
+
+#: electrum_axe/gui/kivy/uix/ui_screens/invoice.kv:43
+#: electrum_axe/gui/qt/main_window.py:1924
+#: electrum_axe/gui/qt/main_window.py:2272
+msgid "Signature"
+msgstr "簽章"
+
+#: electrum_axe/gui/qt/main_window.py:2251
+msgid "Signature verified"
+msgstr "簽章已過驗證"
+
+#: electrum_axe/wallet.py:347
+msgid "Signed"
+msgstr ""
+
+#: electrum_axe/gui/kivy/main_window.py:952
+msgid "Signed invoices are saved automatically when you scan them."
+msgstr ""
+
+#: electrum_axe/gui/kivy/uix/dialogs/tx_dialog.py:137
+msgid "Signing"
+msgstr ""
+
+#: electrum_axe/gui/qt/masternode_dialog.py:538
+#, fuzzy
+msgid "Signing Masternode Announce..."
+msgstr "正在簽署交易..."
+
+#: electrum_axe/plugins/digitalbitbox/digitalbitbox.py:598
+msgid "Signing large transaction. Please be patient ..."
+msgstr ""
+
+#: electrum_axe/plugins/digitalbitbox/digitalbitbox.py:464
+msgid "Signing message ..."
+msgstr ""
+
+#: electrum_axe/gui/qt/main_window.py:1641
+#: electrum_axe/plugins/digitalbitbox/digitalbitbox.py:603
+msgid "Signing transaction..."
+msgstr "正在簽署交易..."
+
+#: electrum_axe/gui/qt/main_window.py:2203
+msgid ""
+"Signing with an address actually means signing with the corresponding "
+"private key, and verifying with the corresponding public key. The address "
+"you have entered does not have a unique public key, so these operations "
+"cannot be performed."
+msgstr ""
+
+#: electrum_axe/gui/qt/transaction_dialog.py:261
+msgid "Size:"
+msgstr "大小："
+
+#: electrum_axe/i18n.py:71
+msgid "Slovak"
+msgstr ""
+
+#: electrum_axe/i18n.py:72
+msgid "Slovenian"
+msgstr ""
+
+#: electrum_axe/base_crash_reporter.py:53
+msgid "Something went wrong while executing Axe Electrum."
+msgstr ""
+
+#: electrum_axe/base_crash_reporter.py:54
+msgid "Sorry!"
+msgstr ""
+
+#: electrum_axe/gui/qt/main_window.py:3024
+msgid "Source"
+msgstr "來源"
+
+#: electrum_axe/i18n.py:54
+msgid "Spanish"
+msgstr ""
+
+#: electrum_axe/gui/qt/utxo_list.py:68
+msgid "Spend"
+msgstr ""
+
+#: electrum_axe/gui/qt/address_list.py:188
+msgid "Spend from"
+msgstr ""
+
+#: electrum_axe/gui/qt/main_window.py:2910
+msgid "Spend only confirmed coins"
+msgstr "僅花費確認過的錢幣"
+
+#: electrum_axe/gui/qt/main_window.py:2911
+msgid "Spend only confirmed inputs."
+msgstr "僅花費確認過的輸入。"
+
+#: electrum_axe/base_wizard.py:508
+msgid "Standard"
+msgstr ""
+
+#: electrum_axe/base_wizard.py:100
+msgid "Standard wallet"
+msgstr ""
+
+#: electrum_axe/gui/qt/history_list.py:176
+msgid "Start"
+msgstr ""
+
+#: electrum_axe/gui/qt/masternode_budget_widgets.py:45
+#: electrum_axe/gui/qt/masternode_budget_widgets.py:405
+msgid "Start Block"
+msgstr ""
+
+#: electrum_axe/gui/qt/masternode_budget_widgets.py:266
+msgid "Starting Block:"
+msgstr ""
+
+#: electrum_axe/gui/qt/main_window.py:608
+msgid ""
+"Startup times are instant because it operates in conjunction with high-"
+"performance servers that handle the most complicated parts of the Axe "
+"system."
+msgstr ""
+
+#: electrum_axe/gui/qt/main_window.py:2723
+msgid "Static"
+msgstr ""
+
+#: electrum_axe/gui/kivy/uix/ui_screens/invoice.kv:34
+#: electrum_axe/gui/kivy/uix/ui_screens/network.kv:15
+#: electrum_axe/gui/qt/invoice_list.py:36
+#: electrum_axe/gui/qt/network_dialog.py:295
+#: electrum_axe/gui/qt/request_list.py:41
+msgid "Status"
+msgstr "狀態"
+
+#: electrum_axe/gui/qt/transaction_dialog.py:243
+#: electrum_axe/gui/qt/masternode_widgets.py:195
+#: electrum_axe/gui/qt/masternode_widgets.py:294
+#: electrum_axe/gui/qt/masternode_widgets.py:390
+msgid "Status:"
+msgstr "狀態："
+
+#: electrum_axe/plugins/trezor/clientbase.py:99
+#: electrum_axe/plugins/safe_t/clientbase.py:90
+#: electrum_axe/plugins/keepkey/clientbase.py:82
+msgid "Step {}/24.  Enter seed word as explained on your {}:"
+msgstr ""
+
+#: electrum_axe/gui/qt/masternode_budget_widgets.py:256
+msgid "Submit Confirmed Proposals"
+msgstr ""
+
+#: electrum_axe/gui/qt/masternode_budget_widgets.py:395
+msgid "Submitting Proposals..."
+msgstr ""
+
+#: electrum_axe/gui/qt/main_window.py:2059
+#: electrum_axe/gui/qt/main_window.py:3062
+#: electrum_axe/gui/qt/main_window.py:3170
+#: electrum_axe/gui/qt/masternode_dialog.py:415
+#: electrum_axe/gui/qt/masternode_dialog.py:553
+#: electrum_axe/gui/qt/masternode_dialog.py:599
+msgid "Success"
+msgstr "成功"
+
+#: electrum_axe/gui/qt/masternode_dialog.py:599
+msgid "Successfully voted"
+msgstr ""
+
+#: electrum_axe/gui/qt/history_list.py:172
+msgid "Summary"
+msgstr ""
+
+#: electrum_axe/plugins/ledger/auth2fa.py:175
+msgid "Summary Text PIN (requires dongle replugging)"
+msgstr ""
+
+#: electrum_axe/plugins/ledger/auth2fa.py:175
+msgid "Summary Text PIN is Disabled"
+msgstr ""
+
+#: electrum_axe/plugins/keepkey/qt.py:461
+msgid "Supported Coins"
+msgstr ""
+
+#: electrum_axe/i18n.py:73
+msgid "Swedish"
+msgstr ""
+
+#: electrum_axe/gui/qt/main_window.py:2584
+msgid "Sweep"
+msgstr "清掃"
+
+#: electrum_axe/gui/qt/main_window.py:2560
+msgid "Sweep private keys"
+msgstr "清掃私鑰"
+
+#: electrum_axe/gui/stdio.py:113 electrum_axe/gui/text.py:134
+#: electrum_axe/gui/kivy/main_window.py:730
+#: electrum_axe/gui/qt/main_window.py:759
+msgid "Synchronizing..."
+msgstr "同步中…"
+
+#: electrum_axe/plugins/trezor/__init__.py:6
+msgid "TREZOR wallet"
+msgstr ""
+
+#: electrum_axe/i18n.py:74
+msgid "Tamil"
+msgstr ""
+
+#: electrum_axe/gui/qt/fee_slider.py:36
+msgid "Target"
+msgstr ""
+
+#: electrum_axe/gui/qt/util.py:619
+msgid "Text copied to clipboard"
+msgstr ""
+
+#: electrum_axe/gui/kivy/main_window.py:404
+msgid "Text copied to clipboard."
+msgstr ""
+
+#: electrum_axe/gui/kivy/main_window.py:815
+msgid ""
+"Text copied to clipboard.\n"
+"Tap again to display it as QR code."
+msgstr ""
+"文字已複製到剪貼簿中。\n"
+"再按一下顯示為 QR 碼。"
+
+#: electrum_axe/i18n.py:75
+msgid "Thai"
+msgstr ""
+
+#: electrum_axe/gui/qt/main_window.py:867
+#, fuzzy
+msgid ""
+"The Axe address never expires and will always be part of this Axe Electrum "
+"wallet."
+msgstr "該特幣位址永遠不會過期，且總是此 electrum 錢包的一部分。"
+
+#: electrum_axe/plugins/digitalbitbox/digitalbitbox.py:206
+msgid "The Digital Bitbox is already seeded. Choose an option:"
+msgstr ""
+
+#: electrum_axe/plugins/trezor/clientbase.py:56
+#: electrum_axe/plugins/safe_t/clientbase.py:56
+#: electrum_axe/plugins/keepkey/clientbase.py:54
+msgid "The PIN cannot be longer than 9 characters."
+msgstr ""
+
+#: electrum_axe/gui/qt/masternode_widgets.py:92
+msgid "The TxID of your 1000 AXE output"
+msgstr ""
+
+#: electrum_axe/gui/qt/masternode_widgets.py:96
+msgid "The address that 1000 AXE was sent to"
+msgstr ""
+
+#: electrum_axe/gui/qt/main_window.py:1142
+msgid ""
+"The amount of fee can be decided freely by the sender. However, transactions "
+"with low fees take more time to be processed."
+msgstr ""
+"手續費的金額可以由發送者自由決定。然而，低手續費的交易需要花上更久的時間才能"
+"處理。"
+
+#: electrum_axe/gui/qt/main_window.py:1120
+msgid ""
+"The amount will be displayed in red if you do not have enough funds in your "
+"wallet."
+msgstr "若您錢包中的資金不足時金額將以紅色顯示。"
+
+#: electrum_axe/gui/qt/main_window.py:1105
+msgid ""
+"The description is not sent to the recipient of the funds. It is stored in "
+"your wallet file, and displayed in the 'History' tab."
+msgstr ""
+"描述說明不會發送到資金接收人手中。它儲存在您的錢包檔案中，並且顯示在「歷史」"
+"分頁裡。"
+
+#: electrum_axe/gui/kivy/uix/screens.py:289
+#: electrum_axe/gui/qt/main_window.py:1599
+msgid "The fee for this transaction seems unusually high."
+msgstr "此交易的手續費似乎非比尋常地高。"
+
+#: electrum_axe/gui/qt/installwizard.py:299
+msgid ""
+"The file '{}' contains an incompletely created wallet.\n"
+"Do you want to complete its creation now?"
+msgstr ""
+
+#: electrum_axe/gui/qt/installwizard.py:293
+#: electrum_axe/gui/qt/installwizard.py:304
+msgid "The file was removed"
+msgstr "檔案已移除"
+
+#: electrum_axe/gui/qt/main_window.py:2633
+msgid "The following addresses were added"
+msgstr "已加入下列位址"
+
+#: electrum_axe/gui/qt/main_window.py:2742
+msgid "The following alias providers are available:"
+msgstr "有下列別名供應商可用："
+
+#: electrum_axe/gui/qt/main_window.py:2635
+msgid "The following inputs could not be imported"
+msgstr "下列輸入無法匯入"
+
+#: electrum_axe/gui/qt/main_window.py:2207
+msgid "The operation is undefined. Not just in Axe Electrum, but in general."
+msgstr ""
+
+#: electrum_axe/gui/qt/masternode_widgets.py:94
+msgid "The output number of your 1000 AXE output"
+msgstr ""
+
+#: electrum_axe/plugins/revealer/__init__.py:9
+msgid ""
+"The plug-in also allows you to generate a digital Revealer file and print it "
+"yourself on a transparent overhead foil."
+msgstr ""
+
+#: electrum_axe/base_wizard.py:505
+msgid "The type of addresses used by your wallet will depend on your seed."
+msgstr ""
+
+#: electrum_axe/gui/qt/installwizard.py:285
+msgid ""
+"The wallet '{}' contains multiple accounts, which are no longer supported "
+"since Axe Electrum 2.7.\n"
+"\n"
+"Do you want to split your wallet into multiple files?"
+msgstr ""
+
+#: electrum_axe/gui/kivy/uix/dialogs/installwizard.py:644
+msgid "Then, enter your Google Authenticator code:"
+msgstr ""
+
+#: electrum_axe/gui/qt/exception_window.py:96
+msgid "There was a problem with the automatic reporting:"
+msgstr ""
+
+#: electrum_axe/gui/kivy/main_window.py:919
+msgid "There was an error broadcasting the transaction."
+msgstr ""
+
+#: electrum_axe/gui/qt/network_dialog.py:292
+msgid ""
+"This blockchain is used to verify the transactions sent by your transaction "
+"server."
+msgstr "此區塊鏈用來驗證您交易伺服器送出的交易內容。"
+
+#: electrum_axe/gui/qt/installwizard.py:202
+msgid "This file does not exist."
+msgstr "此檔案不存在。"
+
+#: electrum_axe/gui/qt/installwizard.py:218
+msgid "This file is already open in memory."
+msgstr ""
+
+#: electrum_axe/gui/qt/installwizard.py:211
+msgid "This file is encrypted using a hardware device."
+msgstr ""
+
+#: electrum_axe/gui/qt/installwizard.py:207
+msgid "This file is encrypted with a password."
+msgstr ""
+
+#: electrum_axe/plugins/digitalbitbox/digitalbitbox.py:755
+msgid ""
+"This function is only available after pairing your {} with a mobile device."
+msgstr ""
+
+#: electrum_axe/plugins/digitalbitbox/digitalbitbox.py:758
+msgid "This function is only available for p2pkh keystores when using {}."
+msgstr ""
+
+#: electrum_axe/plugins/ledger/ledger.py:588
+#: electrum_axe/plugins/digitalbitbox/digitalbitbox.py:752
+#: electrum_axe/plugins/keepkey/keepkey.py:271
+msgid "This function is only available for standard wallets when using {}."
+msgstr ""
+
+#: electrum_axe/gui/qt/main_window.py:865
+msgid ""
+"This information is seen by the recipient if you send them a signed payment "
+"request."
+msgstr "若您以簽署的支付請求發送，則此資訊會被收件人看到。"
+
+#: electrum_axe/gui/qt/main_window.py:2440
+msgid "This is a watching-only wallet"
+msgstr "這是僅限觀看錢包"
+
+#: electrum_axe/gui/qt/main_window.py:2217
+#: electrum_axe/gui/qt/main_window.py:2295
+msgid "This is a watching-only wallet."
+msgstr ""
+
+#: electrum_axe/gui/kivy/main_window.py:1057
+msgid "This is a watching-only wallet. It does not contain private keys."
+msgstr ""
+
+#: electrum_axe/gui/qt/installwizard.py:36
+msgid "This is discouraged."
+msgstr ""
+
+#: electrum_axe/gui/qt/network_dialog.py:306
+msgid "This is the height of your local copy of the blockchain."
+msgstr "這是您區塊鏈的本機副本高度。"
+
+#: electrum_axe/gui/qt/main_window.py:2881
+msgid "This may result in higher transactions fees."
+msgstr "這可能導致更高的交易手續費。"
+
+#: electrum_axe/gui/qt/main_window.py:426
+#, fuzzy
+msgid "This means you will not be able to spend Axe coins with it."
+msgstr "這代表您無法花費錢包裡的比特幣。"
+
+#: electrum_axe/gui/qt/main_window.py:2922
+msgid "This might improve your privacy somewhat."
+msgstr ""
+
+#: electrum_axe/gui/qt/main_window.py:949
+msgid "This payment request will be signed."
+msgstr "此支付請求會被簽署。"
+
+#: electrum_axe/plugins/revealer/__init__.py:8
+msgid ""
+"This plug-in allows you to generate a pdf file of your secret phrase "
+"encrypted visually for your physical Revealer. You can print it trustlessly "
+"- it can only be decrypted optically with your Revealer."
+msgstr ""
+
+#: electrum_axe/plugins/cosigner_pool/__init__.py:4
+msgid "This plugin facilitates the use of multi-signatures wallets."
+msgstr "這外掛用於多重簽章錢包"
+
+#: electrum_axe/gui/qt/seed_dialog.py:41
+msgid ""
+"This seed will allow you to recover your wallet in case of computer failure."
+msgstr "這種苗能讓您在電腦損壞情況中還原您的錢包。"
+
+#: electrum_axe/gui/qt/main_window.py:2794
+msgid "This setting affects the Send tab, and all balance related fields."
+msgstr ""
+
+#: electrum_axe/gui/qt/transaction_dialog.py:175
+msgid "This transaction is not saved. Close anyway?"
+msgstr "此交易沒有儲存。無論如何都要關閉嗎？"
+
+#: electrum_axe/gui/qt/main_window.py:1573
+msgid ""
+"This transaction requires a higher fee, or it will not be propagated by your "
+"current server"
+msgstr ""
+
+#: electrum_axe/plugins/ledger/ledger.py:561
+#: electrum_axe/plugins/trezor/trezor.py:278
+#: electrum_axe/plugins/safe_t/safe_t.py:267
+#: electrum_axe/plugins/digitalbitbox/digitalbitbox.py:728
+#: electrum_axe/plugins/keepkey/keepkey.py:247
+msgid "This type of script is not supported with {}."
+msgstr ""
+
+#: electrum_axe/plugins/revealer/qt.py:234
+msgid "This version supports a maximum of 216 characters."
+msgstr ""
+
+#: electrum_axe/gui/qt/main_window.py:2155
+msgid "This wallet has no seed"
+msgstr "此錢包沒有種苗"
+
+#: electrum_axe/gui/kivy/uix/dialogs/installwizard.py:619
+msgid ""
+"This wallet is already registered with TrustedCoin. To finalize wallet "
+"creation, please enter your Google Authenticator Code."
+msgstr ""
+
+#: electrum_axe/gui/kivy/uix/ui_screens/status.kv:66
+msgid "This wallet is watching-only"
+msgstr ""
+
+#: electrum_axe/gui/qt/main_window.py:425
+msgid "This wallet is watching-only."
+msgstr "此錢包僅限觀看。"
+
+#: electrum_axe/gui/qt/main_window.py:2718
+msgid "Time based: fee rate is based on average confirmation time estimates"
+msgstr ""
+
+#: electrum_axe/gui/qt/history_list.py:111
+msgid "To"
+msgstr ""
+
+#: electrum_axe/plugins/digitalbitbox/digitalbitbox.py:466
+#: electrum_axe/plugins/digitalbitbox/digitalbitbox.py:601
+#: electrum_axe/plugins/digitalbitbox/digitalbitbox.py:605
+msgid "To cancel, briefly touch the blinking light or wait for the timeout."
+msgstr ""
+
+#: electrum_axe/plugins/digitalbitbox/digitalbitbox.py:302
+#: electrum_axe/plugins/digitalbitbox/digitalbitbox.py:327
+msgid "To cancel, briefly touch the light or wait for the timeout."
+msgstr ""
+
+#: electrum_axe/plugins/digitalbitbox/digitalbitbox.py:465
+#: electrum_axe/plugins/digitalbitbox/digitalbitbox.py:599
+#: electrum_axe/plugins/digitalbitbox/digitalbitbox.py:604
+msgid "To continue, touch the Digital Bitbox's blinking light for 3 seconds."
+msgstr ""
+
+#: electrum_axe/plugins/digitalbitbox/digitalbitbox.py:301
+#: electrum_axe/plugins/digitalbitbox/digitalbitbox.py:326
+msgid "To continue, touch the Digital Bitbox's light for 3 seconds."
+msgstr ""
+
+#: electrum_axe/base_wizard.py:196
+msgid ""
+"To create a spending wallet, please enter a master private key (xprv/drkv)."
+msgstr ""
+
+#: electrum_axe/base_wizard.py:195
+msgid ""
+"To create a watching-only wallet, please enter your master public key (xpub/"
+"drkp)."
+msgstr ""
+
+#: electrum_axe/base_crash_reporter.py:55
+msgid ""
+"To help us diagnose and fix the problem, you can send us a bug report that "
+"contains useful debug information:"
+msgstr ""
+
+#: electrum_axe/gui/qt/installwizard.py:416
+msgid ""
+"To make sure that you have properly saved your seed, please retype it here."
+msgstr "為了確認您已正確儲存種苗，請於此處再次輸入。"
+
+#: electrum_axe/gui/qt/main_window.py:1203
+msgid ""
+"To somewhat protect your privacy, Axe Electrum tries to create change with "
+"similar precision to other outputs."
+msgstr ""
+
+#: electrum_axe/base_wizard.py:243
+msgid "To trigger a rescan, press 'Next'."
+msgstr ""
+
+#: electrum_axe/base_wizard.py:269
+msgid "To try to fix this, we will now re-pair with your device."
+msgstr ""
+
+#: electrum_axe/gui/qt/password_dialog.py:211
+msgid "Toggle Encryption"
+msgstr ""
+
+#: electrum_axe/plugins/trezor/clientbase.py:81
+#: electrum_axe/plugins/safe_t/clientbase.py:81
+#: electrum_axe/plugins/keepkey/clientbase.py:76
+msgid "Too long passphrase ({} > 50 chars)."
+msgstr ""
+
+#: electrum_axe/gui/qt/transaction_dialog.py:94
+msgid "Transaction"
+msgstr "交易"
+
+#: electrum_axe/gui/kivy/uix/ui_screens/invoice.kv:66
+#: electrum_axe/gui/kivy/uix/ui_screens/invoice.kv:69
+#: electrum_axe/gui/qt/main_window.py:2426
+msgid "Transaction ID"
+msgstr "交易 ID"
+
+#: electrum_axe/gui/qt/transaction_dialog.py:99
+msgid "Transaction ID:"
+msgstr "交易 ID："
+
+#: electrum_axe/plugins/ledger/auth2fa.py:33
+msgid "Transaction accepted by mobile phone. Waiting for confirmation."
+msgstr ""
+
+#: electrum_axe/gui/qt/main_window.py:3167
+msgid "Transaction added to wallet history."
+msgstr ""
+
+#: electrum_axe/gui/qt/main_window.py:3157
+msgid "Transaction could not be saved."
+msgstr ""
+
+#: electrum_axe/gui/qt/transaction_dialog.py:224
+msgid "Transaction exported successfully"
+msgstr ""
+
+#: electrum_axe/gui/qt/transaction_dialog.py:191
+msgid "Transaction is too large in size."
+msgstr ""
+
+#: electrum_axe/address_synchronizer.py:47
+msgid "Transaction is unrelated to this wallet."
+msgstr ""
+
+#: electrum_axe/gui/kivy/uix/dialogs/tx_dialog.py:122
+#: electrum_axe/gui/qt/transaction_dialog.py:256
+msgid "Transaction unrelated to your wallet"
+msgstr "交易與您的錢包無關"
+
+#: electrum_axe/gui/qt/main_window.py:2412
+msgid "Transaction:"
+msgstr "交易："
+
+#: electrum_axe/gui/qt/main_window.py:3028
+msgid "Transactions"
+msgstr "交易"
+
+#: electrum_axe/plugins/cosigner_pool/__init__.py:6
+msgid "Transactions are encrypted and stored on a remote server."
+msgstr ""
+
+#: electrum_axe/plugins/trezor/qt.py:44
+msgid "Trezor Matrix Recovery"
+msgstr ""
+
+#: electrum_axe/plugin.py:489
+msgid "Try to connect again?"
+msgstr ""
+
+#: electrum_axe/gui/qt/main_window.py:617
+msgid "Try to explain not only what the bug is, but how it occurs."
+msgstr "請試著解釋這是怎樣的臭蟲，以及它是如何發生的。"
+
+#: electrum_axe/gui/qt/main_window.py:1574
+msgid ""
+"Try to raise your transaction fee, or use a server with a lower relay fee."
+msgstr ""
+
+#: electrum_axe/i18n.py:76
+msgid "Turkish"
+msgstr ""
+
+#: electrum_axe/gui/qt/address_list.py:70
+msgid "Tx"
+msgstr ""
+
+#: electrum_axe/gui/qt/masternode_widgets.py:105
+msgid "TxID:"
+msgstr ""
+
+#: electrum_axe/gui/qt/address_list.py:66
+msgid "Type"
+msgstr ""
+
+#: electrum_axe/gui/qt/masternode_budget_widgets.py:42
+#: electrum_axe/gui/qt/masternode_budget_widgets.py:404
+msgid "URL"
+msgstr ""
+
+#: electrum_axe/gui/qt/masternode_budget_widgets.py:243
+msgid "URL that your proposal can be found at"
+msgstr ""
+
+#: electrum_axe/gui/qt/masternode_budget_widgets.py:209
+msgid "URL:"
+msgstr ""
+
+#: electrum_axe/i18n.py:77
+msgid "Ukrainian"
+msgstr ""
+
+#: electrum_axe/plugins/email_requests/qt.py:251
+msgid ""
+"Unable to connect to mail server:\n"
+" {}"
+msgstr ""
+
+#: electrum_axe/gui/qt/main_window.py:455
+msgid "Unable to create backup"
+msgstr "無法製作備份"
+
+#: electrum_axe/gui/qt/main_window.py:2521
+msgid "Unable to create csv"
+msgstr "無法建立 csv"
+
+#: electrum_axe/gui/qt/history_list.py:405
+msgid "Unable to export history"
+msgstr "無法匯出歷史"
+
+#: electrum_axe/gui/qt/main_window.py:2407
+msgid "Unable to read file or no transaction found"
+msgstr "無法讀取檔案或找不到交易"
+
+#: electrum_axe/gui/kivy/uix/dialogs/crash_reporter.py:120
+msgid "Unable to send report"
+msgstr ""
+
+#: electrum_axe/gui/kivy/uix/ui_screens/status.kv:41
+#: electrum_axe/wallet.py:64 electrum_axe/wallet.py:336
+msgid "Unconfirmed"
+msgstr ""
+
+#: electrum_axe/wallet.py:65
+msgid "Unconfirmed parent"
+msgstr ""
+
+#: electrum_axe/plugins/digitalbitbox/digitalbitbox.py:188
+msgid "Unexpected error occurred."
+msgstr ""
+
+#: electrum_axe/gui/qt/address_list.py:184
+msgid "Unfreeze"
+msgstr ""
+
+#: electrum_axe/gui/kivy/uix/dialogs/invoices.py:86
+#: electrum_axe/gui/kivy/uix/dialogs/requests.py:90
+#: electrum_axe/gui/qt/transaction_dialog.py:237
+#: electrum_axe/gui/qt/masternode_widgets.py:30 electrum_axe/util.py:538
+msgid "Unknown"
+msgstr "未知"
+
+#: electrum_axe/gui/qt/masternode_widgets.py:30
+msgid "Unknown masternode status."
+msgstr ""
+
+#: electrum_axe/gui/kivy/uix/ui_screens/status.kv:45
+msgid "Unmatured"
+msgstr ""
+
+#: electrum_axe/gui/qt/history_list.py:196
+msgid "Unrealized gains"
+msgstr ""
+
+#: electrum_axe/masternode_budget.py:99
+msgid "Unsafe characters in proposal URL."
+msgstr ""
+
+#: electrum_axe/masternode_budget.py:92
+msgid "Unsafe characters in proposal name."
+msgstr ""
+
+#: electrum_axe/wallet.py:351
+msgid "Unsigned"
+msgstr ""
+
+#: electrum_axe/gui/kivy/uix/dialogs/addresses.py:120
+#: electrum_axe/gui/qt/address_list.py:51
+msgid "Unused"
+msgstr ""
+
+#: electrum_axe/base_wizard.py:121
+msgid "Upgrading wallet format..."
+msgstr ""
+
+#: electrum_axe/plugins/trezor/trezor.py:173
+#: electrum_axe/plugins/safe_t/safe_t.py:172
+#: electrum_axe/plugins/keepkey/keepkey.py:175
+msgid "Upload a BIP39 mnemonic to generate the seed"
+msgstr ""
+
+#: electrum_axe/plugins/trezor/trezor.py:174
+#: electrum_axe/plugins/safe_t/safe_t.py:173
+#: electrum_axe/plugins/keepkey/keepkey.py:176
+msgid "Upload a master private key"
+msgstr ""
+
+#: electrum_axe/gui/kivy/uix/dialogs/addresses.py:124
+msgid "Use"
+msgstr ""
+
+#: electrum_axe/gui/qt/network_dialog.py:266
+msgid "Use Tor Proxy"
+msgstr "使用 Tor 代理"
+
+#: electrum_axe/gui/qt/network_dialog.py:271
+#, fuzzy
+msgid "Use Tor Proxy on startup"
+msgstr "使用 Tor 代理"
+
+#: electrum_axe/gui/kivy/uix/ui_screens/network.kv:36
+#, fuzzy
+msgid "Use Tor Proxy on startup: "
+msgstr "使用 Tor 代理"
+
+#: electrum_axe/base_wizard.py:153
+msgid "Use a hardware device"
+msgstr ""
+
+#: electrum_axe/base_wizard.py:150
+msgid "Use a master key"
+msgstr ""
+
+#: electrum_axe/gui/qt/network_dialog.py:82
+#: electrum_axe/gui/qt/network_dialog.py:145
+msgid "Use as server"
+msgstr "用為伺服器"
+
+#: electrum_axe/gui/qt/main_window.py:2857
+msgid "Use change addresses"
+msgstr "使用變換位址"
+
+#: electrum_axe/gui/qt/main_window.py:2876
+msgid "Use multiple change addresses"
+msgstr "使用多重變換位址"
+
+#: electrum_axe/gui/qt/network_dialog.py:237
+msgid "Use proxy"
+msgstr ""
+
+#: electrum_axe/gui/qt/main_window.py:2771
+msgid "Use setconfig to set ssl_chain and ssl_privkey."
+msgstr "使用 setconfig 設定 ssl_chain 和 ssl_privkey。"
+
+#: electrum_axe/gui/kivy/uix/dialogs/installwizard.py:1013
+msgid "Use the camera button to scan a QR code."
+msgstr "使用照相機按鈕掃描 QR 碼。"
+
+#: electrum_axe/gui/qt/password_dialog.py:247
+msgid "Use this dialog to add a password to your wallet."
+msgstr "使用此對話方塊將密碼加到您的錢包。"
+
+#: electrum_axe/gui/qt/password_dialog.py:253
+msgid "Use this dialog to change your password."
+msgstr "使用此對話方塊來更改您的密碼。"
+
+#: electrum_axe/gui/qt/password_dialog.py:275
+msgid "Use this dialog to toggle encryption."
+msgstr ""
+
+#: electrum_axe/gui/kivy/uix/dialogs/addresses.py:120
+#: electrum_axe/gui/qt/address_list.py:51
+msgid "Used"
+msgstr ""
+
+#: electrum_axe/gui/kivy/uix/ui_screens/proxy.kv:38
+msgid "Username"
+msgstr ""
+
+#: electrum_axe/gui/qt/main_window.py:610
+msgid "Uses icons from the Icons8 icon pack (icons8.com)."
+msgstr "使用 Icons8 圖示包中的圖示 (icons8.com)。"
+
+#: electrum_axe/plugins/revealer/__init__.py:7
+msgid ""
+"Using a Revealer is better than writing your seed phrases on paper: a "
+"revealer is invulnerable to physical access and allows creation of trustless "
+"redundancy."
+msgstr ""
+
+#: electrum_axe/gui/qt/main_window.py:2867
+msgid ""
+"Using change addresses makes it more difficult for other people to track "
+"your transactions."
+msgstr "使用變換位址可以讓其他人更難追蹤您的交易資訊。"
+
+#: electrum_axe/gui/qt/history_list.py:78
+msgid "Value"
+msgstr ""
+
+#: electrum_axe/gui/kivy/uix/ui_screens/network.kv:50
+msgid "Verified block headers"
+msgstr ""
+
+#: electrum_axe/gui/qt/main_window.py:2282
+msgid "Verify"
+msgstr "驗證"
+
+#: electrum_axe/plugins/ledger/auth2fa.py:31
+msgid ""
+"Verify the address below.<br>Type the character from your security card "
+"corresponding to the <u><b>BOLD</b></u> character."
+msgstr ""
+
+#: electrum_axe/plugin.py:487
+msgid ""
+"Verify the cable is connected and that no other application is using it."
+msgstr ""
+
+#: electrum_axe/gui/kivy/uix/ui_screens/about.kv:13
+#: electrum_axe/gui/qt/main_window.py:604
+msgid "Version"
+msgstr "版本"
+
+#: electrum_axe/gui/qt/main_window.py:2839
+msgid "Video Device"
+msgstr "視訊裝置"
+
+#: electrum_axe/i18n.py:78
+msgid "Vietnamese"
+msgstr ""
+
+#: electrum_axe/gui/qt/masternode_dialog.py:284
+msgid "View Masternode"
+msgstr ""
+
+#: electrum_axe/gui/qt/history_list.py:353
+msgid "View invoice"
+msgstr "檢視收據"
+
+#: electrum_axe/gui/qt/contact_list.py:82
+#: electrum_axe/gui/qt/history_list.py:355
+#: electrum_axe/gui/qt/address_list.py:179
+msgid "View on block explorer"
+msgstr "在區塊探查器上檢視"
+
+#: electrum_axe/gui/qt/masternode_budget_widgets.py:488
+#, fuzzy
+msgid "View on budget explorer"
+msgstr "在區塊探查器上檢視"
+
+#: electrum_axe/gui/qt/masternode_budget_widgets.py:489
+#, fuzzy
+msgid "View transaction on block explorer"
+msgstr "在區塊探查器上檢視"
+
+#: electrum_axe/gui/qt/masternode_budget_widgets.py:202
+msgid "Vote"
+msgstr ""
+
+#: electrum_axe/gui/qt/masternode_budget_widgets.py:215
+msgid "Vote:"
+msgstr ""
+
+#: electrum_axe/gui/qt/masternode_dialog.py:611
+#, fuzzy
+msgid "Voting..."
+msgstr "連接中..."
+
+#: electrum_axe/gui/qt/seed_dialog.py:44
+#: electrum_axe/plugins/revealer/qt.py:118
+#: electrum_axe/plugins/revealer/qt.py:246
+msgid "WARNING"
+msgstr "警告"
+
+#: electrum_axe/gui/qt/main_window.py:2451
+msgid "WARNING: ALL your private keys are secret."
+msgstr "警告：您的「所有」私鑰都是祕密。"
+
+#: electrum_axe/gui/qt/main_window.py:2444
+msgid "WARNING: This is a multi-signature wallet."
+msgstr ""
+
+#: electrum_axe/gui/qt/main_window.py:1520
+msgid ""
+"WARNING: the alias \"{}\" could not be validated via an additional security "
+"check, DNSSEC, and thus may not be correct."
+msgstr ""
+
+#: electrum_axe/gui/qt/installwizard.py:29
+msgid "WIF keys are typed in Electrum, based on script type."
+msgstr ""
+
+#: electrum_axe/plugins/ledger/auth2fa.py:32
+msgid "Waiting for authentication on your mobile phone"
+msgstr ""
+
+#: electrum_axe/gui/qt/masternode_widgets.py:20
+msgid "Waiting for masternode to enable itself."
+msgstr ""
+
+#: electrum_axe/gui/qt/installwizard.py:160
+msgid "Wallet"
+msgstr "錢包"
+
+#: electrum_axe/gui/qt/main_window.py:2097
+msgid "Wallet Information"
+msgstr ""
+
+#: electrum_axe/gui/kivy/uix/ui_screens/status.kv:27
+msgid "Wallet Name"
+msgstr ""
+
+#: electrum_axe/gui/qt/main_window.py:453
+msgid "Wallet backup created"
+msgstr "錢包備份已製作"
+
+#: electrum_axe/gui/qt/transaction_dialog.py:285
+msgid "Wallet change address"
+msgstr "錢包變換位址"
+
+#: electrum_axe/gui/qt/main_window.py:2104
+msgid "Wallet name"
+msgstr ""
+
+#: electrum_axe/gui/qt/transaction_dialog.py:282
+msgid "Wallet receive address"
+msgstr "錢包接收位址"
+
+#: electrum_axe/gui/kivy/main_window.py:1015
+#: electrum_axe/gui/qt/main_window.py:2150
+msgid "Wallet removed: {}"
+msgstr ""
+
+#: electrum_axe/gui/qt/main_window.py:2106
+msgid "Wallet type"
+msgstr ""
+
+#: electrum_axe/gui/kivy/uix/ui_screens/status.kv:30
+msgid "Wallet type:"
+msgstr ""
+
+#: electrum_axe/gui/kivy/main.kv:450
+msgid "Wallets"
+msgstr ""
+
+#: electrum_axe/gui/kivy/uix/screens.py:289
+#: electrum_axe/gui/qt/main_window.py:1599
+#: electrum_axe/gui/qt/installwizard.py:33
+#: electrum_axe/gui/qt/transaction_dialog.py:175
+#: electrum_axe/gui/qt/transaction_dialog.py:268
+#: electrum_axe/gui/qt/masternode_dialog.py:438
+#: electrum_axe/gui/qt/masternode_dialog.py:446
+#: electrum_axe/gui/qt/util.py:208 electrum_axe/gui/qt/seed_dialog.py:69
+msgid "Warning"
+msgstr "警告"
+
+#: electrum_axe/gui/qt/console.py:67
+msgid "Warning!"
+msgstr ""
+
+#: electrum_axe/plugins/revealer/qt.py:161
+#: electrum_axe/plugins/revealer/qt.py:177
+msgid "Warning: "
+msgstr ""
+
+#: electrum_axe/gui/qt/main_window.py:1019
+msgid ""
+"Warning: The next address will not be recovered automatically if you restore "
+"your wallet from seed; you may need to add it manually.\n"
+"\n"
+"This occurs because you have too many unused addresses in your wallet. To "
+"avoid this situation, use the existing addresses first.\n"
+"\n"
+"Create anyway?"
+msgstr ""
+"警告：若您從種苗還原您的錢包，則下個位址不會自動還原；您可能需要手動加入。\n"
+"\n"
+"這之所以發生，可能是您錢包中有太多沒有使用的位址。若要避免此情形，請先使用既"
+"有位址。\n"
+"\n"
+"無論如何都要建立嗎？"
+
+#: electrum_axe/plugins/virtualkeyboard/__init__.py:4
+msgid "Warning: do not use this if it makes you pick a weaker password."
+msgstr ""
+
+#: electrum_axe/gui/qt/seed_dialog.py:73
+msgid ""
+"We do not guarantee that BIP39 imports will always be supported in Axe "
+"Electrum."
+msgstr "我們無法保證 BIP39 匯入總是可被 Axe Electrum 支援。"
+
+#: electrum_axe/base_wizard.py:267
+msgid "We encountered an error while connecting to your device:"
+msgstr ""
+
+#: electrum_axe/base_wizard.py:97
+msgid "What kind of wallet do you want to create?"
+msgstr ""
+
+#: electrum_axe/plugins/trezor/qt.py:586
+#: electrum_axe/plugins/safe_t/qt.py:465
+#: electrum_axe/plugins/keepkey/qt.py:559
+msgid "Wipe Device"
+msgstr ""
+
+#: electrum_axe/plugins/trezor/qt.py:589
+#: electrum_axe/plugins/safe_t/qt.py:468
+#: electrum_axe/plugins/keepkey/qt.py:562
+msgid ""
+"Wipe the device, removing all data from it.  The firmware is left unchanged."
+msgstr ""
+
+#: electrum_axe/simple_config.py:382
+msgid "Within {} blocks"
+msgstr ""
+
+#: electrum_axe/plugins/trezor/clientbase.py:17
+#: electrum_axe/plugins/safe_t/clientbase.py:17
+#: electrum_axe/plugins/keepkey/clientbase.py:16
+msgid "Write down the seed word shown on your {}"
+msgstr ""
+
+#: electrum_axe/gui/kivy/uix/dialogs/password_dialog.py:141
+msgid "Wrong PIN"
+msgstr ""
+
+#: electrum_axe/base_wizard.py:405 electrum_axe/base_wizard.py:413
+msgid "Wrong key type"
+msgstr ""
+
+#: electrum_axe/gui/qt/main_window.py:2253
+msgid "Wrong signature"
+msgstr "錯誤簽章"
+
+#: electrum_axe/gui/qt/masternode_budget_widgets.py:200
+#: electrum_axe/plugins/trezor/qt.py:340
+#: electrum_axe/plugins/safe_t/qt.py:219
+#: electrum_axe/plugins/keepkey/qt.py:341
+msgid "Yes"
+msgstr ""
+
+#: electrum_axe/gui/qt/masternode_budget_widgets.py:43
+#: electrum_axe/gui/qt/masternode_budget_widgets.py:404
+msgid "Yes Votes"
+msgstr ""
+
+#: electrum_axe/gui/kivy/uix/ui_screens/network.kv:56
+#: electrum_axe/gui/qt/network_dialog.py:370
+msgid "You are following branch"
+msgstr "您正依循分支"
+
+#: electrum_axe/gui/qt/__init__.py:183
+msgid ""
+"You are using Axe Electrum in offline mode; restart Axe Electrum if you "
+"want to get connected"
+msgstr ""
+"您正以離線模式使用 Axe Electrum；若您希望連線則請重新啟動 Axe Electrum"
+
+#: electrum_axe/gui/qt/main_window.py:1014
+msgid ""
+"You are using a non-deterministic wallet, which cannot create new addresses."
+msgstr "您正在使用非決定型錢包，所以無法建立新位址。"
+
+#: electrum_axe/gui/qt/main_window.py:1205
+msgid "You can disable this setting in '{}'."
+msgstr ""
+
+#: electrum_axe/base_wizard.py:306
+msgid "You can override the suggested derivation path."
+msgstr ""
+
+#: electrum_axe/plugins/trezor/qt.py:523
+#: electrum_axe/plugins/safe_t/qt.py:402
+msgid ""
+"You can set the homescreen on your device to personalize it.  You must "
+"choose a {} x {} monochrome black and white image."
+msgstr ""
+
+#: electrum_axe/gui/qt/main_window.py:1583
+msgid "You can't broadcast a transaction without a live network connection."
+msgstr ""
+
+#: electrum_axe/plugins/digitalbitbox/digitalbitbox.py:167
+msgid "You cannot access your coins or a backup without the password."
+msgstr ""
+
+#: electrum_axe/gui/qt/masternode_budget_widgets.py:458
+msgid "You created this proposal."
+msgstr ""
+
+#: electrum_axe/gui/qt/main_window.py:606
+msgid ""
+"You do not need to perform regular backups, because your wallet can be "
+"recovered from a secret phrase that you can memorize or write on paper."
+msgstr ""
+
+#: electrum_axe/gui/qt/installwizard.py:34
+msgid ""
+"You have multiple consecutive whitespaces or leading/trailing whitespaces in "
+"your passphrase."
+msgstr ""
+
+#: electrum_axe/gui/kivy/main_window.py:953
+msgid ""
+"You may also save unsigned requests or contact addresses using the save "
+"button."
+msgstr ""
+
+#: electrum_axe/gui/qt/main_window.py:1094
+#, fuzzy
+msgid ""
+"You may enter a Axe address, a label from your list of contacts (a list of "
+"completions will be proposed), or an alias (email-like address that forwards "
+"to a Axe address)"
+msgstr ""
+"您可以輸入比特幣位址、您聯絡人清單（會提示名稱補完的清單）的標籤、或是別名"
+"（類似電子郵件的位址，可以轉送到某一比特幣位址）"
+
+#: electrum_axe/base_wizard.py:353
+msgid "You may extend your seed with custom words."
+msgstr ""
+
+#: electrum_axe/gui/qt/main_window.py:1867
+msgid "You may load a CSV file using the file icon."
+msgstr "您可使用檔案圖示載入 CSV 檔案。"
+
+#: electrum_axe/plugins/trezor/qt.py:23 electrum_axe/plugins/safe_t/qt.py:22
+#: electrum_axe/plugins/keepkey/qt.py:22
+msgid ""
+"You need to create a separate Axe Electrum wallet for each passphrase you "
+"use as they each generate different addresses.  Changing your passphrase "
+"does not lose other wallets, each is still accessible behind its own "
+"passphrase."
+msgstr ""
+
+#: electrum_axe/gui/qt/masternode_budget_widgets.py:463
+msgid "You own this address."
+msgstr ""
+
+#: electrum_axe/plugins/trezor/qt.py:28 electrum_axe/plugins/safe_t/qt.py:27
+#: electrum_axe/plugins/keepkey/qt.py:27
+msgid ""
+"You should enable PIN protection.  Your PIN is the only protection for your "
+"Axe coins if your device is lost or stolen."
+msgstr ""
+
+#: electrum_axe/plugins/trezor/trezor.py:211
+#: electrum_axe/plugins/safe_t/safe_t.py:207
+msgid ""
+"You will be asked to enter 24 words regardless of your seed's actual "
+"length.  If you enter a word incorrectly or misspell it, you cannot change "
+"it or go back - you will need to start again from the beginning.\n"
+"\n"
+"So please enter the words carefully!"
+msgstr ""
+
+#: electrum_axe/gui/qt/password_dialog.py:250
+#, fuzzy
+msgid ""
+"Your Axe coins are password protected. However, your wallet file is not "
+"encrypted."
+msgstr "您的比特幣已受密碼保護。然而，您的錢包檔案尚未加密。"
+
+#: electrum_axe/plugins/ledger/auth2fa.py:25
+msgid ""
+"Your Ledger Wallet wants to tell you a one-time PIN code.<br><br>For best "
+"security you should unplug your device, open a text editor on another "
+"computer, put your cursor into it, and plug your device into that computer. "
+"It will output a summary of the transaction being signed and a one-time PIN."
+"<br><br>Verify the transaction summary and type the PIN code here."
+"<br><br>Before pressing enter, plug the device back into this computer.<br>"
+msgstr ""
+
+#: electrum_axe/plugins/ledger/ledger.py:55
+msgid "Your Ledger is locked. Please unlock it."
+msgstr ""
+
+#: electrum_axe/gui/kivy/main_window.py:1050
+msgid "Your PIN code was updated"
+msgstr ""
+
+#: electrum_axe/gui/qt/installwizard.py:290
+msgid "Your accounts have been moved to"
+msgstr "您的帳號已移動到"
+
+#: electrum_axe/plugins/trezor/qt.py:381
+#: electrum_axe/plugins/safe_t/qt.py:260
+#: electrum_axe/plugins/keepkey/qt.py:384
+msgid ""
+"Your current Axe Electrum wallet can only be used with an empty "
+"passphrase.  You must create a separate wallet with the install wizard for "
+"other passphrases as each one generates a new set of addresses."
+msgstr ""
+
+#: electrum_axe/plugins/trezor/trezor.py:317
+#: electrum_axe/plugins/safe_t/safe_t.py:306
+#: electrum_axe/plugins/keepkey/keepkey.py:275
+msgid "Your device firmware is too old"
+msgstr ""
+
+#: electrum_axe/plugins/ledger/ledger.py:495
+msgid "Your device might not have support for this functionality."
+msgstr ""
+
+#: electrum_axe/plugins/labels/qt.py:62
+msgid "Your labels have been synchronised."
+msgstr "您的標籤已經同步。"
+
+#: electrum_axe/gui/qt/masternode_widgets.py:185
+#, fuzzy
+msgid "Your masternode's private key"
+msgstr "輸入私鑰"
+
+#: electrum_axe/gui/qt/seed_dialog.py:137
+msgid "Your seed extension is"
+msgstr "您的種苗擴展為"
+
+#: electrum_axe/base_wizard.py:354 electrum_axe/base_wizard.py:538
+msgid "Your seed extension must be saved together with your seed."
+msgstr ""
+
+#: electrum_axe/gui/qt/installwizard.py:414
+msgid "Your seed is important!"
+msgstr "您的種苗至關重要！"
+
+#: electrum_axe/gui/kivy/uix/ui_screens/network.kv:56
+#: electrum_axe/gui/qt/network_dialog.py:370
+msgid "Your server is on branch"
+msgstr "您的伺服器位在分支"
+
+#: electrum_axe/plugins/cosigner_pool/qt.py:175
+msgid "Your transaction was sent to the cosigning pool."
+msgstr ""
+
+#: electrum_axe/gui/qt/installwizard.py:26
+msgid "Your wallet file does not contain secrets, mostly just metadata. "
+msgstr ""
+
+#: electrum_axe/gui/qt/password_dialog.py:271
+msgid "Your wallet file is NOT encrypted."
+msgstr ""
+
+#: electrum_axe/gui/qt/password_dialog.py:273
+msgid "Your wallet file is encrypted."
+msgstr ""
+
+#: electrum_axe/gui/qt/installwizard.py:423
+#: electrum_axe/gui/qt/seed_dialog.py:207
+msgid "Your wallet generation seed is:"
+msgstr "您的錢包生成種苗為："
+
+#: electrum_axe/gui/qt/history_list.py:407
+msgid "Your wallet history has been successfully exported."
+msgstr "您的錢包歷史記錄已經成功匯入。"
+
+#: electrum_axe/gui/qt/password_dialog.py:246
+msgid "Your wallet is not protected."
+msgstr "您的錢包尚未受到保護。"
+
+#: electrum_axe/gui/qt/password_dialog.py:252
+msgid "Your wallet is password protected and encrypted."
+msgstr "您的錢包已由密碼保護並加密。"
+
+#: electrum_axe/gui/qt/util.py:779
+#, python-brace-format
+msgid "Your {0} were exported to '{1}'"
+msgstr ""
+
+#: electrum_axe/gui/qt/util.py:764
+msgid "Your {} were successfully imported"
+msgstr ""
+
+#: electrum_axe/gui/qt/main_window.py:2700
+msgid "Zeros after decimal point"
+msgstr "小數點後位數"
+
+#: electrum_axe/gui/text.py:178
+msgid "[Clear]"
+msgstr ""
+
+#: electrum_axe/gui/text.py:177
+msgid "[Send]"
+msgstr ""
+
+#: electrum_axe/gui/stdio.py:48
+msgid "[b] - print server banner"
+msgstr ""
+
+#: electrum_axe/gui/stdio.py:47
+msgid "[c] - display contacts"
+msgstr ""
+
+#: electrum_axe/gui/stdio.py:41
+msgid "[h] - displays this help text"
+msgstr ""
+
+#: electrum_axe/gui/stdio.py:42
+msgid "[i] - display transaction history"
+msgstr ""
+
+#: electrum_axe/gui/stdio.py:43
+msgid "[o] - enter payment order"
+msgstr ""
+
+#: electrum_axe/gui/stdio.py:44
+msgid "[p] - print stored payment order"
+msgstr ""
+
+#: electrum_axe/gui/stdio.py:49
+msgid "[q] - quit"
+msgstr ""
+
+#: electrum_axe/gui/stdio.py:46
+msgid "[r] - show own receipt addresses"
+msgstr ""
+
+#: electrum_axe/gui/stdio.py:45
+msgid "[s] - send stored payment order"
+msgstr ""
+
+#: electrum_axe/gui/qt/main_window.py:1275
+msgid "are frozen"
+msgstr "已凍結"
+
+#: electrum_axe/gui/qt/network_dialog.py:359
+#: electrum_axe/gui/qt/network_dialog.py:371
+msgid "blocks"
+msgstr "區塊"
+
+#: electrum_axe/plugins/revealer/qt.py:404
+#: electrum_axe/plugins/revealer/qt.py:437
+msgid "calibration"
+msgstr ""
+
+#: electrum_axe/gui/kivy/uix/menus.py:21
+#, fuzzy
+msgid "cancel"
+msgstr "取消"
+
+#: electrum_axe/gui/qt/address_list.py:126
+msgid "change"
+msgstr ""
+
+#: electrum_axe/gui/qt/contact_list.py:56
+#: electrum_axe/gui/qt/contact_list.py:59
+msgid "contacts"
+msgstr ""
+
+#: electrum_axe/gui/qt/main_window.py:2121
+msgid "cosigner"
+msgstr ""
+
+#: electrum_axe/plugins/revealer/qt.py:381
+msgid "custom_secret"
+msgstr ""
+
+#: electrum_axe/gui/qt/transaction_dialog.py:268
+msgid "high fee"
+msgstr ""
+
+#: electrum_axe/plugin.py:501 electrum_axe/base_wizard.py:255
+msgid "initialized"
+msgstr ""
+
+#: electrum_axe/gui/qt/invoice_list.py:61
+#: electrum_axe/gui/qt/invoice_list.py:64
+msgid "invoices"
+msgstr ""
+
+#: electrum_axe/gui/qt/util.py:367
+msgid "json"
+msgstr "json"
+
+#: electrum_axe/gui/qt/main_window.py:2552
+#: electrum_axe/gui/qt/main_window.py:2557
+msgid "labels"
+msgstr ""
+
+#: electrum_axe/gui/kivy/uix/menus.py:21
+msgid "ok"
+msgstr ""
+
+#: electrum_axe/plugins/revealer/qt.py:119
+msgid "on the same printer is not trustless towards the printer."
+msgstr ""
+
+#: electrum_axe/plugins/revealer/qt.py:103
+msgid "or, alternatively: "
+msgstr ""
+
+#: electrum_axe/gui/qt/main_window.py:1703
+msgid "please wait..."
+msgstr "請稍候..."
+
+#: electrum_axe/plugins/revealer/qt.py:719
+msgid "print the calibration pdf and follow the instructions "
+msgstr ""
+
+#: electrum_axe/gui/qt/main_window.py:782
+msgid "proxy enabled"
+msgstr ""
+
+#: electrum_axe/gui/qt/address_list.py:129
+msgid "receiving"
+msgstr ""
+
+#: electrum_axe/plugins/revealer/qt.py:384
+#: electrum_axe/plugins/revealer/qt.py:385
+msgid "seed"
+msgstr ""
+
+#: electrum_axe/gui/kivy/uix/dialogs/tx_dialog.py:129
+#: electrum_axe/gui/qt/transaction_dialog.py:262 electrum_axe/wallet.py:526
+msgid "unknown"
+msgstr "未知"
+
+#: electrum_axe/commands.py:1003
+msgid "unknown parser {!r} (choices: {})"
+msgstr ""
+
+#: electrum_axe/gui/qt/main_window.py:414
+msgid "watching only"
+msgstr "僅關注"
+
+#: electrum_axe/plugin.py:501 electrum_axe/base_wizard.py:255
+msgid "wiped"
+msgstr ""
+
+#: electrum_axe/plugins/revealer/qt.py:177
+msgid "your seed extension will not be included in the encrypted backup."
+msgstr ""
+
+#: electrum_axe/plugins/trezor/qt.py:307
+#: electrum_axe/plugins/safe_t/qt.py:186
+#: electrum_axe/plugins/keepkey/qt.py:311
+msgid "{} Settings"
+msgstr ""
+
+#: electrum_axe/wallet.py:332
+msgid "{} confirmations"
+msgstr ""
+
+#: electrum_axe/gui/kivy/uix/ui_screens/network.kv:14
+msgid "{} connections."
+msgstr ""
+
+#: electrum_axe/plugins/revealer/qt.py:172
+msgid "{} encrypted for Revealer {}_{} saved as PNG and PDF at:"
+msgstr ""
+
+#: electrum_axe/gui/kivy/uix/dialogs/tx_dialog.py:116
+msgid "{} from tip"
+msgstr ""
+
+#: electrum_axe/gui/qt/main_window.py:634
+msgid ""
+"{} new transactions received: Total amount received in the new transactions "
+"{}"
+msgstr ""
+
+#: electrum_axe/plugins/keepkey/qt.py:238
+msgid "{} words"
+msgstr ""
+
+#~ msgid ""
+#~ "A small fee will be charged on each transaction that uses the remote "
+#~ "server.  You may check and modify your billing preferences once the "
+#~ "installation is complete."
+#~ msgstr ""
+#~ "對使用遠端伺服器的每次交易都要收取少量費用。安裝完成後，您可以檢查和修改您"
+#~ "的帳單偏好選項。"
+
+#~ msgid "Accept"
+#~ msgstr "接受"
+
+#~ msgid "Authorization"
+#~ msgstr "授權"
+
+#~ msgid "Bump Fee"
+#~ msgstr "補進費"
+
+#~ msgid "Cannot bump fee"
+#~ msgstr "無法增加交易費"
+
+#~ msgid ""
+#~ "Check this box to request a new secret. You will need to retype your seed."
+#~ msgstr "查看這個視窗需要請求新的加密資訊。你需要重新輸入你的種子。"
+
+#~ msgid "Child Pays for Parent"
+#~ msgstr "子代親支付"
+
+#~ msgid "Child pays for parent"
+#~ msgstr "子代親支付"
+
+#~ msgid "Could not retrieve Terms of Service:"
+#~ msgstr "無法檢索服務條款："
+
+#~ msgid "Create or restore"
+#~ msgstr "創建或恢復"
+
+#~ msgid "Current fee"
+#~ msgstr "目前手續費"
+
+#~ msgid "Fee:"
+#~ msgstr "手續費："
+
+#~ msgid "Final"
+#~ msgstr "最終"
+
+#~ msgid "Increase fee"
+#~ msgstr "請提高手續費"
+
+#~ msgid "Input amount"
+#~ msgstr "輸入金額"
+
+#~ msgid "Max fee exceeded"
+#~ msgstr "已達最高額手續費"
+
+#~ msgid "New fee:"
+#~ msgstr "新手續費："
+
+#~ msgid ""
+#~ "Note that some merchants do not accept non-final transactions until they "
+#~ "are confirmed."
+#~ msgstr "注意，有些交易商在交易確認之前不會接受非完全交易。"
+
+#~ msgid "This plugin adds two-factor authentication to your wallet."
+#~ msgstr "這個插件在你的錢包加入雙重驗證器"
+
+#~ msgid "Total size"
+#~ msgstr "總大小"
