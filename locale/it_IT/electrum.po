@@ -237,7 +237,7 @@ msgstr "1. Posiziona il foglio su una superficie piatta e ben illuminata."
 
 #: electrum_axe/plugins/revealer/qt.py:452
 msgid ""
-"2. Align your Revealer borderlines to the axeed lines on the top and left."
+"2. Align your Revealer borderlines to the dashed lines on the top and left."
 msgstr ""
 "2. Allinea i bordi del tuo oracolo alle linee tratteggiate in alto e a "
 "sinistra."

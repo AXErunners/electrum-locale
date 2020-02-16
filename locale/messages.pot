@@ -236,7 +236,7 @@ msgid "1. Place this paper on a flat and well iluminated surface."
 msgstr ""
 
 #: electrum_axe/plugins/revealer/qt.py:452
-msgid "2. Align your Revealer borderlines to the axeed lines on the top and left."
+msgid "2. Align your Revealer borderlines to the dashed lines on the top and left."
 msgstr ""
 
 #: electrum_axe/plugins/revealer/qt.py:453

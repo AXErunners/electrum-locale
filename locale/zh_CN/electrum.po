@@ -237,7 +237,7 @@ msgstr "1.将这张纸放在平坦且照明良好的表面上。"
 
 #: electrum_axe/plugins/revealer/qt.py:452
 msgid ""
-"2. Align your Revealer borderlines to the axeed lines on the top and left."
+"2. Align your Revealer borderlines to the dashed lines on the top and left."
 msgstr "2.将你的提词器边界线与顶部及左侧的虚线对齐。"
 
 #: electrum_axe/plugins/revealer/qt.py:453

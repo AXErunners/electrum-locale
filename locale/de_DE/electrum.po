@@ -237,7 +237,7 @@ msgstr "1. Platzieren Sie das Papier auf eine flache und helle Oberfläche."
 
 #: electrum_axe/plugins/revealer/qt.py:452
 msgid ""
-"2. Align your Revealer borderlines to the axeed lines on the top and left."
+"2. Align your Revealer borderlines to the dashed lines on the top and left."
 msgstr ""
 "2. Richte die Randlinien des Revealers an den gestrichelten Linien oben und "
 "links aus."
